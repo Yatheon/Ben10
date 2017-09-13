@@ -1,0 +1,42 @@
+Program 1 (Köra framåt och bakåt):
+
+task main()
+{
+ OnFwd(OUT_A, 30);
+ Wait(3000);
+
+ OnRev(OUT_AC, 30);
+ Wait(3000);
+ Off(OUT_AC);
+}
+
+Program 2 (Köra framåt och sedan 90 grader höger):
+
+#define MOVE_TIME 1000
+#define TURN_TIME 360
+
+task main()
+{
+ OnFwd(OUT_AC, 40);
+ Wait(MOVE_TIME);
+ OnRev(OUT_C, 40);
+ Wait(TURN_TIME;
+ Off(OUT_AC);
+}
+
+Program 3 (Köra i en kvadrat)
+
+#define MOVE_TIME 500
+#define TURN_TIME 500
+
+task main()
+{
+ repeat(4)
+ {
+ OnFwd(OUT_AC, 40);
+ Wait(MOVE_TIME);
+ OnRev(OUT_C, 40);
+ Wait(TURN_TIME;
+ }
+ Off(OUT_AC);
+}
