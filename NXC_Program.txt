@@ -20,7 +20,7 @@ task main()
  OnFwd(OUT_AC, 40);
  Wait(MOVE_TIME);
  OnRev(OUT_C, 40);
- Wait(TURN_TIME;
+ Wait(TURN_TIME);
  Off(OUT_AC);
 }
 
@@ -36,7 +36,7 @@ task main()
  OnFwd(OUT_AC, 40);
  Wait(MOVE_TIME);
  OnRev(OUT_C, 40);
- Wait(TURN_TIME;
+ Wait(TURN_TIME);
  }
  Off(OUT_AC);
 }
