@@ -1,7 +1,7 @@
 
 
     //Testprogram till sensorn
-void main(){
+task main(){
     SetSensorUltrasonic(IN_3);
     while(true){
     
