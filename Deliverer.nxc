@@ -1,1 +1,20 @@
 
+
+    //Testprogram till sensorn
+void main(){
+    SetSensorUltrasonic(IN_3);
+    while(true){
+    
+        Wait(500);
+        ClearScreen();
+        NumOut(0, 0, SensorUS(IN_3));
+
+        if(SensorUS(IN_3) < 50){
+            Off(OUT_AC);
+        }
+        else {
+            OnFwd(OUT_AC, 100);
+        }
+    }
+}
+
