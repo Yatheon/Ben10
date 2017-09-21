@@ -1,23 +1,48 @@
 #include "NXCDefs.h"
 #define NEAR 30 //cm
-task main(){
- SetSensorLowspeed(IN_4);
- 
-  while(true){
+#define turn_right \ OnRevsync
+#define TURN_LEFT
+
+task right()
+{
+ while(true)
+  {
+ OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
+ OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
+ Wait(TURN_RIGHT);
+  }
+}
+
+task left()
+{
+ while
+}
+
+task sensor_action()
+{
+
+SetSensorLowspeed(IN_4);
+
+while(true){
    OnFwd(OUT_AC,50);
-   
+
    while(SensorUS(IN_4)>NEAR);
     Off(OUT_AC);
     RotateMotor(OUT_B, 100, 30);
-    Wait(800);
+    Wait(HATCH_DOWN);
     OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
     OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
-    Wait(2000);
+    Wait(TURN_RIGHT);
     Off(OUT_AC);
     Off(OUT_B);
     PlayFileEx("dead.rso", 4, FALSE);
     Wait(10000);
-    
-  }
+ }
+ 
+task main(){
+   Precedes(turn_right);
+
+ 
+
 }
 
