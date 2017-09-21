@@ -11,10 +11,10 @@ task main(){
     RotateMotor(OUT_B, 100, 30);
     OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
     OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
-    Wait(800);
     Off(OUT_AC);
     Off(OUT_B);
     PlayFileEx("dead.rso", 4, FALSE);
+    Wait(800);
     
   }
 }
