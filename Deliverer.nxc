@@ -2,14 +2,14 @@
 
     //Testprogram till ultrasonic sensorn
 task main(){
-    SetSensorUltrasonic(IN_3);
+    SetSensorUltrasonic(IN_4);
     while(true){
     
         Wait(500);
         ClearScreen();
-        NumOut(0, 0, SensorUS(IN_3));
+        NumOut(0, 0, SensorUS(IN_4));
 
-        if(SensorUS(IN_3) < 50){
+        if(SensorUS(IN_4) < 50){
             Off(OUT_AC);
         }
         else {
@@ -24,10 +24,10 @@ task main(){
 #include "NXCDefs.h"
 #define NEAR 30 //cm
 task main(){
- SetSensorLowspeed(IN_3);
+ SetSensorLowspeed(IN_4);
  while(true){
  OnFwd(OUT_AC,50);
- while(SensorUS(IN_3)>NEAR);
+ while(SensorUS(IN_4)>NEAR);
  Off(OUT_AC);
  OnRev(OUT_C,100);
  Wait(800);
