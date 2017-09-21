@@ -1,0 +1,21 @@
+#include "NXCDefs.h"
+#define NEAR 30 //cm
+task main(){
+ SetSensorLowspeed(IN_4);
+ 
+  while(true){
+   OnFwd(OUT_AC,50);
+   
+   while(SensorUS(IN_4)>NEAR);
+    Off(OUT_AC);
+    RotateMotor(OUT_B, 100, 30);
+    OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
+    OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
+    Wait(800);
+    Off(OUT_AC);
+    Off(OUT_B);
+    PlayFileEx("dead.rso", 4, FALSE);
+    
+  }
+}
+
