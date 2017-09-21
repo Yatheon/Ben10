@@ -1,22 +1,31 @@
 #include "NXCDefs.h"
 #define NEAR 30 //cm
-#define turn_right \ OnRevsync
-#define TURN_LEFT
+#define turn_right \
+ RotateMotor(OUT_C, 100, 90); RotateMotor(OUT_A, 100, -90);
+#define turn_left \
+ RotateMotor(OUT_C, 100, -90); RotateMotor(OUT_A, 100, 90);
+ #define custom_turn(s,d,t)\
+  RotateMotor(OUT_C, s, d);RotateMotor(OUT_A, s,d):Wait(t);
+ 
+ 
 
 task right()
 {
  while(true)
-  {
- OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
- OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
- Wait(TURN_RIGHT);
-  }
+ {
+ turn_right;
+ }
 }
 
 task left()
 {
- while
+ while(true)
+ {
+  turn_left;
+ }
 }
+
+
 
 task sensor_action()
 {
