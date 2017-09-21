@@ -1,6 +1,4 @@
-
-
-    //Testprogram till ultrasonic sensorn
+//Testprogram till ultrasonic sensorn
 task main(){
     SetSensorUltrasonic(IN_4);
     while(true){
@@ -34,3 +32,23 @@ task main(){
  }
 }
 
+=======
+//Leverera ett paket till en plats 2,5 meter åt höger längs väggen, 0 - 30 cm från väggen.
+//Leverera ett paket till en plats 2,5 meter åt vänster längs väggen, 0 - 30 cm från väggen.
+//Leverera ett paket till en plats 2,5 meter åt höger, tvärs över korridoren, 0 - 30 cm från väggen på andra sidan korridoren.
+//Leverera ett paket till en plats 2,5 meter åt vänster, tvärs över korridoren, 0 - 30 cm från väggen på andra sidan korridoren.
+
+#define turn_left()   \
+OnRev(OUT_A, 100);OnFwd(OUT_B, 100);Wait(700);
+#define turn_right()   \
+OnRev(OUT_B, 100);OnFwd(OUT_A, 100);Wait(700);
+#define turn_ar_left()  \
+OnRev(OUT_A, 100); OnFwd(OUT_B, 100);Wait(1400);
+#define turn_ar_right()  \
+OnRev(OUT_B, 100); OnFwd(OUT_A, 100);Wait(1400);
+
+task main()
+{
+     turn_left();
+     turn_right();
+}
