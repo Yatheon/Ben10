@@ -5,7 +5,11 @@
   RotateMotor(OUT_C, s, d);RotateMotor(OUT_A, s,d):Wait(t);
 
 #define half_turn \
- RotateMotor(OUT_C, 100, 180); RotateMotor(OUT_A, 100, -180);
+ OnRev(OUT_C, 50);OnRev(OUT_A, 50);Wait(700);
+
+  #define __NOTETIME   10
+#define __WAITTIME   12
+ 
 
 
 
@@ -32,18 +36,15 @@ while(true){
  }
  */
  
- inline void turn_right()
-{
- OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
- OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
- Wait(1000);
-}
-
  inline void turn_left()
 {
- OnRevReg(OUT_C, 100, OUT_REGMODE_SYNC);
- OnFwdReg(OUT_A, 100, OUT_REGMODE_SYNC);
- Wait(1000);
+ RotateMotor(OUT_A, 100, -360);
+
+}
+
+ inline void turn_right()
+{
+ RotateMotor(OUT_C, 100, -360);
 }
 
 
@@ -61,47 +62,92 @@ mutex moveMutex;
  }
 }
 
-inline void hitta()
+task hitta()
 {
+
+int s=SensorUS(IN_4);
+
+
+ while(s>20)
+ {
+   RotateMotor(OUT_C, 50, -30);
+
+  s=SensorUS(IN_4);
+
+ }
+ 
  int v=SensorUS(IN_4);
- turn_right();
+ RotateMotor(OUT_C, 50, -30);
  int h=SensorUS(IN_4);
  
- while(v>h)
+ while(v>h==true)
   {
-  turn_right();
+  RotateMotor(OUT_C, 50, -15);
    v = h;
    h = SensorUS(IN_4);
-   PlayFileEx("dead.rso", 4, FALSE);
+
   }
+
+
+
+}
+
+task avl()
+{
+
+ RotateMotor(OUT_B, 20, -90);
+
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  
+  OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+  Wait(1000);
+  Off(OUT_AC);
+  RotateMotor(OUT_B, 20, 90);
+
 }
 
 inline int paket1()   // Höger 2.5m
 {
-      hitta();
+
       //Precedes(move_fwd, check_sensors);
 
 }
 
 task paket2()   // Vänser 2.5m
 {
-      hitta();
+      //hitta();
 }
 
 task paket3()    // Höger 2.5m tvärs över väggen
 {
-      hitta();
+     // hitta();
 }
 
 task paket4()   // Vänster 2.5m tvärs över väggen
 {
-      hitta();
+     // hitta();
 }
 
 task main()
 {
 SetSensorLowspeed(IN_4);
-   Precedes(move_fwd);
+
+
+   Precedes(avl);
+   
 
 }
 
