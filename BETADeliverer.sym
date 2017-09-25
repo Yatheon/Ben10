@@ -1,0 +1,280 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001turn_right_inline_move_fwd	6	1	0	4	4
+1	__signed_stack_001move_fwd	6	1	4	4	4
+2	__signed_stack_001turn_left_inline_move_fwd	6	1	8	4	4
+3	__CLSWMutex3	9	0	12	4	2
+4	__CLSRMutex3	9	0	16	4	2
+5	__D0turn_left_inline_move_fwd	6	1	20	4	4
+6	__D0SetSensorLowspeed_inline_main	6	1	24	4	2
+7	__D0move_fwd	6	1	28	4	8
+8	__DU0SetSensorLowspeed_inline_main	5	1	32	4	5
+9	__RLSBmutex3	9	0	36	4	2
+10	__D0turn_right_inline_move_fwd	6	1	40	4	4
+11	__CLSCSMutex3	9	0	44	4	2
+12	__Wait_7qG2_ms_7qG2_000_inline_move_fwd	5	1	48	4	2
+13	__Wait_7qG2_ms_7qG2_000_inline_turn_left_inline_move_fwd	5	1	52	4	2
+14	__OnRevMutex	9	0	56	4	4
+15	__Wait_7qG2_ms_7qG2_000_inline_turn_right_inline_move_fwd	5	1	60	4	2
+16	__constVal15	2	0	64	1	11
+17	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	65	1	2
+18	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	66	1	2
+19	__constVal7	2	0	67	1	5
+20	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	68	1	2
+21	____initialize_global_data_return	1	1	69	1	3
+22	__constVal96	2	0	70	1	5
+23	__constVal63	2	0	71	1	5
+24	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	72	1	2
+25	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	73	1	2
+26	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	74	1	4
+27	__constVal0	2	1	75	1	13
+28	__LSWriteOptions3	1	1	76	1	1
+29	__constVal1	2	0	77	1	4
+30	__constVal3	2	0	78	1	1
+31	__ResetSensorTmp	1	1	79	1	2
+32	____ResetSensorSubroutine_return	1	1	80	1	3
+33	__ResetSensorPort	1	1	81	1	3
+34	__constVal2	2	0	82	1	2
+35	__RLSBIterations3	1	1	83	1	4
+36	__OnRev_Tmp	2	1	84	1	4
+37	__PFTmp	1	1	85	1	1
+38	__RLSBytesCount3	1	1	86	1	7
+39	____ReadLSBytes3_return	1	1	87	1	3
+40	__constVal32	2	0	88	1	15
+41	__RLSBResult3	2	1	89	1	7
+42	__CLSRArgs3	8	0	4	12	5
+43	__CLSRArgs3.Result	2	1	92	1	5
+44	__CLSRArgs3.Port	1	1	93	1	5
+45	__CLSRArgs3.Buffer	7	0	94	4	5
+46	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+47	__CLSRArgs3.BufferLen	1	1	96	1	5
+48	__CLSWArgs3	8	0	4	12	5
+49	__CLSWArgs3.Result	2	1	100	1	5
+50	__CLSWArgs3.Port	1	1	101	1	5
+51	__CLSWArgs3.Buffer	7	0	102	4	5
+52	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+53	__CLSWArgs3.ReturnLen	1	1	104	1	5
+54	__CLSCSArgs3	8	0	3	4	4
+55	__CLSCSArgs3.Result	2	1	108	1	4
+56	__CLSCSArgs3.Port	1	1	109	1	4
+57	__CLSCSArgs3.BytesReady	1	1	110	1	4
+58	__RLSReadBuf3	7	0	112	4	8
+59	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+60	__OUT_AC	7	0	114	4	1
+61	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+62	__RLSBbufLSWrite1	7	0	116	4	1
+63	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+64	__RLSLastGoodRead3	7	0	118	4	2
+65	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	102	0	#line 102 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	103	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	102	2	#line 102 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	102	2	#line 102 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	103	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	102	5	#line 102 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	103	5	#line 103 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	104	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	7	#line 4342 "NXCDefs.h"
+0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	11	#line 4342 "NXCDefs.h"
+0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		jmp __004__ASM_Label_37
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4278	40	#line 4278 "NXCDefs.h"
+0	4279	40	#pragma macro 4
+0	4279	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4772	44	#line 4772 "NXCDefs.h"
+0	4278	44	#line 4278 "NXCDefs.h"
+0	4345	44	#line 4345 "NXCDefs.h"
+0	103	44	#line 103 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	105	44	#line 105 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	105	44	#line 105 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+0	106	44		exit 0, 0
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6393	0	#pragma macro 25
+2	6393	0		acquire __CLSWMutex3
+2	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
+2	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	6393	9		syscall 21, __CLSWArgs3
+2	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
+2	6393	14		release __CLSWMutex3
+2	6393	15	#line 6393 "NXTDefs.h"
+2	6394	15		brtst 5, __RLSBError3, __RLSBResult3
+2	6395	18		set __RLSBIterations3, 60
+2	6397	21	#pragma macro 23
+2	6397	21		acquire __CLSCSMutex3
+2	6397	22		set __CLSCSArgs3.Port, 3
+2	6397	25		syscall 23, __CLSCSArgs3
+2	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
+2	6397	32		release __CLSCSMutex3
+2	6397	33	#line 6397 "NXTDefs.h"
+2	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
+2	6400	40		brtst 0, __RLSBError3, __RLSBResult3
+2	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	6403	46		wait2 NA, __constVal1
+2	6404	49		jmp __RLSBDoCheckStatus3
+2	6406	51		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	6407	54		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	6409	58	#pragma macro 25
+2	6409	58		acquire __CLSRMutex3
+2	6409	59		set __CLSRArgs3.Port, 3
+2	6409	62		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	6409	64		syscall 22, __CLSRArgs3
+2	6409	67		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	6409	69		mov __RLSBResult3, __CLSRArgs3.Result
+2	6409	71		release __CLSRMutex3
+2	6409	72	#line 6409 "NXTDefs.h"
+2	6410	72		brtst 5, __RLSBError3, __RLSBResult3
+2	6411	75		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	6412	77		jmp __RLSBDone3
+2	6414	79		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	6416	81		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	6418	84		subret ____ReadLSBytes3_return
+3	53	0	#line 53 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	54	0		set __signed_stack_001move_fwd, 75
+3	53	3	#line 53 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	53	3	#line 53 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	54	3		set __D0move_fwd, 2
+3	55	6	#line 55 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	56	6	#pragma macro 7
+3	56	6		setout __OUT_AC, 2, __signed_stack_001move_fwd, 1, __constVal7, 8, __D0move_fwd, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4125	29	#line 4125 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	55	29	#line 55 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	55	29	#line 55 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	56	29	#pragma macro 26
+3	56	29		acquire __RLSBmutex3
+3	56	30		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	56	32		set __RLSBytesCount3, 1
+3	56	35		wait2 NA, __constVal15
+3	56	38		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	56	40		index __D0move_fwd, __RLSReadBuf3, 65535
+3	56	44		release __RLSBmutex3
+3	4130	45	#line 4130 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	55	45	#line 55 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	56	45		mov __signed_stack_001move_fwd, __D0move_fwd
+3	56	47	#line 56 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	57	47		set __D0move_fwd, 15
+3	56	50	#line 56 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	57	50		cmp 1, __D0move_fwd, __signed_stack_001move_fwd, __D0move_fwd
+3	57	54	#line 57 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	58	54		brtst 4, __ASM_Label_514, __D0move_fwd
+3	36	57	#line 36 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	37	57		set __signed_stack_001turn_right_inline_move_fwd, 100
+3	36	60	#line 36 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	36	60	#line 36 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	37	60		set __D0turn_right_inline_move_fwd, 2
+3	37	63	#line 37 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	38	63	#pragma macro 7
+3	38	63		setout __constVal2, 2, __signed_stack_001turn_right_inline_move_fwd, 1, __constVal7, 8, __D0turn_right_inline_move_fwd, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4155	86	#line 4155 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	37	86	#line 37 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	37	86	#line 37 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	38	86		set __signed_stack_001turn_right_inline_move_fwd, 100
+3	37	89	#line 37 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	37	89	#line 37 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	38	89		set __D0turn_right_inline_move_fwd, 2
+3	38	92	#line 38 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	39	92	#pragma macro 10
+3	39	92		acquire __OnRevMutex
+3	39	93		neg __OnRev_Tmp, __signed_stack_001turn_right_inline_move_fwd
+3	39	96		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0turn_right_inline_move_fwd, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	39	119		release __OnRevMutex
+3	4166	120	#line 4166 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	38	120	#line 38 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	38	120	#line 38 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	39	120		set __Wait_7qG2_ms_7qG2_000_inline_turn_right_inline_move_fwd, 1000
+3	38	123	#line 38 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	8551	123	#line 8551 "NXCDefs.h"
+3	8552	123		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_turn_right_inline_move_fwd
+3	8551	126	#line 8551 "NXCDefs.h"
+3	39	126	#line 39 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	58	126	#line 58 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	58	126	#line 58 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	59	126		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd, 2000
+3	58	129	#line 58 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	8551	129	#line 8551 "NXCDefs.h"
+3	8552	129		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd
+3	8551	132	#line 8551 "NXCDefs.h"
+3	59	132	#line 59 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	43	132	#line 43 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	44	132		set __signed_stack_001turn_left_inline_move_fwd, 100
+3	43	135	#line 43 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	43	135	#line 43 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	44	135		set __D0turn_left_inline_move_fwd, 2
+3	44	138	#line 44 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	45	138	#pragma macro 10
+3	45	138		acquire __OnRevMutex
+3	45	139		neg __OnRev_Tmp, __signed_stack_001turn_left_inline_move_fwd
+3	45	142		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0turn_left_inline_move_fwd, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	45	165		release __OnRevMutex
+3	4202	166	#line 4202 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	44	166	#line 44 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	44	166	#line 44 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	45	166		set __signed_stack_001turn_left_inline_move_fwd, 100
+3	44	169	#line 44 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	44	169	#line 44 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	45	169		set __D0turn_left_inline_move_fwd, 2
+3	45	172	#line 45 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	46	172	#pragma macro 7
+3	46	172		setout __constVal0, 2, __signed_stack_001turn_left_inline_move_fwd, 1, __constVal7, 8, __D0turn_left_inline_move_fwd, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4213	195	#line 4213 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	45	195	#line 45 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	45	195	#line 45 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	46	195		set __Wait_7qG2_ms_7qG2_000_inline_turn_left_inline_move_fwd, 1000
+3	45	198	#line 45 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	8551	198	#line 8551 "NXCDefs.h"
+3	8552	198		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_turn_left_inline_move_fwd
+3	8551	201	#line 8551 "NXCDefs.h"
+3	46	201	#line 46 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	60	201	#line 60 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	63	201	#line 63 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	64	201		jmp __ASM_Label_513
+3	63	203	#line 63 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+3	64	203		exit -1, -1
+4	108	0	#line 108 "C:\Users\Autumn\AppData\Local\Temp\temp.nxc"
+4	109	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Autumn\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	47	NXTDefs.h
+2	__ReadLSBytes3	60	NXTDefs.h
+3	move_fwd	146	C:\Users\Autumn\AppData\Local\Temp\temp.nxc
+4	__initialize_global_data	352	C:\Users\Autumn\AppData\Local\Temp\temp.nxc

@@ -1,0 +1,108 @@
+#include "NXCDefs.h"
+#define NEAR 30 //cm
+
+#define turn_right \
+ RotateMotor(OUT_C, 100, 90); RotateMotor(OUT_A, 100, -90);
+ 
+#define turn_left \
+ RotateMotor(OUT_C, 100, -90); RotateMotor(OUT_A, 100, 90);
+ 
+#define custom_turn(s,d,t)\
+  RotateMotor(OUT_C, s, d);RotateMotor(OUT_A, s,d):Wait(t);
+
+#define half_turn \
+ RotateMotor(OUT_C, 100, 180); RotateMotor(OUT_A, 100, -180);
+
+#forward
+ 
+ mutex moveMutex;
+task move_square()
+{
+ while (true)
+ {
+ Acquire(moveMutex);
+ OnFwd(OUT_AC, 75); Wait(1000);
+ OnRev(OUT_C, 75); Wait(500);
+ Release(moveMutex);
+ }
+}
+task check_sensors()
+{
+ while (true)
+ {
+ if (SENSOR_1 == 1)
+ {
+ Acquire(moveMutex);
+ OnRev(OUT_AC, 75); Wait(500);
+ OnFwd(OUT_A, 75); Wait(500);
+ Release(moveMutex);
+ }
+ }
+}
+
+
+inline void hitta()
+{
+
+ int v=SensorUS(IN_4);
+ turn_right;
+ int h=SensorUS(IN_4);
+ while(v>h){
+  turn_right;
+  v = h;
+  h = SensorUS(IN_4);
+  PlayFileEx("dead.rso", 4, FALSE);
+  }
+}
+
+inline int paket1()   // Höger 2.5m
+{
+      hitta();
+      Predences(
+}
+
+task paket2()   // Vänser 2.5m
+{
+      hitta();
+}
+
+task paket3()    // Höger 2.5m tvärs över väggen
+{
+      hitta();
+}
+
+task paket4()   // Vänster 2.5m tvärs över väggen
+{
+      hitta();
+}
+
+/*
+task sensor_action()
+{
+
+SetSensorLowspeed(IN_4);
+
+while(true){
+   //OnFwd(OUT_AC,50);
+
+   while(SensorUS(IN_4)>NEAR);
+    Off(OUT_AC);
+   // RotateMotor(OUT_B, 100, 30);
+    //Wait(HATCH_DOWN);
+    OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
+    OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
+    //Wait(TURN_RIGHT);
+    Off(OUT_AC);
+    Off(OUT_B);
+    //PlayFileEx("dead.rso", 4, FALSE);
+    Wait(10000);
+ }
+ */
+
+task main()
+{
+SetSensorLowspeed(IN_4);
+   paket1();
+
+}
+
