@@ -95,28 +95,12 @@ int s=SensorUS(IN_4);
 task avl()
 {
 
- RotateMotor(OUT_B, 20, -90);
+  RotateMotor(OUT_B, 20, -90);
 
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  
   OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
   Wait(1000);
   Off(OUT_AC);
   RotateMotor(OUT_B, 20, 90);
-
 }
 
 inline int paket1()   // Höger 2.5m
@@ -146,7 +130,7 @@ task main()
 SetSensorLowspeed(IN_4);
 
 
-   Precedes(avl);
+   Precedes(hitta);
    
 
 }
