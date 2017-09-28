@@ -36,16 +36,17 @@ while(true){
  }
  */
 
- inline void turn_left()
+  inline void turn_left()
 {
- RotateMotor(OUT_A, 100, -360);
-
+ RotateMotor(OUT_A, 70, 360);
 }
 
  inline void turn_right()
 {
- RotateMotor(OUT_C, 100, -360);
+RotateMotor(OUT_C, 70, 360);
+
 }
+
 
 
 mutex moveMutex;
@@ -67,11 +68,11 @@ task hitta()
 
 int s=SensorUS(IN_4);
 
- while(s>50)
+ while(s>20)
  {
   OnFwd(OUT_C, 70);
   OnRev(OUT_A, 70);
-  
+
   s=SensorUS(IN_4);
   NumOut(4, LCD_LINE1, SensorUS(IN_4));
  }
@@ -95,14 +96,14 @@ int s=SensorUS(IN_4);
  Off(OUT_AC);
  int h=SensorUS(IN_4);
 
- while(v>h)
+ while(v>h&&v!=h)
   {
   PlayTone(349,4*__NOTETIME);
   Wait(4*__WAITTIME);
 
   OnFwd(OUT_C, 50);
   OnRev(OUT_A, 50);
-  Wait(500);
+  Wait(700);
   Off(OUT_AC);
   v = h;
   h = SensorUS(IN_4);
@@ -111,7 +112,12 @@ int s=SensorUS(IN_4);
 
 
   }
-
+  
+  OnFwd(OUT_C, 50);
+  OnRev(OUT_A, 50);
+  Wait(500);
+  Off(OUT_AC);
+  
   NumOut(10, LCD_LINE2, v);
   NumOut(10, LCD_LINE3, h);
   Wait(2000);
@@ -121,12 +127,12 @@ int s=SensorUS(IN_4);
 task avl()
 {
 
-  RotateMotor(OUT_B, 20, -90);
+  RotateMotor(OUT_B, 20, -150);
 
-  OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+  //OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
   Wait(1000);
-  Off(OUT_AC);
-  RotateMotor(OUT_B, 20, 90);
+  //Off(OUT_AC);
+  RotateMotor(OUT_B, 20, 150);
 }
 
 inline int paket1()   // Höger 2.5m
@@ -156,7 +162,10 @@ task main()
 SetSensorLowspeed(IN_4);
 
 
-   Precedes(hitta);
+   turn_right();
+   Wait(2000);
+   turn_left();
+
 
 
 }

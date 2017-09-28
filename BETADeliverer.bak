@@ -112,9 +112,9 @@ int s=SensorUS(IN_4);
 
   }
 
-      NumOut(10, LCD_LINE2, v);
+  NumOut(10, LCD_LINE2, v);
   NumOut(10, LCD_LINE3, h);
-    Wait(2000);
+  Wait(2000);
 
 }
 
