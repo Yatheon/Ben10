@@ -1,6 +1,6 @@
 #include "NXCDefs.h"
 #define NEAR 15 //cm
- 
+
 #define custom_turn(s,d,t)\
   RotateMotor(OUT_C, s, d);RotateMotor(OUT_A, s,d):Wait(t);
 
@@ -9,7 +9,7 @@
 
   #define __NOTETIME   10
 #define __WAITTIME   12
- 
+
 
 
 
@@ -35,7 +35,7 @@ while(true){
     Wait(10000);
  }
  */
- 
+
  inline void turn_left()
 {
  RotateMotor(OUT_A, 100, -360);
@@ -53,7 +53,7 @@ mutex moveMutex;
  task move_fwd()
 {
  OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);
- 
+
  while(SensorUS(IN_4)>NEAR)
  {
       turn_right();
@@ -67,40 +67,16 @@ task hitta()
 
 int s=SensorUS(IN_4);
 
-
- while(s>20)
+ while(s>50)
  {
-   RotateMotor(OUT_C, 50, -30);
-
+  OnFwd(OUT_C, 70);
+  OnRev(OUT_A, 70);
+  
   s=SensorUS(IN_4);
-
+  NumOut(4, LCD_LINE1, SensorUS(IN_4));
  }
+ Off(OUT_AC);
  
- int v=SensorUS(IN_4);
- RotateMotor(OUT_C, 50, -30);
- int h=SensorUS(IN_4);
- 
- while(v>h==true)
-  {
-  RotateMotor(OUT_C, 50, -15);
-   v = h;
-   h = SensorUS(IN_4);
-
-  }
-
-
-
-}
-
-task avl()
-{
-
- RotateMotor(OUT_B, 20, -90);
-
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
   PlayTone(349,4*__NOTETIME);
   Wait(4*__WAITTIME);
   PlayTone(349,4*__NOTETIME);
@@ -112,11 +88,45 @@ task avl()
   PlayTone(349,4*__NOTETIME);
   Wait(4*__WAITTIME);
   
+ int v=SensorUS(IN_4);
+ OnFwd(OUT_C, 50);
+ OnRev(OUT_A, 50);
+ Wait(1000);
+ Off(OUT_AC);
+ int h=SensorUS(IN_4);
+
+ while(v>h)
+  {
+  PlayTone(349,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+
+  OnFwd(OUT_C, 50);
+  OnRev(OUT_A, 50);
+  Wait(500);
+  Off(OUT_AC);
+  v = h;
+  h = SensorUS(IN_4);
+  NumOut(10, LCD_LINE2, v);
+  NumOut(10, LCD_LINE3, h);
+
+
+  }
+
+      NumOut(10, LCD_LINE2, v);
+  NumOut(10, LCD_LINE3, h);
+    Wait(2000);
+
+}
+
+task avl()
+{
+
+  RotateMotor(OUT_B, 20, -90);
+
   OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
   Wait(1000);
   Off(OUT_AC);
   RotateMotor(OUT_B, 20, 90);
-
 }
 
 inline int paket1()   // Höger 2.5m
@@ -146,8 +156,8 @@ task main()
 SetSensorLowspeed(IN_4);
 
 
-   Precedes(avl);
-   
+   Precedes(hitta);
+
 
 }
 

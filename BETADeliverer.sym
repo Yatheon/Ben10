@@ -1,98 +1,95 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__CLSWMutex3	9	0	0	4	2
-1	__CLSRMutex3	9	0	4	4	2
-2	__rotate_theAngle2	5	1	8	4	2
-3	__CLSCSMutex3	9	0	12	4	2
-4	__RLSBmutex3	9	0	16	4	10
-5	__DU0SetSensorLowspeed_inline_main	5	1	20	4	5
-6	__signed_stack_001hitta	6	1	24	4	12
-7	__D0hitta	6	1	28	4	28
+0	__signed_stack_003hitta	6	1	0	4	12
+1	__signed_stack_002hitta	6	1	4	4	22
+2	__TextOutMutex	9	0	8	4	10
+3	__CLSWMutex3	9	0	12	4	2
+4	__CLSRMutex3	9	0	16	4	2
+5	__signed_stack_001hitta	6	1	20	4	26
+6	__D0hitta	6	1	24	4	63
+7	__SPTArgsMutex	9	0	28	4	12
 8	__D0SetSensorLowspeed_inline_main	6	1	32	4	2
-9	__rotateMutex2	9	0	36	4	6
-10	__rotate_angle2	6	1	40	4	7
-11	__rotate_RotCount2	4	1	44	2	4
-12	__rotate_OldRotCount2	4	1	46	2	2
-13	__hitta_7qG2_h_7qG2_000	4	1	48	2	4
-14	__hitta_7qG2_s_7qG2_000	4	1	50	2	3
-15	__hitta_7qG2_v_7qG2_000	4	1	52	2	3
-16	__RLSBIterations3	1	1	54	1	4
-17	__RLSBytesCount3	1	1	55	1	11
-18	__PFTmp	1	1	56	1	1
-19	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	57	1	2
-20	__constVal15	2	0	58	1	11
-21	__constVal2	2	0	59	1	3
-22	__LSWriteOptions3	1	1	60	1	1
-23	____ReadLSBytes3_return	1	1	61	1	7
-24	__RLSBResult3	2	1	62	1	7
-25	__rotate_firstPort2	1	1	63	1	5
-26	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	64	1	2
-27	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	65	1	2
-28	__constValNeg15	2	0	66	1	1
-29	____initialize_global_data_return	1	1	67	1	3
-30	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	68	1	4
-31	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	69	1	2
-32	__rotate_power2	1	1	70	1	6
-33	__constVal96	2	0	71	1	3
-34	__constValNeg30	2	0	72	1	2
-35	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	73	1	2
-36	__rotate_sync2	1	1	74	1	4
-37	__rotate_theTurnPct2	2	1	75	1	4
-38	__rotate_theUF2	1	1	76	1	6
-39	__rotate_thePower2	2	1	77	1	4
-40	__constVal32	2	0	78	1	6
-41	__constVal50	2	0	79	1	1
-42	__constVal0	2	1	80	1	13
-43	__constVal1	2	0	81	1	9
-44	__rotate_theRS2	1	1	82	1	3
-45	__rotate_theRM2	1	1	83	1	4
-46	__rotate_theOM2	1	1	84	1	7
-47	__rotate_theRVP2	1	1	85	1	4
-48	__rotate_rs2	1	1	86	1	2
-49	__rotate_theRVD2	1	1	87	1	4
-50	__rotate_theRVI2	1	1	88	1	4
-51	____RotateMotor2_return	1	1	89	1	5
-52	____ResetSensorSubroutine_return	1	1	90	1	3
-53	__ResetSensorTmp	1	1	91	1	2
-54	__rotate_stop2	1	1	92	1	4
-55	__rotate_turnpct2	2	1	93	1	5
-56	__constVal3	2	0	94	1	1
-57	____RotateMotor2_sign_tmp	2	1	95	1	4
-58	__ResetSensorPort	1	1	96	1	3
-59	__CLSWArgs3	8	0	4	12	5
-60	__CLSWArgs3.Result	2	1	100	1	5
-61	__CLSWArgs3.Port	1	1	101	1	5
-62	__CLSWArgs3.Buffer	7	0	102	4	5
-63	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
-64	__CLSWArgs3.ReturnLen	1	1	104	1	5
-65	__CLSRArgs3	8	0	4	12	5
-66	__CLSRArgs3.Result	2	1	108	1	5
-67	__CLSRArgs3.Port	1	1	109	1	5
-68	__CLSRArgs3.Buffer	7	0	110	4	5
-69	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-70	__CLSRArgs3.BufferLen	1	1	112	1	5
-71	__CLSCSArgs3	8	0	3	4	4
-72	__CLSCSArgs3.Result	2	1	116	1	4
-73	__CLSCSArgs3.Port	1	1	117	1	4
-74	__CLSCSArgs3.BytesReady	1	1	118	1	4
-75	__RLSBbufLSWrite1	7	0	120	4	5
-76	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
-77	__RLSReadBuf3	7	0	122	4	16
-78	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-79	__RLSLastGoodRead3	7	0	124	4	2
-80	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-81	__rotate_ports2	7	0	126	4	8
-82	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+9	__DU0SetSensorLowspeed_inline_main	5	1	36	4	5
+10	__RLSBmutex3	9	0	40	4	12
+11	__CLSCSMutex3	9	0	44	4	2
+12	__OnRevMutex	9	0	48	4	6
+13	__Wait_7qG2_ms_7qG2_000_inline_hitta	5	1	52	4	18
+14	__hitta_7qG2_h_7qG2_000	4	1	56	2	6
+15	__hitta_7qG2_v_7qG2_000	4	1	58	2	5
+16	__hitta_7qG2_s_7qG2_000	4	1	60	2	3
+17	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	62	1	2
+18	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	63	1	2
+19	__PFTmp	1	1	64	1	1
+20	__constVal15	2	0	65	1	13
+21	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	66	1	2
+22	____initialize_global_data_return	1	1	67	1	3
+23	__constVal96	2	0	68	1	9
+24	__constVal63	2	0	69	1	9
+25	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	70	1	2
+26	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	71	1	2
+27	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	72	1	4
+28	__constVal3	2	0	73	1	10
+29	__constVal0	2	1	74	1	34
+30	__constVal2	2	0	75	1	3
+31	__LSWriteOptions3	1	1	76	1	1
+32	____ResetSensorSubroutine_return	1	1	77	1	3
+33	__ResetSensorTmp	1	1	78	1	2
+34	__ResetSensorPort	1	1	79	1	3
+35	__constVal32	2	0	80	1	27
+36	__RLSBIterations3	1	1	81	1	4
+37	__OnRev_Tmp	2	1	82	1	6
+38	__RLSBytesCount3	1	1	83	1	12
+39	____ReadLSBytes3_return	1	1	84	1	8
+40	__constVal1	2	0	85	1	4
+41	__RLSBResult3	2	1	86	1	7
+42	__TextOutArgs	8	0	4	16	30
+43	__TextOutArgs.Result	2	1	88	1	30
+44	__TextOutArgs.Location	8	0	2	4	30
+45	__TextOutArgs.Location.X	4	1	92	2	30
+46	__TextOutArgs.Location.Y	4	1	94	2	30
+47	__TextOutArgs.Text	7	0	96	4	30
+48	__TextOutArgs.Text.Text_type	1	0	0	1	0
+49	__TextOutArgs.Options	5	1	100	4	30
+50	__SPTArgs	8	0	5	8	36
+51	__SPTArgs.Result	2	1	104	1	36
+52	__SPTArgs.Frequency	3	1	106	2	36
+53	__SPTArgs.Duration	3	1	108	2	36
+54	__SPTArgs.Loop	1	1	110	1	36
+55	__SPTArgs.Volume	1	1	111	1	36
+56	__CLSRArgs3	8	0	4	12	5
+57	__CLSRArgs3.Result	2	1	112	1	5
+58	__CLSRArgs3.Port	1	1	113	1	5
+59	__CLSRArgs3.Buffer	7	0	114	4	5
+60	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+61	__CLSRArgs3.BufferLen	1	1	116	1	5
+62	__CLSCSArgs3	8	0	3	4	4
+63	__CLSCSArgs3.Result	2	1	120	1	4
+64	__CLSCSArgs3.Port	1	1	121	1	4
+65	__CLSCSArgs3.BytesReady	1	1	122	1	4
+66	__CLSWArgs3	8	0	4	12	5
+67	__CLSWArgs3.Result	2	1	124	1	5
+68	__CLSWArgs3.Port	1	1	125	1	5
+69	__CLSWArgs3.Buffer	7	0	126	4	5
+70	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+71	__CLSWArgs3.ReturnLen	1	1	128	1	5
+72	__RLSReadBuf3	7	0	130	4	18
+73	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+74	__OUT_AC	7	0	132	4	3
+75	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+76	__RLSBbufLSWrite1	7	0	134	4	6
+77	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+78	__RLSLastGoodRead3	7	0	136	4	2
+79	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	129	0	#line 129 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	130	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	129	2	#line 129 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	129	2	#line 129 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	130	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
-0	129	5	#line 129 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	132	5	#line 132 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	155	0	#line 155 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	156	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	155	2	#line 155 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	155	2	#line 155 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	156	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	155	5	#line 155 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	158	5	#line 158 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	159	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	4342	7	#line 4342 "NXCDefs.h"
 0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4342	9	#line 4342 "NXCDefs.h"
@@ -132,269 +129,589 @@ Clump	Line	PC	Source
 0	4279	40	#pragma macro 4
 0	4279	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4279	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4305	44	#line 4305 "NXCDefs.h"
+0	4809	44	#line 4809 "NXCDefs.h"
 0	4278	44	#line 4278 "NXCDefs.h"
 0	4345	44	#line 4345 "NXCDefs.h"
-0	132	44	#line 132 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	44	#line 135 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	44	#line 135 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	136	44		exit 0, 0
-1	5173	0		brtst 4, __rotate_Done2, __rotate_angle2
-1	5174	3		set ____RotateMotor2_sign_tmp, 0
-1	5174	6		brtst EQ, __sign_2, __rotate_angle2
-1	5174	9		set ____RotateMotor2_sign_tmp, -1
-1	5174	12		brtst LT, __sign_2, __rotate_angle2
-1	5174	15		set ____RotateMotor2_sign_tmp, 1
-1	5174	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
-1	5175	20		abs __rotate_theAngle2, __rotate_angle2
-1	5176	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
-1	5178	27		set __rotate_theUF2, 23
-1	5179	30		brtst 4, __rotate_NoSync2, __rotate_sync2
-1	5180	33		set __rotate_theOM2, 7
-1	5181	36		set __rotate_theRM2, 2
-1	5182	39		mov __rotate_theTurnPct2, __rotate_turnpct2
-1	5183	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
-1	5184	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
-1	5185	48		jmp __rotate_Start2
-1	5187	50		set __rotate_theOM2, 3
-1	5188	53		set __rotate_theRM2, 0
-1	5189	56		set __rotate_theTurnPct2, 0
-1	5191	59		set __rotate_theRS2, 32
-1	5192	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
-1	5195	85		index __rotate_firstPort2, __rotate_ports2, 65535
-1	5197	89		getout __rotate_power2, __rotate_firstPort2, 2
-1	5198	93		brtst 4, __rotate_doneRunning2, __rotate_power2
-1	5199	96		getout __rotate_rs2, __rotate_firstPort2, 6
-1	5200	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
-1	5202	104		brtst 4, __rotate_Reset2, __rotate_stop2
-1	5204	107		set __rotate_theOM2, 7
-1	5205	110		set __rotate_theUF2, 7
-1	5206	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
-1	5208	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
-1	5210	132		mov __rotate_OldRotCount2, __rotate_RotCount2
-1	5211	134		wait2 NA, __constVal50
-1	5213	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
-1	5214	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
-1	5215	145		set __rotate_theOM2, 4
-1	5216	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
-1	5219	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
-1	5220	162		setout __rotate_ports2, 0, __constVal32
-1	5222	167		subret ____RotateMotor2_return
-2	5476	0		setin __constVal1, __ResetSensorPort, 5
-2	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-2	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-2	5480	11		subret ____ResetSensorSubroutine_return
-3	6393	0	#pragma macro 25
-3	6393	0		acquire __CLSWMutex3
-3	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
-3	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
-3	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
-3	6393	9		syscall 21, __CLSWArgs3
-3	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
-3	6393	14		release __CLSWMutex3
-3	6393	15	#line 6393 "NXTDefs.h"
-3	6394	15		brtst 5, __RLSBError3, __RLSBResult3
-3	6395	18		set __RLSBIterations3, 60
-3	6397	21	#pragma macro 23
-3	6397	21		acquire __CLSCSMutex3
-3	6397	22		set __CLSCSArgs3.Port, 3
-3	6397	25		syscall 23, __CLSCSArgs3
-3	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
-3	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
-3	6397	32		release __CLSCSMutex3
-3	6397	33	#line 6397 "NXTDefs.h"
-3	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
-3	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
-3	6400	40		brtst 0, __RLSBError3, __RLSBResult3
-3	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
-3	6403	46		wait2 NA, __constVal1
-3	6404	49		jmp __RLSBDoCheckStatus3
-3	6406	51		brtst 4, __RLSBReturn3, __RLSBytesCount3
-3	6407	54		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
-3	6409	58	#pragma macro 25
-3	6409	58		acquire __CLSRMutex3
-3	6409	59		set __CLSRArgs3.Port, 3
-3	6409	62		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
-3	6409	64		syscall 22, __CLSRArgs3
-3	6409	67		mov __RLSReadBuf3, __CLSRArgs3.Buffer
-3	6409	69		mov __RLSBResult3, __CLSRArgs3.Result
-3	6409	71		release __CLSRMutex3
-3	6409	72	#line 6409 "NXTDefs.h"
-3	6410	72		brtst 5, __RLSBError3, __RLSBResult3
-3	6411	75		mov __RLSLastGoodRead3, __RLSReadBuf3
-3	6412	77		jmp __RLSBDone3
-3	6414	79		mov __RLSReadBuf3, __RLSLastGoodRead3
-3	6416	81		arrsize __RLSBytesCount3, __RLSReadBuf3
-3	6418	84		subret ____ReadLSBytes3_return
-4	67	0	#line 67 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	68	0	#pragma macro 26
-4	68	0		acquire __RLSBmutex3
-4	68	1		mov __RLSReadBuf3, __RLSBbufLSWrite1
-4	68	3		set __RLSBytesCount3, 1
-4	68	6		wait2 NA, __constVal15
-4	68	9		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-4	68	11		index __D0hitta, __RLSReadBuf3, 65535
-4	68	15		release __RLSBmutex3
-4	4023	16	#line 4023 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	67	16	#line 67 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	68	16		mov __hitta_7qG2_s_7qG2_000, __D0hitta
-4	70	18	#line 70 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	71	18		mov __signed_stack_001hitta, __hitta_7qG2_s_7qG2_000
-4	70	20	#line 70 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	71	20	#line 71 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	72	20		set __D0hitta, 20
-4	71	23	#line 71 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	72	23		cmp 1, __D0hitta, __signed_stack_001hitta, __D0hitta
-4	72	27	#line 72 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	73	27		brtst 4, __ASM_Label_510, __D0hitta
-4	72	30	#line 72 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	73	30		set __signed_stack_001hitta, 50
-4	72	33	#line 72 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	72	33	#line 72 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	73	33		mov __D0hitta, __constValNeg30
-4	74	35	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	75	35	#pragma macro 33
-4	75	35		acquire __rotateMutex2
-4	75	36		arrbuild __rotate_ports2, __constVal2
-4	75	40		mov __rotate_power2, __signed_stack_001hitta
-4	75	42		mov __rotate_angle2, __D0hitta
-4	75	44		mov __rotate_turnpct2, __constVal0
-4	75	46		mov __rotate_sync2, __constVal0
-4	75	48		mov __rotate_stop2, __constVal1
-4	75	50		mov __rotate_theRVP2, __constVal32
-4	75	52		mov __rotate_theRVI2, __constVal0
-4	75	54		mov __rotate_theRVD2, __constVal96
-4	75	56		subcall __RotateMotor2, ____RotateMotor2_return
-4	75	58		release __rotateMutex2
-4	4051	59	#line 4051 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	74	59	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	74	59	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	75	59	#pragma macro 26
-4	75	59		acquire __RLSBmutex3
-4	75	60		mov __RLSReadBuf3, __RLSBbufLSWrite1
-4	75	62		set __RLSBytesCount3, 1
-4	75	65		wait2 NA, __constVal15
-4	75	68		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-4	75	70		index __D0hitta, __RLSReadBuf3, 65535
-4	75	74		release __RLSBmutex3
-4	4055	75	#line 4055 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	74	75	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	75	75		mov __hitta_7qG2_s_7qG2_000, __D0hitta
-4	74	77	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	74	77	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	78	77	#line 78 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	79	77		jmp __ASM_Label_509
-4	78	79	#line 78 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	78	79	#line 78 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	79	79	#pragma macro 26
-4	79	79		acquire __RLSBmutex3
-4	79	80		mov __RLSReadBuf3, __RLSBbufLSWrite1
-4	79	82		set __RLSBytesCount3, 1
-4	79	85		wait2 NA, __constVal15
-4	79	88		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-4	79	90		index __D0hitta, __RLSReadBuf3, 65535
-4	79	94		release __RLSBmutex3
-4	4071	95	#line 4071 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	78	95	#line 78 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	79	95		mov __hitta_7qG2_v_7qG2_000, __D0hitta
-4	79	97	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	80	97		set __signed_stack_001hitta, 50
-4	79	100	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	79	100	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	80	100		mov __D0hitta, __constValNeg30
-4	80	102	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	81	102	#pragma macro 33
-4	81	102		acquire __rotateMutex2
-4	81	103		arrbuild __rotate_ports2, __constVal2
-4	81	107		mov __rotate_power2, __signed_stack_001hitta
-4	81	109		mov __rotate_angle2, __D0hitta
-4	81	111		mov __rotate_turnpct2, __constVal0
-4	81	113		mov __rotate_sync2, __constVal0
-4	81	115		mov __rotate_stop2, __constVal1
-4	81	117		mov __rotate_theRVP2, __constVal32
-4	81	119		mov __rotate_theRVI2, __constVal0
-4	81	121		mov __rotate_theRVD2, __constVal96
-4	81	123		subcall __RotateMotor2, ____RotateMotor2_return
-4	81	125		release __rotateMutex2
-4	4084	126	#line 4084 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	80	126	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	80	126	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	81	126	#pragma macro 26
-4	81	126		acquire __RLSBmutex3
-4	81	127		mov __RLSReadBuf3, __RLSBbufLSWrite1
-4	81	129		set __RLSBytesCount3, 1
-4	81	132		wait2 NA, __constVal15
-4	81	135		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-4	81	137		index __D0hitta, __RLSReadBuf3, 65535
-4	81	141		release __RLSBmutex3
-4	4092	142	#line 4092 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	80	142	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	81	142		mov __hitta_7qG2_h_7qG2_000, __D0hitta
-4	82	144	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	83	144		mov __signed_stack_001hitta, __hitta_7qG2_v_7qG2_000
-4	82	146	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	82	146	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	83	146		mov __D0hitta, __hitta_7qG2_h_7qG2_000
-4	82	148	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	83	148		cmp 1, __D0hitta, __signed_stack_001hitta, __D0hitta
-4	82	152	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	83	152		mov __signed_stack_001hitta, __D0hitta
-4	83	154	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	84	154		set __D0hitta, 1
-4	83	157	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	84	157		cmp 4, __D0hitta, __signed_stack_001hitta, __D0hitta
-4	84	161	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	85	161		brtst 4, __ASM_Label_528, __D0hitta
-4	84	164	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	85	164		set __signed_stack_001hitta, 50
-4	84	167	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	84	167	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	85	167		mov __D0hitta, __constValNeg15
-4	85	169	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	86	169	#pragma macro 33
-4	86	169		acquire __rotateMutex2
-4	86	170		arrbuild __rotate_ports2, __constVal2
-4	86	174		mov __rotate_power2, __signed_stack_001hitta
-4	86	176		mov __rotate_angle2, __D0hitta
-4	86	178		mov __rotate_turnpct2, __constVal0
-4	86	180		mov __rotate_sync2, __constVal0
-4	86	182		mov __rotate_stop2, __constVal1
-4	86	184		mov __rotate_theRVP2, __constVal32
-4	86	186		mov __rotate_theRVI2, __constVal0
-4	86	188		mov __rotate_theRVD2, __constVal96
-4	86	190		subcall __RotateMotor2, ____RotateMotor2_return
-4	86	192		release __rotateMutex2
-4	4128	193	#line 4128 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	85	193	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	86	193	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	87	193		mov __hitta_7qG2_v_7qG2_000, __hitta_7qG2_h_7qG2_000
-4	86	195	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	86	195	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	86	195	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	87	195	#pragma macro 26
-4	87	195		acquire __RLSBmutex3
-4	87	196		mov __RLSReadBuf3, __RLSBbufLSWrite1
-4	87	198		set __RLSBytesCount3, 1
-4	87	201		wait2 NA, __constVal15
-4	87	204		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-4	87	206		index __D0hitta, __RLSReadBuf3, 65535
-4	87	210		release __RLSBmutex3
-4	4139	211	#line 4139 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	86	211	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	87	211		mov __hitta_7qG2_h_7qG2_000, __D0hitta
-4	86	213	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	86	213	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	94	213	#line 94 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	95	213		jmp __ASM_Label_527
-4	94	215	#line 94 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-4	95	215		exit -1, -1
-5	138	0	#line 138 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
-5	139	0		subret ____initialize_global_data_return
+0	158	44	#line 158 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	161	44	#line 161 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	161	44	#line 161 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	162	44		exit 0, 0
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6393	0	#pragma macro 25
+2	6393	0		acquire __CLSWMutex3
+2	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
+2	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	6393	9		syscall 21, __CLSWArgs3
+2	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
+2	6393	14		release __CLSWMutex3
+2	6393	15	#line 6393 "NXTDefs.h"
+2	6394	15		brtst 5, __RLSBError3, __RLSBResult3
+2	6395	18		set __RLSBIterations3, 60
+2	6397	21	#pragma macro 23
+2	6397	21		acquire __CLSCSMutex3
+2	6397	22		set __CLSCSArgs3.Port, 3
+2	6397	25		syscall 23, __CLSCSArgs3
+2	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
+2	6397	32		release __CLSCSMutex3
+2	6397	33	#line 6397 "NXTDefs.h"
+2	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
+2	6400	40		brtst 0, __RLSBError3, __RLSBResult3
+2	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	6403	46		wait2 NA, __constVal1
+2	6404	49		jmp __RLSBDoCheckStatus3
+2	6406	51		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	6407	54		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	6409	58	#pragma macro 25
+2	6409	58		acquire __CLSRMutex3
+2	6409	59		set __CLSRArgs3.Port, 3
+2	6409	62		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	6409	64		syscall 22, __CLSRArgs3
+2	6409	67		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	6409	69		mov __RLSBResult3, __CLSRArgs3.Result
+2	6409	71		release __CLSRMutex3
+2	6409	72	#line 6409 "NXTDefs.h"
+2	6410	72		brtst 5, __RLSBError3, __RLSBResult3
+2	6411	75		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	6412	77		jmp __RLSBDone3
+2	6414	79		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	6416	81		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	6418	84		subret ____ReadLSBytes3_return
+3	67	0	#line 67 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	68	0	#pragma macro 26
+3	68	0		acquire __RLSBmutex3
+3	68	1		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	68	3		set __RLSBytesCount3, 1
+3	68	6		wait2 NA, __constVal15
+3	68	9		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	68	11		index __D0hitta, __RLSReadBuf3, 65535
+3	68	15		release __RLSBmutex3
+3	4065	16	#line 4065 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	67	16	#line 67 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	68	16		mov __hitta_7qG2_s_7qG2_000, __D0hitta
+3	69	18	#line 69 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	70	18		mov __signed_stack_001hitta, __hitta_7qG2_s_7qG2_000
+3	69	20	#line 69 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	70	20	#line 70 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	71	20		set __D0hitta, 50
+3	70	23	#line 70 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	71	23		cmp 1, __D0hitta, __signed_stack_001hitta, __D0hitta
+3	71	27	#line 71 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	72	27		brtst 4, __ASM_Label_510, __D0hitta
+3	71	30	#line 71 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	72	30		set __D0hitta, 70
+3	72	33	#line 72 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	73	33	#pragma macro 7
+3	73	33		setout __constVal2, 2, __D0hitta, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4088	56	#line 4088 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	72	56	#line 72 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	72	56	#line 72 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	73	56		set __D0hitta, 70
+3	74	59	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	75	59	#pragma macro 10
+3	75	59		acquire __OnRevMutex
+3	75	60		neg __OnRev_Tmp, __D0hitta
+3	75	63		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	75	86		release __OnRevMutex
+3	4093	87	#line 4093 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	74	87	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	74	87	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	75	87	#pragma macro 26
+3	75	87		acquire __RLSBmutex3
+3	75	88		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	75	90		set __RLSBytesCount3, 1
+3	75	93		wait2 NA, __constVal15
+3	75	96		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	75	98		index __D0hitta, __RLSReadBuf3, 65535
+3	75	102		release __RLSBmutex3
+3	4096	103	#line 4096 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	74	103	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	75	103		mov __hitta_7qG2_s_7qG2_000, __D0hitta
+3	74	105	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	74	105	#line 74 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	75	105	#line 75 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	76	105		set __signed_stack_001hitta, 4
+3	75	108	#line 75 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	75	108	#line 75 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	76	108		set __signed_stack_002hitta, 56
+3	75	111	#line 75 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	75	111	#line 75 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	76	111	#pragma macro 26
+3	76	111		acquire __RLSBmutex3
+3	76	112		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	76	114		set __RLSBytesCount3, 1
+3	76	117		wait2 NA, __constVal15
+3	76	120		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	76	122		index __D0hitta, __RLSReadBuf3, 65535
+3	76	126		release __RLSBmutex3
+3	4114	127	#line 4114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	76	127	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	127		acquire __TextOutMutex
+3	76	128	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	128		mov __TextOutArgs.Location.X, __signed_stack_001hitta
+3	76	130	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	130		mov __TextOutArgs.Location.Y, __signed_stack_002hitta
+3	76	132	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	132		set __TextOutArgs.Options, 0
+3	76	135	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	135		numtostr __TextOutArgs.Text, __D0hitta
+3	76	138	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	138		syscall 13, __TextOutArgs
+3	76	141	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	141		mov __D0hitta, __TextOutArgs.Result
+3	76	143	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	143		release __TextOutMutex
+3	76	144	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	76	144	#line 76 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	77	144	#line 77 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	78	144		jmp __ASM_Label_509
+3	77	146	#line 77 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	79	146	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	80	146	#pragma macro 7
+3	80	146		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4142	169	#line 4142 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	79	169	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	79	169	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	80	169		set __signed_stack_001hitta, 349
+3	79	172	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	79	172	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	80	172		set __signed_stack_002hitta, 40
+3	79	175	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	79	175	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	80	175		set __signed_stack_003hitta, 4
+3	79	178	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	79	178	#line 79 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	80	178		set __D0hitta, 0
+3	80	181	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	181		acquire __SPTArgsMutex
+3	80	182	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	182		mov __SPTArgs.Frequency, __signed_stack_001hitta
+3	80	184	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	184		mov __SPTArgs.Duration, __signed_stack_002hitta
+3	80	186	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	186		mov __SPTArgs.Volume, __signed_stack_003hitta
+3	80	188	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	188		mov __SPTArgs.Loop, __D0hitta
+3	80	190	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	190		syscall 10, __SPTArgs
+3	80	193	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	193		mov __D0hitta, __SPTArgs.Result
+3	80	195	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	195		release __SPTArgsMutex
+3	80	196	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	80	196	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	196		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 48
+3	80	199	#line 80 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	199	#line 8551 "NXCDefs.h"
+3	8552	199		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	202	#line 8551 "NXCDefs.h"
+3	81	202	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	202	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	82	202		set __signed_stack_001hitta, 349
+3	81	205	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	205	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	82	205		set __signed_stack_002hitta, 40
+3	81	208	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	208	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	82	208		set __signed_stack_003hitta, 4
+3	81	211	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	81	211	#line 81 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	82	211		set __D0hitta, 0
+3	82	214	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	214		acquire __SPTArgsMutex
+3	82	215	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	215		mov __SPTArgs.Frequency, __signed_stack_001hitta
+3	82	217	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	217		mov __SPTArgs.Duration, __signed_stack_002hitta
+3	82	219	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	219		mov __SPTArgs.Volume, __signed_stack_003hitta
+3	82	221	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	221		mov __SPTArgs.Loop, __D0hitta
+3	82	223	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	223		syscall 10, __SPTArgs
+3	82	226	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	226		mov __D0hitta, __SPTArgs.Result
+3	82	228	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	228		release __SPTArgsMutex
+3	82	229	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	82	229	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	229		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 48
+3	82	232	#line 82 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	232	#line 8551 "NXCDefs.h"
+3	8552	232		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	235	#line 8551 "NXCDefs.h"
+3	83	235	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	235	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	84	235		set __signed_stack_001hitta, 349
+3	83	238	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	238	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	84	238		set __signed_stack_002hitta, 40
+3	83	241	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	241	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	84	241		set __signed_stack_003hitta, 4
+3	83	244	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	83	244	#line 83 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	84	244		set __D0hitta, 0
+3	84	247	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	247		acquire __SPTArgsMutex
+3	84	248	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	248		mov __SPTArgs.Frequency, __signed_stack_001hitta
+3	84	250	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	250		mov __SPTArgs.Duration, __signed_stack_002hitta
+3	84	252	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	252		mov __SPTArgs.Volume, __signed_stack_003hitta
+3	84	254	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	254		mov __SPTArgs.Loop, __D0hitta
+3	84	256	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	256		syscall 10, __SPTArgs
+3	84	259	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	259		mov __D0hitta, __SPTArgs.Result
+3	84	261	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	261		release __SPTArgsMutex
+3	84	262	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	84	262	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	262		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 48
+3	84	265	#line 84 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	265	#line 8551 "NXCDefs.h"
+3	8552	265		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	268	#line 8551 "NXCDefs.h"
+3	85	268	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	268	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	86	268		set __signed_stack_001hitta, 349
+3	85	271	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	271	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	86	271		set __signed_stack_002hitta, 40
+3	85	274	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	274	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	86	274		set __signed_stack_003hitta, 4
+3	85	277	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	85	277	#line 85 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	86	277		set __D0hitta, 0
+3	86	280	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	280		acquire __SPTArgsMutex
+3	86	281	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	281		mov __SPTArgs.Frequency, __signed_stack_001hitta
+3	86	283	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	283		mov __SPTArgs.Duration, __signed_stack_002hitta
+3	86	285	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	285		mov __SPTArgs.Volume, __signed_stack_003hitta
+3	86	287	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	287		mov __SPTArgs.Loop, __D0hitta
+3	86	289	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	289		syscall 10, __SPTArgs
+3	86	292	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	292		mov __D0hitta, __SPTArgs.Result
+3	86	294	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	294		release __SPTArgsMutex
+3	86	295	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	86	295	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	295		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 48
+3	86	298	#line 86 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	298	#line 8551 "NXCDefs.h"
+3	8552	298		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	301	#line 8551 "NXCDefs.h"
+3	87	301	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	301	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	88	301		set __signed_stack_001hitta, 349
+3	87	304	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	304	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	88	304		set __signed_stack_002hitta, 40
+3	87	307	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	307	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	88	307		set __signed_stack_003hitta, 4
+3	87	310	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	87	310	#line 87 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	88	310		set __D0hitta, 0
+3	88	313	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	313		acquire __SPTArgsMutex
+3	88	314	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	314		mov __SPTArgs.Frequency, __signed_stack_001hitta
+3	88	316	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	316		mov __SPTArgs.Duration, __signed_stack_002hitta
+3	88	318	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	318		mov __SPTArgs.Volume, __signed_stack_003hitta
+3	88	320	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	320		mov __SPTArgs.Loop, __D0hitta
+3	88	322	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	322		syscall 10, __SPTArgs
+3	88	325	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	325		mov __D0hitta, __SPTArgs.Result
+3	88	327	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	327		release __SPTArgsMutex
+3	88	328	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	88	328	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	89	328		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 48
+3	88	331	#line 88 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	331	#line 8551 "NXCDefs.h"
+3	8552	331		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	334	#line 8551 "NXCDefs.h"
+3	90	334	#line 90 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	90	334	#line 90 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	91	334	#pragma macro 26
+3	91	334		acquire __RLSBmutex3
+3	91	335		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	91	337		set __RLSBytesCount3, 1
+3	91	340		wait2 NA, __constVal15
+3	91	343		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	91	345		index __D0hitta, __RLSReadBuf3, 65535
+3	91	349		release __RLSBmutex3
+3	4378	350	#line 4378 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	90	350	#line 90 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	91	350		mov __hitta_7qG2_v_7qG2_000, __D0hitta
+3	91	352	#line 91 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	92	352		set __D0hitta, 50
+3	92	355	#line 92 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	93	355	#pragma macro 7
+3	93	355		setout __constVal2, 2, __D0hitta, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4386	378	#line 4386 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	92	378	#line 92 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	92	378	#line 92 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	93	378		set __D0hitta, 50
+3	93	381	#line 93 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	94	381	#pragma macro 10
+3	94	381		acquire __OnRevMutex
+3	94	382		neg __OnRev_Tmp, __D0hitta
+3	94	385		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	94	408		release __OnRevMutex
+3	4391	409	#line 4391 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	93	409	#line 93 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	93	409	#line 93 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	94	409		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 1000
+3	93	412	#line 93 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	412	#line 8551 "NXCDefs.h"
+3	8552	412		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	415	#line 8551 "NXCDefs.h"
+3	94	415	#line 94 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	95	415	#line 95 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	96	415	#pragma macro 7
+3	96	415		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4402	438	#line 4402 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	95	438	#line 95 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	95	438	#line 95 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	96	438	#pragma macro 26
+3	96	438		acquire __RLSBmutex3
+3	96	439		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	96	441		set __RLSBytesCount3, 1
+3	96	444		wait2 NA, __constVal15
+3	96	447		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	96	449		index __D0hitta, __RLSReadBuf3, 65535
+3	96	453		release __RLSBmutex3
+3	4409	454	#line 4409 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	95	454	#line 95 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	96	454		mov __hitta_7qG2_h_7qG2_000, __D0hitta
+3	97	456	#line 97 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	98	456		mov __signed_stack_001hitta, __hitta_7qG2_v_7qG2_000
+3	97	458	#line 97 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	98	458	#line 98 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	99	458		mov __D0hitta, __hitta_7qG2_h_7qG2_000
+3	98	460	#line 98 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	99	460		cmp 1, __D0hitta, __signed_stack_001hitta, __D0hitta
+3	99	464	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	100	464		brtst 4, __ASM_Label_586, __D0hitta
+3	99	467	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	100	467		set __signed_stack_001hitta, 349
+3	99	470	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	99	470	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	100	470		set __signed_stack_002hitta, 40
+3	99	473	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	99	473	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	100	473		set __signed_stack_003hitta, 4
+3	99	476	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	99	476	#line 99 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	100	476		set __D0hitta, 0
+3	100	479	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	479		acquire __SPTArgsMutex
+3	100	480	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	480		mov __SPTArgs.Frequency, __signed_stack_001hitta
+3	100	482	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	482		mov __SPTArgs.Duration, __signed_stack_002hitta
+3	100	484	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	484		mov __SPTArgs.Volume, __signed_stack_003hitta
+3	100	486	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	486		mov __SPTArgs.Loop, __D0hitta
+3	100	488	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	488		syscall 10, __SPTArgs
+3	100	491	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	491		mov __D0hitta, __SPTArgs.Result
+3	100	493	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	493		release __SPTArgsMutex
+3	100	494	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	100	494	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	101	494		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 48
+3	100	497	#line 100 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	497	#line 8551 "NXCDefs.h"
+3	8552	497		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	500	#line 8551 "NXCDefs.h"
+3	102	500	#line 102 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	102	500	#line 102 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	103	500		set __D0hitta, 50
+3	103	503	#line 103 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	104	503	#pragma macro 7
+3	104	503		setout __constVal2, 2, __D0hitta, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4477	526	#line 4477 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	103	526	#line 103 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	103	526	#line 103 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	104	526		set __D0hitta, 50
+3	104	529	#line 104 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	105	529	#pragma macro 10
+3	105	529		acquire __OnRevMutex
+3	105	530		neg __OnRev_Tmp, __D0hitta
+3	105	533		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	105	556		release __OnRevMutex
+3	4482	557	#line 4482 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	104	557	#line 104 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	104	557	#line 104 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	105	557		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 500
+3	104	560	#line 104 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	560	#line 8551 "NXCDefs.h"
+3	8552	560		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	563	#line 8551 "NXCDefs.h"
+3	105	563	#line 105 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	106	563	#line 106 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	107	563	#pragma macro 7
+3	107	563		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4493	586	#line 4493 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	106	586	#line 106 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	107	586	#line 107 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	108	586		mov __hitta_7qG2_v_7qG2_000, __hitta_7qG2_h_7qG2_000
+3	107	588	#line 107 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	107	588	#line 107 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	107	588	#line 107 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	108	588	#pragma macro 26
+3	108	588		acquire __RLSBmutex3
+3	108	589		mov __RLSReadBuf3, __RLSBbufLSWrite1
+3	108	591		set __RLSBytesCount3, 1
+3	108	594		wait2 NA, __constVal15
+3	108	597		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+3	108	599		index __D0hitta, __RLSReadBuf3, 65535
+3	108	603		release __RLSBmutex3
+3	4503	604	#line 4503 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	107	604	#line 107 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	108	604		mov __hitta_7qG2_h_7qG2_000, __D0hitta
+3	107	606	#line 107 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	107	606	#line 107 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	108	606	#line 108 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	109	606		set __signed_stack_001hitta, 10
+3	108	609	#line 108 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	108	609	#line 108 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	109	609		set __signed_stack_002hitta, 48
+3	108	612	#line 108 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	108	612	#line 108 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	109	612		mov __D0hitta, __hitta_7qG2_v_7qG2_000
+3	109	614	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	614		acquire __TextOutMutex
+3	109	615	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	615		mov __TextOutArgs.Location.X, __signed_stack_001hitta
+3	109	617	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	617		mov __TextOutArgs.Location.Y, __signed_stack_002hitta
+3	109	619	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	619		set __TextOutArgs.Options, 0
+3	109	622	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	622		numtostr __TextOutArgs.Text, __D0hitta
+3	109	625	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	625		syscall 13, __TextOutArgs
+3	109	628	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	628		mov __D0hitta, __TextOutArgs.Result
+3	109	630	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	630		release __TextOutMutex
+3	109	631	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	109	631	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	631		set __signed_stack_001hitta, 10
+3	109	634	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	109	634	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	634		set __signed_stack_002hitta, 40
+3	109	637	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	109	637	#line 109 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	110	637		mov __D0hitta, __hitta_7qG2_h_7qG2_000
+3	112	639	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	639		acquire __TextOutMutex
+3	112	640	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	640		mov __TextOutArgs.Location.X, __signed_stack_001hitta
+3	112	642	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	642		mov __TextOutArgs.Location.Y, __signed_stack_002hitta
+3	112	644	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	644		set __TextOutArgs.Options, 0
+3	112	647	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	647		numtostr __TextOutArgs.Text, __D0hitta
+3	112	650	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	650		syscall 13, __TextOutArgs
+3	112	653	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	653		mov __D0hitta, __TextOutArgs.Result
+3	112	655	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	113	655		release __TextOutMutex
+3	112	656	#line 112 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	114	656	#line 114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	115	656		jmp __ASM_Label_585
+3	114	658	#line 114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	114	658	#line 114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	115	658		set __signed_stack_001hitta, 10
+3	114	661	#line 114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	114	661	#line 114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	115	661		set __signed_stack_002hitta, 48
+3	114	664	#line 114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	114	664	#line 114 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	115	664		mov __D0hitta, __hitta_7qG2_v_7qG2_000
+3	115	666	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	666		acquire __TextOutMutex
+3	115	667	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	667		mov __TextOutArgs.Location.X, __signed_stack_001hitta
+3	115	669	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	669		mov __TextOutArgs.Location.Y, __signed_stack_002hitta
+3	115	671	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	671		set __TextOutArgs.Options, 0
+3	115	674	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	674		numtostr __TextOutArgs.Text, __D0hitta
+3	115	677	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	677		syscall 13, __TextOutArgs
+3	115	680	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	680		mov __D0hitta, __TextOutArgs.Result
+3	115	682	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	682		release __TextOutMutex
+3	115	683	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	115	683	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	683		set __signed_stack_001hitta, 10
+3	115	686	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	115	686	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	686		set __signed_stack_002hitta, 40
+3	115	689	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	115	689	#line 115 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	689		mov __D0hitta, __hitta_7qG2_h_7qG2_000
+3	116	691	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	691		acquire __TextOutMutex
+3	116	692	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	692		mov __TextOutArgs.Location.X, __signed_stack_001hitta
+3	116	694	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	694		mov __TextOutArgs.Location.Y, __signed_stack_002hitta
+3	116	696	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	696		set __TextOutArgs.Options, 0
+3	116	699	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	699		numtostr __TextOutArgs.Text, __D0hitta
+3	116	702	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	702		syscall 13, __TextOutArgs
+3	116	705	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	705		mov __D0hitta, __TextOutArgs.Result
+3	116	707	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	707		release __TextOutMutex
+3	116	708	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	116	708	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	117	708		set __Wait_7qG2_ms_7qG2_000_inline_hitta, 2000
+3	116	711	#line 116 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	8551	711	#line 8551 "NXCDefs.h"
+3	8552	711		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta
+3	8551	714	#line 8551 "NXCDefs.h"
+3	118	714	#line 118 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+3	119	714		exit -1, -1
+4	164	0	#line 164 "C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc"
+4	165	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc
-1	__RotateMotor2	47	NXTDefs.h
-2	__ResetSensorSubroutine	216	NXTDefs.h
-3	__ReadLSBytes3	229	NXTDefs.h
-4	hitta	315	C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc
-5	__initialize_global_data	533	C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc
+1	__ResetSensorSubroutine	47	NXTDefs.h
+2	__ReadLSBytes3	60	NXTDefs.h
+3	hitta	146	C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc
+4	__initialize_global_data	863	C:\Users\Autumn\Documents\GitHub\Ben10\BETADeliverer.nxc
