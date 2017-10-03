@@ -19,7 +19,14 @@ task turnrightC()
 {
      RotateMotor(OUT_C, 70, -190);
 }
-
+task turnaroundA()
+{
+     RotateMotor(OUT_A, 70, 360);
+}
+task turnaroundC()
+{
+     RotateMotor(OUT_C, 70, -360);
+}
 
 mutex moveMutex;
 
@@ -40,7 +47,7 @@ sub hitta()
 {
 
     int s=SensorUS(IN_4);
-    while(s>50)
+    while(s>60)
     {
     OnFwd(OUT_C, 70);
     OnRev(OUT_A, 70);
@@ -49,7 +56,7 @@ sub hitta()
     }
 
 Off(OUT_AC);
-
+/*
 PlayTone(349,4*__NOTETIME);
 Wait(4*__WAITTIME);
 PlayTone(349,4*__NOTETIME);
@@ -60,7 +67,7 @@ PlayTone(349,4*__NOTETIME);
 Wait(4*__WAITTIME);
 PlayTone(349,4*__NOTETIME);
 Wait(4*__WAITTIME);
-
+ */
  int v=SensorUS(IN_4);
  OnFwd(OUT_C, 50);
  OnRev(OUT_A, 50);
@@ -93,47 +100,55 @@ Wait(4*__WAITTIME);
 
 }
 
-task avl()//Avlämning av bok
+inline void avl()//Avlämning av bok
 {
-
-  RotateMotor(OUT_B, 20, -150);
-
-  //OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
-  Wait(1000);
-  //Off(OUT_AC);
-  RotateMotor(OUT_B, 20, 150);
+       RotateMotor(OUT_B, 20, -150);
+       //OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+       Wait(1000);
+       //Off(OUT_AC);
+       RotateMotor(OUT_B, 20, 150);
 }
 
-inline int paket1()   // Höger 2.5m
+inline void paket1()   // Höger 2.5m
 {
      Precedes(turnrightA, turnrightC);
      OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
-     wait(4000);
-     //Turn around
+     Wait(4000);
+     Off(OUT_AC);
+     avl();
+    //klar
 }
 
 inline int paket2()   // Vänster 2.5m
 {
       Precedes(turnleftA, turnleftC);
       OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
-      wait(4000);
-      //Turn around
+      Wait(4000);
+      Off(OUT_AC);
+      avl();
+      //klar
 }
 
 inline int paket3()    // Höger 2.5m tvärs över väggen
 {
      Precedes(turnrightA, turnrightC);
      OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
-     wait(4000);
-     //Turn around
+     Wait(4000);
+     Off(OUT_AC);
+     Precedes(turnaroundA, turnaroundC);
+     //Åk rakt fram tills vägg
+     //Dropoff
 }
 
 inline int paket4()   // Vänster 2.5m tvärs över väggen
 {
      Precedes(turnleftA, turnleftC);
      OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
-     wait(4000);
-     //Turn around
+     Wait(4000);
+     Off(OUT_AC);
+     Precedes(turnaroundA, turnaroundC);
+     //Åk rakt fram tills vägg
+     //Dropoff
 }
 
 
