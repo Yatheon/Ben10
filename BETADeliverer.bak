@@ -1,93 +1,66 @@
 #include "NXCDefs.h"
 #define NEAR 15 //cm
-
-#define custom_turn(s,d,t)\
-  RotateMotor(OUT_C, s, d);RotateMotor(OUT_A, s,d):Wait(t);
-
-#define half_turn \
- OnRev(OUT_C, 50);OnRev(OUT_A, 50);Wait(700);
-
-  #define __NOTETIME   10
+#define __NOTETIME   10
 #define __WAITTIME   12
 
-
-
-
-/*
-task sensor_action()
+task turnleftA()
 {
-
-SetSensorLowspeed(IN_4);
-
-while(true){
-   //OnFwd(OUT_AC,50);
-
-   while(SensorUS(IN_4)>NEAR);
-    Off(OUT_AC);
-   // RotateMotor(OUT_B, 100, 30);
-    //Wait(HATCH_DOWN);
-    OnFwdReg(OUT_C, 100, OUT_REGMODE_SYNC);
-    OnRevReg(OUT_A, 100, OUT_REGMODE_SYNC);
-    //Wait(TURN_RIGHT);
-    Off(OUT_AC);
-    Off(OUT_B);
-    //PlayFileEx("dead.rso", 4, FALSE);
-    Wait(10000);
- }
- */
-
- inline void turn_left()
-{
- RotateMotor(OUT_A, 100, -360);
-
+     RotateMotor(OUT_A, 70, -190);
 }
-
- inline void turn_right()
+task turnleftC()
 {
- RotateMotor(OUT_C, 100, -360);
+     RotateMotor(OUT_C, 70, 190);
+}
+task turnrightA()
+{
+     RotateMotor(OUT_A, 70, 190);
+}
+task turnrightC()
+{
+     RotateMotor(OUT_C, 70, -190);
 }
 
 
 mutex moveMutex;
 
- task move_fwd()
+task move_fwd()
 {
+
  OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);
 
  while(SensorUS(IN_4)>NEAR)
  {
-      turn_right();
+      //turn_right();
       Wait(2000);
-      turn_left();
+      //turn_left();
  }
 }
 
-task hitta()
+sub hitta()
 {
 
-int s=SensorUS(IN_4);
+    int s=SensorUS(IN_4);
+    while(s>50)
+    {
+    OnFwd(OUT_C, 70);
+    OnRev(OUT_A, 70);
+    s=SensorUS(IN_4);
+    NumOut(4, LCD_LINE1, SensorUS(IN_4));
+    }
 
- while(s>50)
- {
-  OnFwd(OUT_C, 70);
-  OnRev(OUT_A, 70);
-  
-  s=SensorUS(IN_4);
-  NumOut(4, LCD_LINE1, SensorUS(IN_4));
- }
- Off(OUT_AC);
- 
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  
+Off(OUT_AC);
+
+PlayTone(349,4*__NOTETIME);
+Wait(4*__WAITTIME);
+PlayTone(349,4*__NOTETIME);
+Wait(4*__WAITTIME);
+PlayTone(349,4*__NOTETIME);
+Wait(4*__WAITTIME);
+PlayTone(349,4*__NOTETIME);
+Wait(4*__WAITTIME);
+PlayTone(349,4*__NOTETIME);
+Wait(4*__WAITTIME);
+
  int v=SensorUS(IN_4);
  OnFwd(OUT_C, 50);
  OnRev(OUT_A, 50);
@@ -95,69 +68,85 @@ int s=SensorUS(IN_4);
  Off(OUT_AC);
  int h=SensorUS(IN_4);
 
- while(v>h)
-  {
-  PlayTone(349,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-
+     while(v>h&&v!=h)
+     {
+     PlayTone(349,4*__NOTETIME);
+     Wait(4*__WAITTIME);
+     OnFwd(OUT_C, 50);
+     OnRev(OUT_A, 50);
+     Wait(700);
+     Off(OUT_AC);
+     v = h;
+     h = SensorUS(IN_4);
+     NumOut(10, LCD_LINE2, v);
+     NumOut(10, LCD_LINE3, h);
+     }
+  
   OnFwd(OUT_C, 50);
   OnRev(OUT_A, 50);
   Wait(500);
   Off(OUT_AC);
-  v = h;
-  h = SensorUS(IN_4);
-  NumOut(10, LCD_LINE2, v);
-  NumOut(10, LCD_LINE3, h);
-
-
-  }
-
+  
   NumOut(10, LCD_LINE2, v);
   NumOut(10, LCD_LINE3, h);
   Wait(2000);
 
 }
 
-task avl()
+task avl()//Avlämning av bok
 {
 
-  RotateMotor(OUT_B, 20, -90);
+  RotateMotor(OUT_B, 20, -150);
 
-  OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+  //OnRevReg(OUT_AC, 50, OUT_REGMODE_SYNC);
   Wait(1000);
-  Off(OUT_AC);
-  RotateMotor(OUT_B, 20, 90);
+  //Off(OUT_AC);
+  RotateMotor(OUT_B, 20, 150);
 }
 
 inline int paket1()   // Höger 2.5m
 {
-
-      //Precedes(move_fwd, check_sensors);
-
+     Precedes(turnrightA, turnrightC);
+     OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+     wait(4000);
+     //Turn around
 }
 
-task paket2()   // Vänser 2.5m
+inline int paket2()   // Vänster 2.5m
 {
-      //hitta();
+      Precedes(turnleftA, turnleftC);
+      OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+      wait(4000);
+      //Turn around
 }
 
-task paket3()    // Höger 2.5m tvärs över väggen
+inline int paket3()    // Höger 2.5m tvärs över väggen
 {
-     // hitta();
+     Precedes(turnrightA, turnrightC);
+     OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+     wait(4000);
+     //Turn around
 }
 
-task paket4()   // Vänster 2.5m tvärs över väggen
+inline int paket4()   // Vänster 2.5m tvärs över väggen
 {
-     // hitta();
+     Precedes(turnleftA, turnleftC);
+     OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
+     wait(4000);
+     //Turn around
 }
+
 
 task main()
 {
-SetSensorLowspeed(IN_4);
 
-
-   Precedes(hitta);
-
-
+     SetSensorLowspeed(IN_4);
+     hitta();
+     paket1();
+     Precedes(turnrightA, turnrightC);
+     Off(OUT_AC);
+     Precedes(turnleftA, turnleftC);
+     Off(OUT_AC);
+     Wait(2000);
 }
 
