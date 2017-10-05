@@ -1,181 +1,153 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001hitta_inline_main	6	1	0	4	32
-1	__signed_stack_002hitta_inline_main	6	1	4	4	28
-2	__signed_stack_001move_fwd_inline_main	6	1	8	4	4
-3	__D0avl_inline_paket1	6	1	12	4	6
-4	__D0paket1_inline_main	6	1	16	4	46
-5	__signed_stack_003hitta_inline_main	6	1	20	4	16
-6	__signed_stack_003paket1_inline_main	6	1	24	4	30
+0	__DU0SetSensorLowspeed_inline_main	5	1	0	4	2
+1	__D0SetSensorLowspeed_inline_main	6	1	4	4	3
+2	__D0move_fwd_inline_main	6	1	8	4	9
+3	__D0hitta_inline_main	6	1	12	4	41
+4	__D0move_fwd_inline_paket1	6	1	16	4	9
+5	__RLSBmutex3	9	0	20	4	20
+6	__rotate_theAngle1	5	1	24	4	2
 7	__rotate_angle1	6	1	28	4	6
-8	__signed_stack_002paket1_inline_main	6	1	32	4	30
-9	__signed_stack_001avl_inline_paket1	6	1	36	4	6
-10	__signed_stack_001paket1_inline_main	6	1	40	4	32
-11	__D0main	6	1	44	4	2
-12	__D0SetSensorLowspeed_inline_main	6	1	48	4	3
-13	__SPTArgsMutex	9	0	52	4	44
-14	__RLSBmutex3	9	0	56	4	16
-15	__CLSRMutex3	9	0	60	4	2
-16	__rotate_angle4	6	1	64	4	5
-17	__D0hitta_inline_main	6	1	68	4	64
-18	__CLSWMutex3	9	0	72	4	2
-19	__D0move_fwd_inline_main	6	1	76	4	10
-20	__DU0SetSensorLowspeed_inline_main	5	1	80	4	2
-21	__rotate_theAngle1	5	1	84	4	2
-22	__signed_stack_004paket1_inline_main	6	1	88	4	2
+8	__CLSCSMutex3	9	0	32	4	2
+9	__CLSRMutex3	9	0	36	4	2
+10	__CLSWMutex3	9	0	40	4	2
+11	__D0avl_inline_paket1	6	1	44	4	6
+12	__Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main	5	1	48	4	8
+13	__signed_stack_001paket1_inline_main	6	1	52	4	4
+14	__Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main	5	1	56	4	4
+15	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	60	4	2
+16	__Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main	5	1	64	4	4
+17	__signed_stack_001avl_inline_paket1	6	1	68	4	6
+18	__signed_stack_001move_fwd_inline_main	6	1	72	4	4
+19	__D0paket1_inline_main	6	1	76	4	4
+20	__signed_stack_001move_fwd_inline_paket1	6	1	80	4	4
+21	__signed_stack_002hitta_inline_main	6	1	84	4	12
+22	__signed_stack_001hitta_inline_main	6	1	88	4	16
 23	__rotate_angle0	6	1	92	4	5
-24	__Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main	5	1	96	4	4
-25	__Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main	5	1	100	4	22
-26	__Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main	5	1	104	4	32
-27	__rotate_theAngle0	5	1	108	4	2
-28	__rotate_theAngle4	5	1	112	4	2
-29	__CLSCSMutex3	9	0	116	4	2
-30	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	120	4	2
-31	__rotate_OldRotCount1	4	1	124	2	2
-32	__rotate_RotCount1	4	1	126	2	4
-33	__hitta_7qG2_h_7qG2_000_inline_main	4	1	128	2	7
-34	__constValNeg150	4	0	130	2	1
-35	__move_fwd_7qG2_i_7qG2_000_inline_main	4	1	132	2	3
-36	__rotate_OldRotCount4	4	1	134	2	2
-37	__rotate_RotCount0	4	1	136	2	4
-38	__rotate_OldRotCount0	4	1	138	2	2
-39	__hitta_7qG2_s_7qG2_000_inline_main	4	1	140	2	3
-40	__rotate_RotCount4	4	1	142	2	4
-41	__hitta_7qG2_v_7qG2_000_inline_main	4	1	144	2	6
-42	____ResetSensorSubroutine_return	1	1	146	1	3
-43	__constVal15	2	0	147	1	17
-44	____ReadLSBytes3_return	1	1	148	1	10
-45	__constVal2	2	0	149	1	3
-46	____RotateMotor1_sign_tmp	2	1	150	1	4
-47	____RotateMotor4_sign_tmp	2	1	151	1	4
-48	____RotateMotor4_return	1	1	152	1	3
-49	__ResetSensorTmp	1	1	153	1	2
-50	__ResetSensorPort	1	1	154	1	3
-51	__constVal3	2	0	155	1	13
-52	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	156	1	2
-53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	157	1	2
-54	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	158	1	4
-55	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	159	1	2
-56	__constVal96	2	0	160	1	19
-57	__constVal63	2	0	161	1	15
-58	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	162	1	2
-59	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	163	1	2
-60	____initialize_global_data_return	1	1	164	1	3
-61	__RLSBIterations3	1	1	165	1	4
-62	__PFTmp	1	1	166	1	1
-63	__RLSBResult3	2	1	167	1	7
-64	__RLSBytesCount3	1	1	168	1	14
-65	__zfmove_fwd_inline_main	1	1	169	1	3
-66	__zfhitta_inline_main	1	1	170	1	10
-67	__constVal7	2	0	171	1	2
-68	__zfSetSensorLowspeed_inline_main	1	1	172	1	2
-69	__rotate_turnpct1	2	1	173	1	4
-70	__rotate_theUF1	1	1	174	1	6
-71	__rotate_theOM1	1	1	175	1	7
-72	__rotate_stop1	1	1	176	1	3
-73	__rotate_power1	1	1	177	1	5
-74	__rotate_firstPort1	1	1	178	1	5
-75	__rotate_sync1	1	1	179	1	3
-76	__rotate_theRM1	1	1	180	1	4
-77	__rotate_rs1	1	1	181	1	2
-78	__rotate_thePower1	2	1	182	1	4
-79	__rotate_theTurnPct1	2	1	183	1	4
-80	__rotate_theRVD1	1	1	184	1	3
-81	__rotate_theRS1	1	1	185	1	3
-82	__rotate_theRVP1	1	1	186	1	3
-83	__rotate_theRVI1	1	1	187	1	3
-84	__rotate_theTurnPct0	2	1	188	1	4
-85	__rotate_stop0	1	1	189	1	2
-86	__rotate_turnpct0	2	1	190	1	3
-87	__rotate_theUF0	1	1	191	1	6
-88	__rotate_sync0	1	1	192	1	2
-89	__OnRev_Tmp	2	1	193	1	8
-90	__rotate_power0	1	1	194	1	4
-91	__rotate_firstPort0	1	1	195	1	5
-92	__rotate_theOM0	1	1	196	1	7
-93	__rotate_theRVD0	1	1	197	1	2
-94	__rotate_rs0	1	1	198	1	2
-95	__rotate_thePower0	2	1	199	1	4
-96	__rotate_theRVI0	1	1	200	1	2
-97	__rotate_theRM0	1	1	201	1	4
-98	__rotate_theRS0	1	1	202	1	3
-99	__rotate_theRVP0	1	1	203	1	2
-100	__rotate_rs4	1	1	204	1	2
-101	__rotate_thePower4	2	1	205	1	4
-102	__rotate_theTurnPct4	2	1	206	1	4
-103	__rotate_theRVP4	1	1	207	1	2
-104	__rotate_theRVI4	1	1	208	1	2
-105	__rotate_theRVD4	1	1	209	1	2
-106	____RotateMotor0_return	1	1	210	1	3
-107	__constVal0	2	1	211	1	74
-108	__constVal50	2	0	212	1	6
-109	____RotateMotor1_return	1	1	213	1	4
-110	____RotateMotor0_sign_tmp	2	1	214	1	4
-111	__constVal32	2	0	215	1	58
-112	__constVal1	2	0	216	1	14
-113	__rotate_turnpct4	2	1	217	1	3
-114	__rotate_theUF4	1	1	218	1	6
-115	__rotate_theOM4	1	1	219	1	7
-116	__rotate_firstPort4	1	1	220	1	5
-117	__rotate_sync4	1	1	221	1	2
-118	__rotate_stop4	1	1	222	1	2
-119	__rotate_power4	1	1	223	1	4
-120	__rotate_theRM4	1	1	224	1	4
-121	__rotate_theRS4	1	1	225	1	3
-122	__CLSCSArgs3	8	0	3	4	4
-123	__CLSCSArgs3.Result	2	1	228	1	4
-124	__CLSCSArgs3.Port	1	1	229	1	4
-125	__CLSCSArgs3.BytesReady	1	1	230	1	4
-126	__SPTArgs	8	0	5	8	132
-127	__SPTArgs.Result	2	1	232	1	132
-128	__SPTArgs.Frequency	3	1	234	2	132
-129	__SPTArgs.Duration	3	1	236	2	132
-130	__SPTArgs.Loop	1	1	238	1	132
-131	__SPTArgs.Volume	1	1	239	1	132
-132	__CLSRArgs3	8	0	4	12	5
-133	__CLSRArgs3.Result	2	1	240	1	5
-134	__CLSRArgs3.Port	1	1	241	1	5
-135	__CLSRArgs3.Buffer	7	0	242	4	5
-136	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-137	__CLSRArgs3.BufferLen	1	1	244	1	5
-138	__CLSWArgs3	8	0	4	12	5
-139	__CLSWArgs3.Result	2	1	248	1	5
-140	__CLSWArgs3.Port	1	1	249	1	5
-141	__CLSWArgs3.Buffer	7	0	250	4	5
-142	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
-143	__CLSWArgs3.ReturnLen	1	1	252	1	5
-144	__TextOutArgs	8	0	4	16	27
-145	__TextOutArgs.Result	2	1	256	1	27
-146	__TextOutArgs.Location	8	0	2	4	27
-147	__TextOutArgs.Location.X	4	1	260	2	27
-148	__TextOutArgs.Location.Y	4	1	262	2	27
-149	__TextOutArgs.Text	7	0	264	4	27
-150	__TextOutArgs.Text.Text_type	1	0	0	1	0
-151	__TextOutArgs.Options	5	1	268	4	27
-152	__OUT_AC	7	0	272	4	10
-153	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-154	__rotate_ports0	7	0	274	4	6
-155	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
-156	__rotate_ports4	7	0	276	4	6
-157	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
-158	__RLSLastGoodRead3	7	0	278	4	2
-159	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-160	__rotate_ports1	7	0	280	4	7
-161	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
-162	__RLSReadBuf3	7	0	282	4	22
-163	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-164	__RLSBbufLSWrite1	7	0	284	4	8
-165	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+24	__rotate_theAngle0	5	1	96	4	2
+25	__hitta_7qG2_v_7qG2_000_inline_main	4	1	100	2	6
+26	__hitta_7qG2_h_7qG2_000_inline_main	4	1	102	2	7
+27	__hitta_7qG2_s_7qG2_000_inline_main	4	1	104	2	3
+28	__rotate_RotCount0	4	1	106	2	4
+29	__rotate_RotCount1	4	1	108	2	4
+30	__rotate_OldRotCount1	4	1	110	2	2
+31	__move_fwd_7qG2_a_7qG2_000_inline_paket1_inline_main	4	1	112	2	2
+32	__rotate_OldRotCount0	4	1	114	2	2
+33	__constValNeg150	4	0	116	2	1
+34	__move_fwd_7qG2_i_7qG2_000_inline_paket1_inline_main	4	1	118	2	3
+35	__move_fwd_7qG2_a_7qG2_000_inline_main	4	1	120	2	2
+36	__move_fwd_7qG2_i_7qG2_000_inline_main	4	1	122	2	3
+37	__zfmove_fwd_inline_paket1	1	1	124	1	3
+38	__rotate_theOM0	1	1	125	1	7
+39	__rotate_theRVP0	1	1	126	1	2
+40	__RLSBIterations3	1	1	127	1	4
+41	__rotate_theRM0	1	1	128	1	4
+42	__zfhitta_inline_main	1	1	129	1	10
+43	__rotate_theRS0	1	1	130	1	3
+44	__PFTmp	1	1	131	1	1
+45	__rotate_rs0	1	1	132	1	2
+46	__constVal7	2	0	133	1	4
+47	__rotate_theRVD0	1	1	134	1	2
+48	__zfmove_fwd_inline_main	1	1	135	1	3
+49	__rotate_theRVI0	1	1	136	1	2
+50	__zfSetSensorLowspeed_inline_main	1	1	137	1	2
+51	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	138	1	2
+52	__constVal96	2	0	139	1	24
+53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	140	1	2
+54	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	141	1	2
+55	__OnRev_Tmp	2	1	142	1	10
+56	__constVal40	2	0	143	1	1
+57	__constVal63	2	0	144	1	21
+58	__rotate_power0	1	1	145	1	4
+59	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	146	1	2
+60	__rotate_stop0	1	1	147	1	2
+61	__rotate_sync0	1	1	148	1	2
+62	__rotate_theUF0	1	1	149	1	6
+63	__rotate_turnpct0	2	1	150	1	3
+64	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	151	1	4
+65	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	152	1	2
+66	__rotate_firstPort0	1	1	153	1	5
+67	____initialize_global_data_return	1	1	154	1	3
+68	__RLSBytesCount3	1	1	155	1	16
+69	__rotate_thePower1	2	1	156	1	4
+70	__rotate_theTurnPct0	2	1	157	1	4
+71	__rotate_rs1	1	1	158	1	2
+72	__rotate_theRVI1	1	1	159	1	3
+73	__rotate_theRVD1	1	1	160	1	3
+74	__constVal32	2	0	161	1	72
+75	__constVal1	2	0	162	1	12
+76	____RotateMotor0_sign_tmp	2	1	163	1	4
+77	__rotate_theTurnPct1	2	1	164	1	4
+78	____RotateMotor0_return	1	1	165	1	3
+79	__rotate_stop1	1	1	166	1	3
+80	__rotate_turnpct1	2	1	167	1	4
+81	__rotate_sync1	1	1	168	1	3
+82	__rotate_power1	1	1	169	1	5
+83	__rotate_firstPort1	1	1	170	1	5
+84	__rotate_theRS1	1	1	171	1	3
+85	__rotate_theRVP1	1	1	172	1	3
+86	__rotate_theRM1	1	1	173	1	4
+87	__rotate_theUF1	1	1	174	1	6
+88	__rotate_theOM1	1	1	175	1	7
+89	__rotate_thePower0	2	1	176	1	4
+90	____ResetSensorSubroutine_return	1	1	177	1	3
+91	__ResetSensorTmp	1	1	178	1	2
+92	__constVal15	2	0	179	1	21
+93	__RLSBResult3	2	1	180	1	7
+94	____ReadLSBytes3_return	1	1	181	1	12
+95	__constVal2	2	0	182	1	4
+96	__constVal50	2	0	183	1	5
+97	____RotateMotor1_sign_tmp	2	1	184	1	4
+98	____RotateMotor1_return	1	1	185	1	4
+99	__ResetSensorPort	1	1	186	1	3
+100	__constVal3	2	0	187	1	17
+101	__constVal0	2	1	188	1	90
+102	__TextOutArgs	8	0	4	16	27
+103	__TextOutArgs.Result	2	1	192	1	27
+104	__TextOutArgs.Location	8	0	2	4	27
+105	__TextOutArgs.Location.X	4	1	196	2	27
+106	__TextOutArgs.Location.Y	4	1	198	2	27
+107	__TextOutArgs.Text	7	0	200	4	27
+108	__TextOutArgs.Text.Text_type	1	0	0	1	0
+109	__TextOutArgs.Options	5	1	204	4	27
+110	__CLSWArgs3	8	0	4	12	5
+111	__CLSWArgs3.Result	2	1	208	1	5
+112	__CLSWArgs3.Port	1	1	209	1	5
+113	__CLSWArgs3.Buffer	7	0	210	4	5
+114	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+115	__CLSWArgs3.ReturnLen	1	1	212	1	5
+116	__CLSCSArgs3	8	0	3	4	4
+117	__CLSCSArgs3.Result	2	1	216	1	4
+118	__CLSCSArgs3.Port	1	1	217	1	4
+119	__CLSCSArgs3.BytesReady	1	1	218	1	4
+120	__CLSRArgs3	8	0	4	12	5
+121	__CLSRArgs3.Result	2	1	220	1	5
+122	__CLSRArgs3.Port	1	1	221	1	5
+123	__CLSRArgs3.Buffer	7	0	222	4	5
+124	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+125	__CLSRArgs3.BufferLen	1	1	224	1	5
+126	__rotate_ports1	7	0	226	4	7
+127	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+128	__OUT_AC	7	0	228	4	12
+129	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+130	__rotate_ports0	7	0	230	4	6
+131	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+132	__RLSBbufLSWrite1	7	0	232	4	10
+133	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+134	__RLSLastGoodRead3	7	0	234	4	2
+135	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+136	__RLSReadBuf3	7	0	236	4	26
+137	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	188	0	#line 188 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	189	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	188	2	#line 188 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	188	2	#line 188 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	189	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
-0	188	5	#line 188 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	189	5	#line 189 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	190	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	143	0	#line 143 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	144	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	143	2	#line 143 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	143	2	#line 143 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	144	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	143	5	#line 143 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	144	5	#line 144 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	145	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
 0	3758	7	#line 3758 "NXCDefs.h"
 0	3759	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	3758	9	#line 3758 "NXCDefs.h"
@@ -213,11 +185,11 @@ Clump	Line	PC	Source
 0	3695	40	#pragma macro 4
 0	3695	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	4492	44	#line 4492 "NXCDefs.h"
+0	4216	44	#line 4216 "NXCDefs.h"
 0	3694	44	#line 3694 "NXCDefs.h"
 0	3761	44	#line 3761 "NXCDefs.h"
-0	189	44	#line 189 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	42	44	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	144	44	#line 144 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	42	44	#line 42 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	43	44	#pragma macro 26
 0	43	44		acquire __RLSBmutex3
 0	43	45		mov __RLSReadBuf3, __RLSBbufLSWrite1
@@ -226,35 +198,35 @@ Clump	Line	PC	Source
 0	43	53		subcall __ReadLSBytes3, ____ReadLSBytes3_return
 0	43	55		index __D0hitta_inline_main, __RLSReadBuf3, 65535
 0	43	59		release __RLSBmutex3
-0	4513	60	#line 4513 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	42	60	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	4237	60	#line 4237 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	42	60	#line 42 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	43	60		mov __hitta_7qG2_s_7qG2_000_inline_main, __D0hitta_inline_main
-0	43	62	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	44	62		set __D0hitta_inline_main, 50
-0	44	65	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	43	62	#line 43 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	44	62		set __D0hitta_inline_main, 40
+0	44	65	#line 44 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	45	65	#pragma macro 7
 0	45	65		setout __constVal0, 2, __D0hitta_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4523	88	#line 4523 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	44	88	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	44	88	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	45	88	#line 45 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	4247	88	#line 4247 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	44	88	#line 44 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	44	88	#line 44 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	45	88	#line 45 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	46	88	#pragma macro 10
-0	46	88		neg __OnRev_Tmp, __constVal50
+0	46	88		neg __OnRev_Tmp, __constVal40
 0	46	91		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4530	114	#line 4530 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	45	114	#line 45 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	45	114	#line 45 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	4254	114	#line 4254 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	45	114	#line 45 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	45	114	#line 45 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	46	114		mov __signed_stack_001hitta_inline_main, __hitta_7qG2_s_7qG2_000_inline_main
-0	45	116	#line 45 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	46	116	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	47	116		set __D0hitta_inline_main, 60
-0	46	119	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	45	116	#line 45 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	46	116	#line 46 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	47	116		set __D0hitta_inline_main, 70
+0	46	119	#line 46 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	47	119		cmp 1, __zfhitta_inline_main, __signed_stack_001hitta_inline_main, __D0hitta_inline_main
-0	46	123	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	46	123	#line 46 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	47	123		mov __D0hitta_inline_main, __zfhitta_inline_main
-0	47	125	#line 47 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	48	125		brtst 4, __001__NXC_Label_508, __zfhitta_inline_main
-0	47	128	#line 47 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	47	125	#line 47 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	48	125		brtst 4, __002__NXC_Label_508, __zfhitta_inline_main
+0	47	128	#line 47 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	48	128	#pragma macro 26
 0	48	128		acquire __RLSBmutex3
 0	48	129		mov __RLSReadBuf3, __RLSBbufLSWrite1
@@ -263,18 +235,18 @@ Clump	Line	PC	Source
 0	48	137		subcall __ReadLSBytes3, ____ReadLSBytes3_return
 0	48	139		index __D0hitta_inline_main, __RLSReadBuf3, 65535
 0	48	143		release __RLSBmutex3
-0	4548	144	#line 4548 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	47	144	#line 47 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	4272	144	#line 4272 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	47	144	#line 47 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	48	144		mov __hitta_7qG2_s_7qG2_000_inline_main, __D0hitta_inline_main
-0	47	146	#line 47 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	47	146	#line 47 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	48	146	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	47	146	#line 47 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	47	146	#line 47 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	48	146	#line 48 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	49	146		set __signed_stack_001hitta_inline_main, 4
-0	48	149	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	48	149	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	48	149	#line 48 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	48	149	#line 48 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	49	149		set __signed_stack_002hitta_inline_main, 56
-0	48	152	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	48	152	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	48	152	#line 48 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	48	152	#line 48 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	49	152	#pragma macro 26
 0	49	152		acquire __RLSBmutex3
 0	49	153		mov __RLSReadBuf3, __RLSBbufLSWrite1
@@ -283,1233 +255,531 @@ Clump	Line	PC	Source
 0	49	161		subcall __ReadLSBytes3, ____ReadLSBytes3_return
 0	49	163		index __D0hitta_inline_main, __RLSReadBuf3, 65535
 0	49	167		release __RLSBmutex3
-0	4568	168	#line 4568 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	49	168	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	49	168	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
+0	4292	168	#line 4292 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	49	168	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	49	168	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
 0	50	168		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
-0	49	171	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	50	171		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
-0	49	174	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	50	174		set __TextOutArgs.Options, 0
-0	49	177	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	50	177		numtostr __TextOutArgs.Text, __D0hitta_inline_main
-0	49	180	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	50	180		syscall 13, __TextOutArgs
-0	49	183	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	50	183		mov __D0hitta_inline_main, __TextOutArgs.Result
-0	49	185	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	49	185	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	49	185	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	51	185	#line 51 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	52	185		jmp __001__NXC_Label_507
-0	51	187	#line 51 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	53	187	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	54	187	#pragma macro 7
-0	54	187		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4594	210	#line 4594 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	53	210	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	53	210	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	54	210		set __signed_stack_001hitta_inline_main, 349
-0	53	213	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	53	213	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	54	213		set __signed_stack_002hitta_inline_main, 40
-0	53	216	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	53	216	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	54	216		set __signed_stack_003hitta_inline_main, 4
-0	53	219	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	53	219	#line 53 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	54	219		set __D0hitta_inline_main, 0
-0	54	222	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	222		acquire __SPTArgsMutex
-0	54	223	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	223		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	54	226	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	226		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	54	229	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	229		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	54	231	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	231		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	54	233	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	233		syscall 10, __SPTArgs
-0	54	236	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	236		mov __D0hitta_inline_main, __SPTArgs.Result
-0	54	238	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	238		release __SPTArgsMutex
-0	54	239	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	54	239	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	239		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 48
-0	54	242	#line 54 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	242	#line 7921 "NXCDefs.h"
-0	7922	242		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	245	#line 7921 "NXCDefs.h"
-0	55	245	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	245	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	56	245		set __signed_stack_001hitta_inline_main, 349
-0	55	248	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	248	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	56	248		set __signed_stack_002hitta_inline_main, 40
-0	55	251	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	251	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	56	251		set __signed_stack_003hitta_inline_main, 4
-0	55	254	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	55	254	#line 55 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	56	254		set __D0hitta_inline_main, 0
-0	56	257	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	257		acquire __SPTArgsMutex
-0	56	258	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	258		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	56	261	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	261		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	56	264	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	264		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	56	266	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	266		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	56	268	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	268		syscall 10, __SPTArgs
-0	56	271	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	271		mov __D0hitta_inline_main, __SPTArgs.Result
-0	56	273	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	273		release __SPTArgsMutex
-0	56	274	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	56	274	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	274		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 48
-0	56	277	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	277	#line 7921 "NXCDefs.h"
-0	7922	277		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	280	#line 7921 "NXCDefs.h"
-0	57	280	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	280	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	58	280		set __signed_stack_001hitta_inline_main, 349
-0	57	283	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	283	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	58	283		set __signed_stack_002hitta_inline_main, 40
-0	57	286	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	286	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	58	286		set __signed_stack_003hitta_inline_main, 4
-0	57	289	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	57	289	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	58	289		set __D0hitta_inline_main, 0
-0	58	292	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	292		acquire __SPTArgsMutex
-0	58	293	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	293		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	58	296	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	296		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	58	299	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	299		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	58	301	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	301		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	58	303	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	303		syscall 10, __SPTArgs
-0	58	306	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	306		mov __D0hitta_inline_main, __SPTArgs.Result
-0	58	308	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	308		release __SPTArgsMutex
-0	58	309	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	58	309	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	309		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 48
-0	58	312	#line 58 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	312	#line 7921 "NXCDefs.h"
-0	7922	312		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	315	#line 7921 "NXCDefs.h"
-0	59	315	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	315	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	60	315		set __signed_stack_001hitta_inline_main, 349
-0	59	318	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	318	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	60	318		set __signed_stack_002hitta_inline_main, 40
-0	59	321	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	321	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	60	321		set __signed_stack_003hitta_inline_main, 4
-0	59	324	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	59	324	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	60	324		set __D0hitta_inline_main, 0
-0	60	327	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	327		acquire __SPTArgsMutex
-0	60	328	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	328		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	60	331	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	331		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	60	334	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	334		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	60	336	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	336		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	60	338	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	338		syscall 10, __SPTArgs
-0	60	341	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	341		mov __D0hitta_inline_main, __SPTArgs.Result
-0	60	343	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	343		release __SPTArgsMutex
-0	60	344	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	60	344	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	344		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 48
-0	60	347	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	347	#line 7921 "NXCDefs.h"
-0	7922	347		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	350	#line 7921 "NXCDefs.h"
-0	61	350	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	350	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	62	350		set __signed_stack_001hitta_inline_main, 349
-0	61	353	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	353	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	62	353		set __signed_stack_002hitta_inline_main, 40
-0	61	356	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	356	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	62	356		set __signed_stack_003hitta_inline_main, 4
-0	61	359	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	61	359	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	62	359		set __D0hitta_inline_main, 0
-0	62	362	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	362		acquire __SPTArgsMutex
-0	62	363	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	363		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	62	366	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	366		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	62	369	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	369		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	62	371	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	371		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	62	373	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	373		syscall 10, __SPTArgs
-0	62	376	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	376		mov __D0hitta_inline_main, __SPTArgs.Result
-0	62	378	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	378		release __SPTArgsMutex
-0	62	379	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	62	379	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	63	379		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 48
-0	62	382	#line 62 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	382	#line 7921 "NXCDefs.h"
-0	7922	382		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	385	#line 7921 "NXCDefs.h"
-0	64	385	#line 64 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	64	385	#line 64 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	65	385	#pragma macro 26
-0	65	385		acquire __RLSBmutex3
-0	65	386		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	65	388		set __RLSBytesCount3, 1
-0	65	391		wait2 NA, __constVal15
-0	65	394		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	65	396		index __D0hitta_inline_main, __RLSReadBuf3, 65535
-0	65	400		release __RLSBmutex3
-0	4842	401	#line 4842 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	64	401	#line 64 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	65	401		mov __hitta_7qG2_v_7qG2_000_inline_main, __D0hitta_inline_main
-0	66	403	#line 66 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	67	403		set __D0hitta_inline_main, 50
-0	67	406	#line 67 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	68	406	#pragma macro 7
-0	68	406		setout __constVal0, 2, __D0hitta_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4852	429	#line 4852 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	67	429	#line 67 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	67	429	#line 67 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	68	429	#line 68 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	69	429	#pragma macro 10
-0	69	429		neg __OnRev_Tmp, __constVal50
-0	69	432		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4859	455	#line 4859 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	68	455	#line 68 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	68	455	#line 68 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	69	455		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 200
-0	68	458	#line 68 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	458	#line 7921 "NXCDefs.h"
-0	7922	458		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	461	#line 7921 "NXCDefs.h"
-0	69	461	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	70	461	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	71	461	#pragma macro 7
-0	71	461		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4872	484	#line 4872 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	70	484	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	70	484	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	71	484	#pragma macro 26
-0	71	484		acquire __RLSBmutex3
-0	71	485		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	71	487		set __RLSBytesCount3, 1
-0	71	490		wait2 NA, __constVal15
-0	71	493		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	71	495		index __D0hitta_inline_main, __RLSReadBuf3, 65535
-0	71	499		release __RLSBmutex3
-0	4875	500	#line 4875 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	70	500	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	71	500		mov __hitta_7qG2_h_7qG2_000_inline_main, __D0hitta_inline_main
-0	72	502	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	502		mov __signed_stack_001hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
-0	72	504	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	72	504	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	504		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
-0	72	506	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	506		cmp 1, __zfhitta_inline_main, __signed_stack_001hitta_inline_main, __D0hitta_inline_main
-0	72	510	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	510		mov __D0hitta_inline_main, __zfhitta_inline_main
-0	72	512	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	512		brtst 4, __001__NXC_Label_582, __zfhitta_inline_main
-0	72	515	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	515		mov __signed_stack_001hitta_inline_main, __D0hitta_inline_main
-0	72	517	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	517		mov __signed_stack_002hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
-0	72	519	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	519	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	74	519		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
-0	73	521	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	74	521		cmp 5, __zfhitta_inline_main, __signed_stack_002hitta_inline_main, __D0hitta_inline_main
-0	73	525	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	73	525	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	74	525		and __D0hitta_inline_main, __signed_stack_001hitta_inline_main, __zfhitta_inline_main
-0	74	529	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	75	529		tst 5, __zfhitta_inline_main, __D0hitta_inline_main
-0	74	532	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	75	532		brtst 4, __001__NXC_Label_580, __zfhitta_inline_main
-0	74	535	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	75	535		set __signed_stack_001hitta_inline_main, 523
-0	74	538	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	74	538	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	75	538		set __signed_stack_002hitta_inline_main, 400
-0	74	541	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	74	541	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	75	541		set __signed_stack_003hitta_inline_main, 4
-0	74	544	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	74	544	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	75	544		set __D0hitta_inline_main, 0
-0	75	547	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	547		acquire __SPTArgsMutex
-0	75	548	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	548		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	75	551	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	551		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	75	554	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	554		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	75	556	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	556		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	75	558	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	558		syscall 10, __SPTArgs
-0	75	561	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	561		mov __D0hitta_inline_main, __SPTArgs.Result
-0	75	563	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	563		release __SPTArgsMutex
-0	75	564	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	75	564	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	564		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 10
-0	75	567	#line 75 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	567	#line 7921 "NXCDefs.h"
-0	7922	567		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	570	#line 7921 "NXCDefs.h"
-0	76	570	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	570	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	77	570		set __signed_stack_001hitta_inline_main, 349
-0	76	573	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	573	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	77	573		set __signed_stack_002hitta_inline_main, 400
-0	76	576	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	576	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	77	576		set __signed_stack_003hitta_inline_main, 4
-0	76	579	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	76	579	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	77	579		set __D0hitta_inline_main, 0
-0	77	582	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	582		acquire __SPTArgsMutex
-0	77	583	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	583		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	77	586	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	586		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	77	589	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	589		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	77	591	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	591		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	77	593	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	593		syscall 10, __SPTArgs
-0	77	596	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	596		mov __D0hitta_inline_main, __SPTArgs.Result
-0	77	598	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	598		release __SPTArgsMutex
-0	77	599	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	77	599	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	599		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 10
-0	77	602	#line 77 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	602	#line 7921 "NXCDefs.h"
-0	7922	602		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	605	#line 7921 "NXCDefs.h"
-0	78	605	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	605	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	79	605		set __signed_stack_001hitta_inline_main, 294
-0	78	608	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	608	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	79	608		set __signed_stack_002hitta_inline_main, 400
-0	78	611	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	611	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	79	611		set __signed_stack_003hitta_inline_main, 4
-0	78	614	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	78	614	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	79	614		set __D0hitta_inline_main, 0
-0	79	617	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	617		acquire __SPTArgsMutex
-0	79	618	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	618		mov __SPTArgs.Frequency, __signed_stack_001hitta_inline_main
-0	79	621	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	621		mov __SPTArgs.Duration, __signed_stack_002hitta_inline_main
-0	79	624	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	624		mov __SPTArgs.Volume, __signed_stack_003hitta_inline_main
-0	79	626	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	626		mov __SPTArgs.Loop, __D0hitta_inline_main
-0	79	628	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	628		syscall 10, __SPTArgs
-0	79	631	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	631		mov __D0hitta_inline_main, __SPTArgs.Result
-0	79	633	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	633		release __SPTArgsMutex
-0	79	634	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	79	634	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	80	634		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 10
-0	79	637	#line 79 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	637	#line 7921 "NXCDefs.h"
-0	7922	637		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	640	#line 7921 "NXCDefs.h"
-0	81	640	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	81	640	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	82	640		set __D0hitta_inline_main, 50
-0	82	643	#line 82 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	83	643	#pragma macro 7
-0	83	643		setout __constVal0, 2, __D0hitta_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5065	666	#line 5065 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	82	666	#line 82 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	82	666	#line 82 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	83	666	#line 83 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	84	666	#pragma macro 10
-0	84	666		neg __OnRev_Tmp, __constVal50
-0	84	669		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5072	692	#line 5072 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	83	692	#line 83 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	83	692	#line 83 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	84	692		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 100
-0	83	695	#line 83 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	695	#line 7921 "NXCDefs.h"
-0	7922	695		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	698	#line 7921 "NXCDefs.h"
-0	84	698	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	85	698	#line 85 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	86	698	#pragma macro 7
-0	86	698		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5085	721	#line 5085 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	85	721	#line 85 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	86	721	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	87	721		mov __hitta_7qG2_v_7qG2_000_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
-0	86	723	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	86	723	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	86	723	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	87	723	#pragma macro 26
-0	87	723		acquire __RLSBmutex3
-0	87	724		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	87	726		set __RLSBytesCount3, 1
-0	87	729		wait2 NA, __constVal15
-0	87	732		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	87	734		index __D0hitta_inline_main, __RLSReadBuf3, 65535
-0	87	738		release __RLSBmutex3
-0	5095	739	#line 5095 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	86	739	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	87	739		mov __hitta_7qG2_h_7qG2_000_inline_main, __D0hitta_inline_main
-0	86	741	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	86	741	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	87	741	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	741		set __signed_stack_001hitta_inline_main, 10
-0	87	744	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	87	744	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	744		set __signed_stack_002hitta_inline_main, 48
-0	87	747	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	87	747	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	747		mov __D0hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
-0	88	749	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	749	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	749		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
-0	88	752	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	752		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
-0	88	755	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	755		set __TextOutArgs.Options, 0
-0	88	758	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	758		numtostr __TextOutArgs.Text, __D0hitta_inline_main
-0	88	761	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	761		syscall 13, __TextOutArgs
-0	88	764	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	764	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	764	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	764	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	764		set __signed_stack_001hitta_inline_main, 10
-0	88	767	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	767	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	767		set __signed_stack_002hitta_inline_main, 40
-0	88	770	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	88	770	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	770		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
-0	89	772	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	772	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	90	772		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
-0	89	775	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	90	775		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
-0	89	778	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	90	778		set __TextOutArgs.Options, 0
-0	89	781	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	90	781		numtostr __TextOutArgs.Text, __D0hitta_inline_main
-0	89	784	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	90	784		syscall 13, __TextOutArgs
-0	89	787	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	90	787		mov __D0hitta_inline_main, __TextOutArgs.Result
-0	89	789	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	89	789	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	92	789	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	93	789		jmp __001__NXC_Label_579
-0	92	791	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	94	791	#line 94 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	791	#pragma macro 7
-0	95	791		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5173	814	#line 5173 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	94	814	#line 94 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	94	814	#line 94 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	814		set __signed_stack_001hitta_inline_main, 10
-0	94	817	#line 94 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	94	817	#line 94 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	817		set __signed_stack_002hitta_inline_main, 48
-0	94	820	#line 94 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	94	820	#line 94 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	820		mov __D0hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
-0	95	822	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	822	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	822		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
-0	95	825	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	825		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
-0	95	828	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	828		set __TextOutArgs.Options, 0
-0	95	831	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	831		numtostr __TextOutArgs.Text, __D0hitta_inline_main
-0	95	834	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	834		syscall 13, __TextOutArgs
-0	95	837	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	837	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	837	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	837	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	837		set __signed_stack_001hitta_inline_main, 10
-0	95	840	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	840	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	840		set __signed_stack_002hitta_inline_main, 40
-0	95	843	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	95	843	#line 95 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	843		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
-0	96	845	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	845	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	97	845		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
-0	96	848	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	97	848		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
-0	96	851	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	97	851		set __TextOutArgs.Options, 0
-0	96	854	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	97	854		numtostr __TextOutArgs.Text, __D0hitta_inline_main
-0	96	857	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	97	857		syscall 13, __TextOutArgs
-0	96	860	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	860	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	860	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	96	860	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	97	860		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 2000
-0	96	863	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	863	#line 7921 "NXCDefs.h"
-0	7922	863		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
-0	7921	866	#line 7921 "NXCDefs.h"
-0	98	866	#line 98 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	190	866	#line 190 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	191	866		mov __D0main, __D0hitta_inline_main
-0	190	868	#line 190 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	29	868	#line 29 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	30	868		set __signed_stack_001move_fwd_inline_main, 75
-0	29	871	#line 29 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	29	871	#line 29 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	30	871		set __D0move_fwd_inline_main, 2
-0	30	874	#line 30 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	31	874	#pragma macro 7
-0	31	874		setout __OUT_AC, 2, __signed_stack_001move_fwd_inline_main, 1, __constVal7, 8, __D0move_fwd_inline_main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5269	897	#line 5269 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	30	897	#line 30 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	30	897	#line 30 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	31	897	#pragma macro 26
-0	31	897		acquire __RLSBmutex3
-0	31	898		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	31	900		set __RLSBytesCount3, 1
-0	31	903		wait2 NA, __constVal15
-0	31	906		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	31	908		index __D0move_fwd_inline_main, __RLSReadBuf3, 65535
-0	31	912		release __RLSBmutex3
-0	5272	913	#line 5272 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	30	913	#line 30 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	31	913		mov __move_fwd_7qG2_i_7qG2_000_inline_main, __D0move_fwd_inline_main
-0	30	915	#line 30 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	30	915	#line 30 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	31	915	#line 31 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	32	915		mov __signed_stack_001move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
-0	31	917	#line 31 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	32	917	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	33	917		set __D0move_fwd_inline_main, 40
-0	32	920	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	33	920		cmp 1, __zfmove_fwd_inline_main, __signed_stack_001move_fwd_inline_main, __D0move_fwd_inline_main
-0	32	924	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	33	924		mov __D0move_fwd_inline_main, __zfmove_fwd_inline_main
-0	33	926	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	34	926		brtst 4, __001__NXC_Label_496, __zfmove_fwd_inline_main
-0	33	929	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	34	929	#pragma macro 26
-0	34	929		acquire __RLSBmutex3
-0	34	930		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	34	932		set __RLSBytesCount3, 1
-0	34	935		wait2 NA, __constVal15
-0	34	938		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	34	940		index __D0move_fwd_inline_main, __RLSReadBuf3, 65535
-0	34	944		release __RLSBmutex3
-0	5295	945	#line 5295 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	33	945	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	34	945		mov __move_fwd_7qG2_i_7qG2_000_inline_main, __D0move_fwd_inline_main
-0	33	947	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	33	947	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	36	947	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	37	947		jmp __001__NXC_Label_495
-0	36	949	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	37	949	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	38	949	#pragma macro 7
-0	38	949		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5307	972	#line 5307 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	37	972	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	191	972	#line 191 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	192	972		mov __D0main, __D0move_fwd_inline_main
-0	191	974	#line 191 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	112	974	#line 112 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	113	974		set __signed_stack_001paket1_inline_main, 392
-0	112	977	#line 112 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	112	977	#line 112 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	113	977		set __signed_stack_002paket1_inline_main, 400
-0	112	980	#line 112 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	112	980	#line 112 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	113	980		set __signed_stack_003paket1_inline_main, 4
-0	112	983	#line 112 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	112	983	#line 112 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	113	983		set __D0paket1_inline_main, 0
-0	113	986	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	986		acquire __SPTArgsMutex
-0	113	987	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	987		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	113	989	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	989		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	113	991	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	991		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	113	993	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	993		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	113	995	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	995		syscall 10, __SPTArgs
-0	113	998	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	998		mov __D0paket1_inline_main, __SPTArgs.Result
-0	113	1000	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	1000		release __SPTArgsMutex
-0	113	1001	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	113	1001	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	1001		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	113	1004	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1004	#line 7921 "NXCDefs.h"
-0	7922	1004		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1007	#line 7921 "NXCDefs.h"
-0	114	1007	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	1007	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	115	1007		set __signed_stack_001paket1_inline_main, 392
-0	114	1010	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	1010	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	115	1010		set __signed_stack_002paket1_inline_main, 400
-0	114	1013	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	1013	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	115	1013		set __signed_stack_003paket1_inline_main, 4
-0	114	1016	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	114	1016	#line 114 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	115	1016		set __D0paket1_inline_main, 0
-0	115	1019	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1019		acquire __SPTArgsMutex
-0	115	1020	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1020		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	115	1022	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1022		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	115	1024	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1024		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	115	1026	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1026		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	115	1028	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1028		syscall 10, __SPTArgs
-0	115	1031	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1031		mov __D0paket1_inline_main, __SPTArgs.Result
-0	115	1033	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1033		release __SPTArgsMutex
-0	115	1034	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	115	1034	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1034		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	115	1037	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1037	#line 7921 "NXCDefs.h"
-0	7922	1037		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1040	#line 7921 "NXCDefs.h"
-0	116	1040	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1040	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	117	1040		set __signed_stack_001paket1_inline_main, 392
-0	116	1043	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1043	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	117	1043		set __signed_stack_002paket1_inline_main, 400
-0	116	1046	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1046	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	117	1046		set __signed_stack_003paket1_inline_main, 4
-0	116	1049	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	116	1049	#line 116 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	117	1049		set __D0paket1_inline_main, 0
-0	117	1052	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1052		acquire __SPTArgsMutex
-0	117	1053	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1053		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	117	1055	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1055		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	117	1057	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1057		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	117	1059	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1059		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	117	1061	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1061		syscall 10, __SPTArgs
-0	117	1064	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1064		mov __D0paket1_inline_main, __SPTArgs.Result
-0	117	1066	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1066		release __SPTArgsMutex
-0	117	1067	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	117	1067	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1067		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	117	1070	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1070	#line 7921 "NXCDefs.h"
-0	7922	1070		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1073	#line 7921 "NXCDefs.h"
-0	118	1073	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1073	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	119	1073		set __signed_stack_001paket1_inline_main, 392
-0	118	1076	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1076	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	119	1076		set __signed_stack_002paket1_inline_main, 400
-0	118	1079	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1079	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	119	1079		set __signed_stack_003paket1_inline_main, 4
-0	118	1082	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	118	1082	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	119	1082		set __D0paket1_inline_main, 0
-0	119	1085	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1085		acquire __SPTArgsMutex
-0	119	1086	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1086		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	119	1088	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1088		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	119	1090	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1090		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	119	1092	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1092		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	119	1094	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1094		syscall 10, __SPTArgs
-0	119	1097	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1097		mov __D0paket1_inline_main, __SPTArgs.Result
-0	119	1099	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1099		release __SPTArgsMutex
-0	119	1100	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	119	1100	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1100		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	119	1103	#line 119 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1103	#line 7921 "NXCDefs.h"
-0	7922	1103		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1106	#line 7921 "NXCDefs.h"
-0	120	1106	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1106	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	121	1106		set __signed_stack_001paket1_inline_main, 392
-0	120	1109	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1109	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	121	1109		set __signed_stack_002paket1_inline_main, 400
-0	120	1112	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1112	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	121	1112		set __signed_stack_003paket1_inline_main, 4
-0	120	1115	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	120	1115	#line 120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	121	1115		set __D0paket1_inline_main, 0
-0	121	1118	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1118		acquire __SPTArgsMutex
-0	121	1119	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1119		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	121	1121	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1121		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	121	1123	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1123		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	121	1125	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1125		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	121	1127	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1127		syscall 10, __SPTArgs
-0	121	1130	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1130		mov __D0paket1_inline_main, __SPTArgs.Result
-0	121	1132	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1132		release __SPTArgsMutex
-0	121	1133	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	121	1133	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1133		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	121	1136	#line 121 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1136	#line 7921 "NXCDefs.h"
-0	7922	1136		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1139	#line 7921 "NXCDefs.h"
-0	122	1139	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1139	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	123	1139		set __signed_stack_001paket1_inline_main, 294
-0	122	1142	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1142	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	123	1142		set __signed_stack_002paket1_inline_main, 400
-0	122	1145	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1145	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	123	1145		set __signed_stack_003paket1_inline_main, 4
-0	122	1148	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	122	1148	#line 122 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	123	1148		set __D0paket1_inline_main, 0
-0	123	1151	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1151		acquire __SPTArgsMutex
-0	123	1152	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1152		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	123	1154	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1154		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	123	1156	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1156		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	123	1158	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1158		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	123	1160	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1160		syscall 10, __SPTArgs
-0	123	1163	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1163		mov __D0paket1_inline_main, __SPTArgs.Result
-0	123	1165	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1165		release __SPTArgsMutex
-0	123	1166	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	123	1166	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1166		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	123	1169	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1169	#line 7921 "NXCDefs.h"
-0	7922	1169		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1172	#line 7921 "NXCDefs.h"
-0	124	1172	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1172	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	125	1172		set __signed_stack_001paket1_inline_main, 220
-0	124	1175	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1175	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	125	1175		set __signed_stack_002paket1_inline_main, 400
-0	124	1178	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1178	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	125	1178		set __signed_stack_003paket1_inline_main, 4
-0	124	1181	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	124	1181	#line 124 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	125	1181		set __D0paket1_inline_main, 0
-0	125	1184	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1184		acquire __SPTArgsMutex
-0	125	1185	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1185		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	125	1187	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1187		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	125	1189	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1189		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	125	1191	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1191		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	125	1193	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1193		syscall 10, __SPTArgs
-0	125	1196	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1196		mov __D0paket1_inline_main, __SPTArgs.Result
-0	125	1198	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1198		release __SPTArgsMutex
-0	125	1199	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	125	1199	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	126	1199		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	125	1202	#line 125 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1202	#line 7921 "NXCDefs.h"
-0	7922	1202		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1205	#line 7921 "NXCDefs.h"
-0	127	1205	#line 127 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	127	1205	#line 127 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	128	1205		set __signed_stack_001paket1_inline_main, 75
-0	127	1208	#line 127 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	127	1208	#line 127 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	128	1208		set __D0paket1_inline_main, 720
-0	128	1211	#line 128 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	129	1211	#pragma macro 33
-0	129	1211		arrbuild __rotate_ports0, __constVal0
-0	129	1215		mov __rotate_power0, __signed_stack_001paket1_inline_main
-0	129	1217		mov __rotate_angle0, __D0paket1_inline_main
-0	129	1219		mov __rotate_turnpct0, __constVal0
-0	129	1221		mov __rotate_sync0, __constVal0
-0	129	1223		mov __rotate_stop0, __constVal1
-0	129	1225		mov __rotate_theRVP0, __constVal32
-0	129	1227		mov __rotate_theRVI0, __constVal0
-0	129	1229		mov __rotate_theRVD0, __constVal96
-0	129	1231		subcall __RotateMotor0, ____RotateMotor0_return
-0	5674	1233	#line 5674 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	128	1233	#line 128 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	128	1233	#line 128 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	129	1233		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 1000
-0	128	1236	#line 128 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1236	#line 7921 "NXCDefs.h"
-0	7922	1236		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1239	#line 7921 "NXCDefs.h"
-0	129	1239	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	129	1239	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	130	1239		set __signed_stack_001paket1_inline_main, 392
-0	129	1242	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	129	1242	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	130	1242		set __signed_stack_002paket1_inline_main, 400
-0	129	1245	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	129	1245	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	130	1245		set __signed_stack_003paket1_inline_main, 4
-0	129	1248	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	129	1248	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	130	1248		set __D0paket1_inline_main, 0
-0	130	1251	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1251		acquire __SPTArgsMutex
-0	130	1252	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1252		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	130	1254	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1254		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	130	1256	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1256		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	130	1258	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1258		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	130	1260	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1260		syscall 10, __SPTArgs
-0	130	1263	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1263		mov __D0paket1_inline_main, __SPTArgs.Result
-0	130	1265	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1265		release __SPTArgsMutex
-0	130	1266	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	130	1266	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1266		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	130	1269	#line 130 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1269	#line 7921 "NXCDefs.h"
-0	7922	1269		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1272	#line 7921 "NXCDefs.h"
-0	131	1272	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1272	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	132	1272		set __signed_stack_001paket1_inline_main, 392
-0	131	1275	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1275	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	132	1275		set __signed_stack_002paket1_inline_main, 400
-0	131	1278	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1278	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	132	1278		set __signed_stack_003paket1_inline_main, 4
-0	131	1281	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	131	1281	#line 131 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	132	1281		set __D0paket1_inline_main, 0
-0	132	1284	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1284		acquire __SPTArgsMutex
-0	132	1285	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1285		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	132	1287	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1287		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	132	1289	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1289		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	132	1291	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1291		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	132	1293	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1293		syscall 10, __SPTArgs
-0	132	1296	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1296		mov __D0paket1_inline_main, __SPTArgs.Result
-0	132	1298	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1298		release __SPTArgsMutex
-0	132	1299	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	132	1299	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1299		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	132	1302	#line 132 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1302	#line 7921 "NXCDefs.h"
-0	7922	1302		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1305	#line 7921 "NXCDefs.h"
-0	133	1305	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1305	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	134	1305		set __signed_stack_001paket1_inline_main, 392
-0	133	1308	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1308	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	134	1308		set __signed_stack_002paket1_inline_main, 400
-0	133	1311	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1311	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	134	1311		set __signed_stack_003paket1_inline_main, 4
-0	133	1314	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	133	1314	#line 133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	134	1314		set __D0paket1_inline_main, 0
-0	134	1317	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1317		acquire __SPTArgsMutex
-0	134	1318	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1318		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	134	1320	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1320		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	134	1322	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1322		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	134	1324	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1324		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	134	1326	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1326		syscall 10, __SPTArgs
-0	134	1329	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1329		mov __D0paket1_inline_main, __SPTArgs.Result
-0	134	1331	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1331		release __SPTArgsMutex
-0	134	1332	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	134	1332	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1332		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	134	1335	#line 134 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1335	#line 7921 "NXCDefs.h"
-0	7922	1335		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1338	#line 7921 "NXCDefs.h"
-0	135	1338	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1338	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	136	1338		set __signed_stack_001paket1_inline_main, 392
-0	135	1341	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1341	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	136	1341		set __signed_stack_002paket1_inline_main, 400
-0	135	1344	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1344	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	136	1344		set __signed_stack_003paket1_inline_main, 4
-0	135	1347	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	135	1347	#line 135 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	136	1347		set __D0paket1_inline_main, 0
-0	136	1350	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1350		acquire __SPTArgsMutex
-0	136	1351	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1351		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	136	1353	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1353		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	136	1355	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1355		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	136	1357	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1357		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	136	1359	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1359		syscall 10, __SPTArgs
-0	136	1362	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1362		mov __D0paket1_inline_main, __SPTArgs.Result
-0	136	1364	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1364		release __SPTArgsMutex
-0	136	1365	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	136	1365	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1365		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	136	1368	#line 136 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1368	#line 7921 "NXCDefs.h"
-0	7922	1368		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1371	#line 7921 "NXCDefs.h"
-0	137	1371	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1371	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	138	1371		set __signed_stack_001paket1_inline_main, 392
-0	137	1374	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1374	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	138	1374		set __signed_stack_002paket1_inline_main, 400
-0	137	1377	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1377	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	138	1377		set __signed_stack_003paket1_inline_main, 4
-0	137	1380	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	137	1380	#line 137 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	138	1380		set __D0paket1_inline_main, 0
-0	138	1383	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1383		acquire __SPTArgsMutex
-0	138	1384	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1384		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	138	1386	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1386		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	138	1388	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1388		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	138	1390	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1390		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	138	1392	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1392		syscall 10, __SPTArgs
-0	138	1395	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1395		mov __D0paket1_inline_main, __SPTArgs.Result
-0	138	1397	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1397		release __SPTArgsMutex
-0	138	1398	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	138	1398	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1398		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	138	1401	#line 138 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1401	#line 7921 "NXCDefs.h"
-0	7922	1401		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1404	#line 7921 "NXCDefs.h"
-0	139	1404	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1404	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	140	1404		set __signed_stack_001paket1_inline_main, 294
-0	139	1407	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1407	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	140	1407		set __signed_stack_002paket1_inline_main, 400
-0	139	1410	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1410	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	140	1410		set __signed_stack_003paket1_inline_main, 4
-0	139	1413	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	139	1413	#line 139 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	140	1413		set __D0paket1_inline_main, 0
-0	140	1416	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1416		acquire __SPTArgsMutex
-0	140	1417	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1417		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	140	1419	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1419		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	140	1421	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1421		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	140	1423	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1423		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	140	1425	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1425		syscall 10, __SPTArgs
-0	140	1428	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1428		mov __D0paket1_inline_main, __SPTArgs.Result
-0	140	1430	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1430		release __SPTArgsMutex
-0	140	1431	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	140	1431	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1431		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	140	1434	#line 140 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1434	#line 7921 "NXCDefs.h"
-0	7922	1434		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1437	#line 7921 "NXCDefs.h"
-0	141	1437	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1437	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	142	1437		set __signed_stack_001paket1_inline_main, 220
-0	141	1440	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1440	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	142	1440		set __signed_stack_002paket1_inline_main, 400
-0	141	1443	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1443	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	142	1443		set __signed_stack_003paket1_inline_main, 4
-0	141	1446	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	141	1446	#line 141 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	142	1446		set __D0paket1_inline_main, 0
-0	142	1449	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1449		acquire __SPTArgsMutex
-0	142	1450	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1450		mov __SPTArgs.Frequency, __signed_stack_001paket1_inline_main
-0	142	1452	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1452		mov __SPTArgs.Duration, __signed_stack_002paket1_inline_main
-0	142	1454	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1454		mov __SPTArgs.Volume, __signed_stack_003paket1_inline_main
-0	142	1456	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1456		mov __SPTArgs.Loop, __D0paket1_inline_main
-0	142	1458	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1458		syscall 10, __SPTArgs
-0	142	1461	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1461		mov __D0paket1_inline_main, __SPTArgs.Result
-0	142	1463	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1463		release __SPTArgsMutex
-0	142	1464	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	142	1464	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	143	1464		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 40
-0	142	1467	#line 142 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1467	#line 7921 "NXCDefs.h"
-0	7922	1467		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1470	#line 7921 "NXCDefs.h"
-0	144	1470	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	144	1470	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	145	1470		set __signed_stack_001paket1_inline_main, 50
-0	144	1473	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	144	1473	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	145	1473		set __signed_stack_002paket1_inline_main, 3000
-0	144	1476	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	144	1476	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	145	1476		set __signed_stack_003paket1_inline_main, 0
-0	144	1479	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	144	1479	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	145	1479		set __signed_stack_004paket1_inline_main, 0
-0	144	1482	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	144	1482	#line 144 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	145	1482		set __D0paket1_inline_main, 1
-0	145	1485	#line 145 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	146	1485	#pragma macro 35
-0	146	1485		mov __rotate_ports4, __OUT_AC
-0	146	1487		mov __rotate_power4, __signed_stack_001paket1_inline_main
-0	146	1489		mov __rotate_angle4, __signed_stack_002paket1_inline_main
-0	146	1491		mov __rotate_turnpct4, __signed_stack_003paket1_inline_main
-0	146	1493		mov __rotate_sync4, __signed_stack_004paket1_inline_main
-0	146	1495		mov __rotate_stop4, __D0paket1_inline_main
-0	146	1497		mov __rotate_theRVP4, __constVal32
-0	146	1499		mov __rotate_theRVI4, __constVal0
-0	146	1501		mov __rotate_theRVD4, __constVal96
-0	146	1503		subcall __RotateMotor4, ____RotateMotor4_return
-0	6058	1505	#line 6058 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	145	1505	#line 145 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	145	1505	#line 145 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	146	1505		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 1000
-0	145	1508	#line 145 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1508	#line 7921 "NXCDefs.h"
-0	7922	1508		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
-0	7921	1511	#line 7921 "NXCDefs.h"
-0	146	1511	#line 146 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	147	1511	#line 147 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	148	1511	#pragma macro 7
-0	148	1511		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6071	1534	#line 6071 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	147	1534	#line 147 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	102	1534	#line 102 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	103	1534		set __signed_stack_001avl_inline_paket1, 20
-0	102	1537	#line 102 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	102	1537	#line 102 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	103	1537		mov __D0avl_inline_paket1, __constValNeg150
-0	103	1539	#line 103 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	104	1539	#pragma macro 33
-0	104	1539		arrbuild __rotate_ports1, __constVal1
-0	104	1543		mov __rotate_power1, __signed_stack_001avl_inline_paket1
-0	104	1545		mov __rotate_angle1, __D0avl_inline_paket1
-0	104	1547		mov __rotate_turnpct1, __constVal0
-0	104	1549		mov __rotate_sync1, __constVal0
-0	104	1551		mov __rotate_stop1, __constVal1
-0	104	1553		mov __rotate_theRVP1, __constVal32
-0	104	1555		mov __rotate_theRVI1, __constVal0
-0	104	1557		mov __rotate_theRVD1, __constVal96
-0	104	1559		subcall __RotateMotor1, ____RotateMotor1_return
-0	6084	1561	#line 6084 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	103	1561	#line 103 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	103	1561	#line 103 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	104	1561		set __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main, 500
-0	103	1564	#line 103 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1564	#line 7921 "NXCDefs.h"
-0	7922	1564		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main
-0	7921	1567	#line 7921 "NXCDefs.h"
-0	104	1567	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	104	1567	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	105	1567		set __signed_stack_001avl_inline_paket1, 50
-0	104	1570	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	104	1570	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	105	1570		set __D0avl_inline_paket1, 2
-0	105	1573	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	106	1573	#pragma macro 10
-0	106	1573		neg __OnRev_Tmp, __signed_stack_001avl_inline_paket1
-0	106	1576		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0avl_inline_paket1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6107	1599	#line 6107 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	105	1599	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	105	1599	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	106	1599		set __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main, 500
-0	105	1602	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1602	#line 7921 "NXCDefs.h"
-0	7922	1602		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main
-0	7921	1605	#line 7921 "NXCDefs.h"
-0	106	1605	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	107	1605	#line 107 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	108	1605	#pragma macro 7
-0	108	1605		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6120	1628	#line 6120 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	107	1628	#line 107 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	107	1628	#line 107 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	108	1628		set __signed_stack_001avl_inline_paket1, 20
-0	107	1631	#line 107 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	107	1631	#line 107 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	108	1631		set __D0avl_inline_paket1, 150
-0	108	1634	#line 108 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	109	1634	#pragma macro 33
-0	109	1634		arrbuild __rotate_ports1, __constVal1
-0	109	1638		mov __rotate_power1, __signed_stack_001avl_inline_paket1
-0	109	1640		mov __rotate_angle1, __D0avl_inline_paket1
-0	109	1642		mov __rotate_turnpct1, __constVal0
-0	109	1644		mov __rotate_sync1, __constVal0
-0	109	1646		mov __rotate_stop1, __constVal1
-0	109	1648		mov __rotate_theRVP1, __constVal32
-0	109	1650		mov __rotate_theRVI1, __constVal0
-0	109	1652		mov __rotate_theRVD1, __constVal96
-0	109	1654		subcall __RotateMotor1, ____RotateMotor1_return
-0	6133	1656	#line 6133 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	108	1656	#line 108 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	149	1656	#line 149 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	192	1656	#line 192 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	192	1656	#line 192 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	193	1656		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
-0	192	1659	#line 192 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	7921	1659	#line 7921 "NXCDefs.h"
-0	7922	1659		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	1662	#line 7921 "NXCDefs.h"
-0	193	1662	#line 193 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-0	194	1662		exit -1, -1
+0	49	170	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	50	170		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
+0	49	172	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	50	172		set __TextOutArgs.Options, 0
+0	49	175	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	50	175		numtostr __TextOutArgs.Text, __D0hitta_inline_main
+0	49	178	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	50	178		syscall 13, __TextOutArgs
+0	49	181	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	50	181		mov __D0hitta_inline_main, __TextOutArgs.Result
+0	49	183	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	49	183	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	49	183	#line 49 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	50	183	#line 50 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	51	183		jmp __002__NXC_Label_507
+0	50	185	#line 50 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	51	185	#line 51 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	52	185	#pragma macro 7
+0	52	185		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4318	208	#line 4318 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	51	208	#line 51 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	51	208	#line 51 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	52	208	#pragma macro 26
+0	52	208		acquire __RLSBmutex3
+0	52	209		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	52	211		set __RLSBytesCount3, 1
+0	52	214		wait2 NA, __constVal15
+0	52	217		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	52	219		index __D0hitta_inline_main, __RLSReadBuf3, 65535
+0	52	223		release __RLSBmutex3
+0	4321	224	#line 4321 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	51	224	#line 51 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	52	224		mov __hitta_7qG2_v_7qG2_000_inline_main, __D0hitta_inline_main
+0	53	226	#line 53 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	54	226		set __D0hitta_inline_main, 50
+0	54	229	#line 54 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	55	229	#pragma macro 7
+0	55	229		setout __constVal0, 2, __D0hitta_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4331	252	#line 4331 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	54	252	#line 54 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	54	252	#line 54 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	55	252	#line 55 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	56	252	#pragma macro 10
+0	56	252		neg __OnRev_Tmp, __constVal50
+0	56	255		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4338	278	#line 4338 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	55	278	#line 55 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	55	278	#line 55 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	56	278		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 300
+0	55	281	#line 55 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	281	#line 7921 "NXCDefs.h"
+0	7922	281		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
+0	7921	284	#line 7921 "NXCDefs.h"
+0	56	284	#line 56 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	57	284	#line 57 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	58	284	#pragma macro 7
+0	58	284		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4351	307	#line 4351 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	57	307	#line 57 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	57	307	#line 57 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	58	307	#pragma macro 26
+0	58	307		acquire __RLSBmutex3
+0	58	308		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	58	310		set __RLSBytesCount3, 1
+0	58	313		wait2 NA, __constVal15
+0	58	316		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	58	318		index __D0hitta_inline_main, __RLSReadBuf3, 65535
+0	58	322		release __RLSBmutex3
+0	4354	323	#line 4354 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	57	323	#line 57 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	58	323		mov __hitta_7qG2_h_7qG2_000_inline_main, __D0hitta_inline_main
+0	59	325	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	325		mov __signed_stack_001hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
+0	59	327	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	59	327	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	327		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
+0	59	329	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	329		cmp 1, __zfhitta_inline_main, __signed_stack_001hitta_inline_main, __D0hitta_inline_main
+0	59	333	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	333		mov __D0hitta_inline_main, __zfhitta_inline_main
+0	59	335	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	335		brtst 4, __002__NXC_Label_532, __zfhitta_inline_main
+0	59	338	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	338		mov __signed_stack_001hitta_inline_main, __D0hitta_inline_main
+0	59	340	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	340		mov __signed_stack_002hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
+0	59	342	#line 59 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	342	#line 60 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	61	342		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
+0	60	344	#line 60 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	61	344		cmp 5, __zfhitta_inline_main, __signed_stack_002hitta_inline_main, __D0hitta_inline_main
+0	60	348	#line 60 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	60	348	#line 60 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	61	348		and __D0hitta_inline_main, __signed_stack_001hitta_inline_main, __zfhitta_inline_main
+0	61	352	#line 61 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	62	352		tst 5, __zfhitta_inline_main, __D0hitta_inline_main
+0	61	355	#line 61 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	62	355		brtst 4, __002__NXC_Label_530, __zfhitta_inline_main
+0	61	358	#line 61 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	62	358		set __D0hitta_inline_main, 50
+0	62	361	#line 62 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	63	361	#pragma macro 7
+0	63	361		setout __constVal0, 2, __D0hitta_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4397	384	#line 4397 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	62	384	#line 62 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	62	384	#line 62 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	63	384	#line 63 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	64	384	#pragma macro 10
+0	64	384		neg __OnRev_Tmp, __constVal50
+0	64	387		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4404	410	#line 4404 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	63	410	#line 63 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	63	410	#line 63 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	64	410		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 200
+0	63	413	#line 63 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	413	#line 7921 "NXCDefs.h"
+0	7922	413		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
+0	7921	416	#line 7921 "NXCDefs.h"
+0	64	416	#line 64 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	65	416	#line 65 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	66	416	#pragma macro 7
+0	66	416		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4417	439	#line 4417 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	65	439	#line 65 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	66	439	#line 66 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	67	439		mov __hitta_7qG2_v_7qG2_000_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
+0	66	441	#line 66 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	66	441	#line 66 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	66	441	#line 66 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	67	441	#pragma macro 26
+0	67	441		acquire __RLSBmutex3
+0	67	442		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	67	444		set __RLSBytesCount3, 1
+0	67	447		wait2 NA, __constVal15
+0	67	450		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	67	452		index __D0hitta_inline_main, __RLSReadBuf3, 65535
+0	67	456		release __RLSBmutex3
+0	4427	457	#line 4427 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	66	457	#line 66 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	67	457		mov __hitta_7qG2_h_7qG2_000_inline_main, __D0hitta_inline_main
+0	66	459	#line 66 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	66	459	#line 66 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	67	459	#line 67 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	459		set __signed_stack_001hitta_inline_main, 10
+0	67	462	#line 67 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	67	462	#line 67 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	462		set __signed_stack_002hitta_inline_main, 48
+0	67	465	#line 67 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	67	465	#line 67 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	465		mov __D0hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
+0	68	467	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	467	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	467		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
+0	68	469	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	469		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
+0	68	471	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	471		set __TextOutArgs.Options, 0
+0	68	474	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	474		numtostr __TextOutArgs.Text, __D0hitta_inline_main
+0	68	477	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	477		syscall 13, __TextOutArgs
+0	68	480	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	480	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	480	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	480	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	480		set __signed_stack_001hitta_inline_main, 10
+0	68	483	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	483	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	483		set __signed_stack_002hitta_inline_main, 40
+0	68	486	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	68	486	#line 68 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	486		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
+0	69	488	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	488	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	488		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
+0	69	490	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	490		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
+0	69	492	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	492		set __TextOutArgs.Options, 0
+0	69	495	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	495		numtostr __TextOutArgs.Text, __D0hitta_inline_main
+0	69	498	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	498		syscall 13, __TextOutArgs
+0	69	501	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	501		mov __D0hitta_inline_main, __TextOutArgs.Result
+0	69	503	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	69	503	#line 69 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	503	#line 70 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	71	503		jmp __002__NXC_Label_529
+0	70	505	#line 70 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	70	505	#line 70 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	71	505	#line 71 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	72	505	#pragma macro 10
+0	72	505		neg __OnRev_Tmp, __constVal50
+0	72	508		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4509	531	#line 4509 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	71	531	#line 71 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	71	531	#line 71 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	72	531		set __D0hitta_inline_main, 50
+0	72	534	#line 72 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	73	534	#pragma macro 7
+0	73	534		setout __constVal2, 2, __D0hitta_inline_main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4516	557	#line 4516 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	72	557	#line 72 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	72	557	#line 72 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	73	557		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 500
+0	72	560	#line 72 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	560	#line 7921 "NXCDefs.h"
+0	7922	560		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
+0	7921	563	#line 7921 "NXCDefs.h"
+0	73	563	#line 73 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	74	563	#line 74 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	563	#pragma macro 7
+0	75	563		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4529	586	#line 4529 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	74	586	#line 74 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	74	586	#line 74 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	586		set __signed_stack_001hitta_inline_main, 10
+0	74	589	#line 74 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	74	589	#line 74 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	589		set __signed_stack_002hitta_inline_main, 48
+0	74	592	#line 74 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	74	592	#line 74 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	592		mov __D0hitta_inline_main, __hitta_7qG2_v_7qG2_000_inline_main
+0	75	594	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	594	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	594		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
+0	75	596	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	596		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
+0	75	598	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	598		set __TextOutArgs.Options, 0
+0	75	601	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	601		numtostr __TextOutArgs.Text, __D0hitta_inline_main
+0	75	604	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	604		syscall 13, __TextOutArgs
+0	75	607	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	607	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	607	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	607	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	607		set __signed_stack_001hitta_inline_main, 10
+0	75	610	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	610	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	610		set __signed_stack_002hitta_inline_main, 40
+0	75	613	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	75	613	#line 75 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	613		mov __D0hitta_inline_main, __hitta_7qG2_h_7qG2_000_inline_main
+0	76	615	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	615	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	77	615		mov __TextOutArgs.Location.X, __signed_stack_001hitta_inline_main
+0	76	617	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	77	617		mov __TextOutArgs.Location.Y, __signed_stack_002hitta_inline_main
+0	76	619	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	77	619		set __TextOutArgs.Options, 0
+0	76	622	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	77	622		numtostr __TextOutArgs.Text, __D0hitta_inline_main
+0	76	625	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	77	625		syscall 13, __TextOutArgs
+0	76	628	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	628	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	628	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	76	628	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	77	628		set __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main, 2000
+0	76	631	#line 76 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	631	#line 7921 "NXCDefs.h"
+0	7922	631		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_hitta_inline_main
+0	7921	634	#line 7921 "NXCDefs.h"
+0	78	634	#line 78 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	145	634	#line 145 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	145	634	#line 145 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	146	634		set __move_fwd_7qG2_a_7qG2_000_inline_main, 40
+0	145	637	#line 145 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	29	637	#line 29 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	637		set __signed_stack_001move_fwd_inline_main, 75
+0	29	640	#line 29 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	29	640	#line 29 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	640		set __D0move_fwd_inline_main, 2
+0	30	643	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	643	#pragma macro 7
+0	31	643		setout __OUT_AC, 2, __signed_stack_001move_fwd_inline_main, 1, __constVal7, 8, __D0move_fwd_inline_main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4633	666	#line 4633 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	666	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	666	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	666	#pragma macro 26
+0	31	666		acquire __RLSBmutex3
+0	31	667		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	31	669		set __RLSBytesCount3, 1
+0	31	672		wait2 NA, __constVal15
+0	31	675		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	31	677		index __D0move_fwd_inline_main, __RLSReadBuf3, 65535
+0	31	681		release __RLSBmutex3
+0	4636	682	#line 4636 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	682	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	682		mov __move_fwd_7qG2_i_7qG2_000_inline_main, __D0move_fwd_inline_main
+0	30	684	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	684	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	684	#line 31 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	32	684		mov __signed_stack_001move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
+0	31	686	#line 31 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	32	686	#line 32 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	686		mov __D0move_fwd_inline_main, __move_fwd_7qG2_a_7qG2_000_inline_main
+0	32	688	#line 32 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	688		cmp 1, __zfmove_fwd_inline_main, __signed_stack_001move_fwd_inline_main, __D0move_fwd_inline_main
+0	32	692	#line 32 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	692		mov __D0move_fwd_inline_main, __zfmove_fwd_inline_main
+0	33	694	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	34	694		brtst 4, __002__NXC_Label_496, __zfmove_fwd_inline_main
+0	33	697	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	34	697	#pragma macro 26
+0	34	697		acquire __RLSBmutex3
+0	34	698		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	34	700		set __RLSBytesCount3, 1
+0	34	703		wait2 NA, __constVal15
+0	34	706		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	34	708		index __D0move_fwd_inline_main, __RLSReadBuf3, 65535
+0	34	712		release __RLSBmutex3
+0	4659	713	#line 4659 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	713	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	34	713		mov __move_fwd_7qG2_i_7qG2_000_inline_main, __D0move_fwd_inline_main
+0	33	715	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	715	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	36	715	#line 36 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	37	715		jmp __002__NXC_Label_495
+0	36	717	#line 36 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	37	717	#line 37 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	38	717	#pragma macro 7
+0	38	717		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4671	740	#line 4671 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	37	740	#line 37 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	146	740	#line 146 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	94	740	#line 94 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	95	740		set __signed_stack_001paket1_inline_main, 75
+0	94	743	#line 94 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	94	743	#line 94 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	95	743		set __D0paket1_inline_main, 360
+0	95	746	#line 95 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	96	746	#pragma macro 33
+0	96	746		arrbuild __rotate_ports0, __constVal0
+0	96	750		mov __rotate_power0, __signed_stack_001paket1_inline_main
+0	96	752		mov __rotate_angle0, __D0paket1_inline_main
+0	96	754		mov __rotate_turnpct0, __constVal0
+0	96	756		mov __rotate_sync0, __constVal0
+0	96	758		mov __rotate_stop0, __constVal1
+0	96	760		mov __rotate_theRVP0, __constVal32
+0	96	762		mov __rotate_theRVI0, __constVal0
+0	96	764		mov __rotate_theRVD0, __constVal96
+0	96	766		subcall __RotateMotor0, ____RotateMotor0_return
+0	4701	768	#line 4701 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	95	768	#line 95 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	95	768	#line 95 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	96	768		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 1000
+0	95	771	#line 95 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	771	#line 7921 "NXCDefs.h"
+0	7922	771		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
+0	7921	774	#line 7921 "NXCDefs.h"
+0	96	774	#line 96 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	97	774	#line 97 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	98	774	#pragma macro 7
+0	98	774		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4714	797	#line 4714 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	97	797	#line 97 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	97	797	#line 97 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	98	797		set __signed_stack_001paket1_inline_main, 100
+0	97	800	#line 97 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	97	800	#line 97 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	98	800		set __D0paket1_inline_main, 1
+0	98	803	#line 98 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	99	803	#pragma macro 7
+0	99	803		setout __OUT_AC, 2, __signed_stack_001paket1_inline_main, 1, __constVal7, 8, __D0paket1_inline_main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4727	826	#line 4727 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	98	826	#line 98 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	98	826	#line 98 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	99	826		set __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main, 8000
+0	98	829	#line 98 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	829	#line 7921 "NXCDefs.h"
+0	7922	829		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_paket1_inline_main
+0	7921	832	#line 7921 "NXCDefs.h"
+0	99	832	#line 99 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	99	832	#line 99 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	100	832		set __move_fwd_7qG2_a_7qG2_000_inline_paket1_inline_main, 20
+0	99	835	#line 99 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	29	835	#line 29 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	835		set __signed_stack_001move_fwd_inline_paket1, 75
+0	29	838	#line 29 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	29	838	#line 29 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	838		set __D0move_fwd_inline_paket1, 2
+0	30	841	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	841	#pragma macro 7
+0	31	841		setout __OUT_AC, 2, __signed_stack_001move_fwd_inline_paket1, 1, __constVal7, 8, __D0move_fwd_inline_paket1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4756	864	#line 4756 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	864	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	864	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	864	#pragma macro 26
+0	31	864		acquire __RLSBmutex3
+0	31	865		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	31	867		set __RLSBytesCount3, 1
+0	31	870		wait2 NA, __constVal15
+0	31	873		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	31	875		index __D0move_fwd_inline_paket1, __RLSReadBuf3, 65535
+0	31	879		release __RLSBmutex3
+0	4759	880	#line 4759 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	880	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	880		mov __move_fwd_7qG2_i_7qG2_000_inline_paket1_inline_main, __D0move_fwd_inline_paket1
+0	30	882	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	30	882	#line 30 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	31	882	#line 31 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	32	882		mov __signed_stack_001move_fwd_inline_paket1, __move_fwd_7qG2_i_7qG2_000_inline_paket1_inline_main
+0	31	884	#line 31 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	32	884	#line 32 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	884		mov __D0move_fwd_inline_paket1, __move_fwd_7qG2_a_7qG2_000_inline_paket1_inline_main
+0	32	886	#line 32 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	886		cmp 1, __zfmove_fwd_inline_paket1, __signed_stack_001move_fwd_inline_paket1, __D0move_fwd_inline_paket1
+0	32	890	#line 32 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	890		mov __D0move_fwd_inline_paket1, __zfmove_fwd_inline_paket1
+0	33	892	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	34	892		brtst 4, __001__001__NXC_Label_496, __zfmove_fwd_inline_paket1
+0	33	895	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	34	895	#pragma macro 26
+0	34	895		acquire __RLSBmutex3
+0	34	896		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	34	898		set __RLSBytesCount3, 1
+0	34	901		wait2 NA, __constVal15
+0	34	904		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	34	906		index __D0move_fwd_inline_paket1, __RLSReadBuf3, 65535
+0	34	910		release __RLSBmutex3
+0	4782	911	#line 4782 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	911	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	34	911		mov __move_fwd_7qG2_i_7qG2_000_inline_paket1_inline_main, __D0move_fwd_inline_paket1
+0	33	913	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	33	913	#line 33 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	36	913	#line 36 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	37	913		jmp __001__001__NXC_Label_495
+0	36	915	#line 36 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	37	915	#line 37 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	38	915	#pragma macro 7
+0	38	915		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4794	938	#line 4794 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	37	938	#line 37 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	100	938	#line 100 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	101	938	#line 101 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	102	938	#pragma macro 7
+0	102	938		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4798	961	#line 4798 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	101	961	#line 101 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	82	961	#line 82 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	83	961		set __signed_stack_001avl_inline_paket1, 20
+0	82	964	#line 82 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	82	964	#line 82 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	83	964		mov __D0avl_inline_paket1, __constValNeg150
+0	83	966	#line 83 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	84	966	#pragma macro 33
+0	84	966		arrbuild __rotate_ports1, __constVal1
+0	84	970		mov __rotate_power1, __signed_stack_001avl_inline_paket1
+0	84	972		mov __rotate_angle1, __D0avl_inline_paket1
+0	84	974		mov __rotate_turnpct1, __constVal0
+0	84	976		mov __rotate_sync1, __constVal0
+0	84	978		mov __rotate_stop1, __constVal1
+0	84	980		mov __rotate_theRVP1, __constVal32
+0	84	982		mov __rotate_theRVI1, __constVal0
+0	84	984		mov __rotate_theRVD1, __constVal96
+0	84	986		subcall __RotateMotor1, ____RotateMotor1_return
+0	4811	988	#line 4811 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	83	988	#line 83 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	83	988	#line 83 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	84	988		set __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main, 500
+0	83	991	#line 83 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	991	#line 7921 "NXCDefs.h"
+0	7922	991		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main
+0	7921	994	#line 7921 "NXCDefs.h"
+0	84	994	#line 84 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	84	994	#line 84 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	85	994		set __signed_stack_001avl_inline_paket1, 50
+0	84	997	#line 84 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	84	997	#line 84 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	85	997		set __D0avl_inline_paket1, 2
+0	85	1000	#line 85 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	86	1000	#pragma macro 10
+0	86	1000		neg __OnRev_Tmp, __signed_stack_001avl_inline_paket1
+0	86	1003		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0avl_inline_paket1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4834	1026	#line 4834 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	85	1026	#line 85 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	85	1026	#line 85 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	86	1026		set __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main, 500
+0	85	1029	#line 85 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	1029	#line 7921 "NXCDefs.h"
+0	7922	1029		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_avl_inline_paket1_inline_main
+0	7921	1032	#line 7921 "NXCDefs.h"
+0	86	1032	#line 86 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	87	1032	#line 87 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	88	1032	#pragma macro 7
+0	88	1032		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4847	1055	#line 4847 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	87	1055	#line 87 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	87	1055	#line 87 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	88	1055		set __signed_stack_001avl_inline_paket1, 20
+0	87	1058	#line 87 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	87	1058	#line 87 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	88	1058		set __D0avl_inline_paket1, 150
+0	88	1061	#line 88 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	89	1061	#pragma macro 33
+0	89	1061		arrbuild __rotate_ports1, __constVal1
+0	89	1065		mov __rotate_power1, __signed_stack_001avl_inline_paket1
+0	89	1067		mov __rotate_angle1, __D0avl_inline_paket1
+0	89	1069		mov __rotate_turnpct1, __constVal0
+0	89	1071		mov __rotate_sync1, __constVal0
+0	89	1073		mov __rotate_stop1, __constVal1
+0	89	1075		mov __rotate_theRVP1, __constVal32
+0	89	1077		mov __rotate_theRVI1, __constVal0
+0	89	1079		mov __rotate_theRVD1, __constVal96
+0	89	1081		subcall __RotateMotor1, ____RotateMotor1_return
+0	4860	1083	#line 4860 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	88	1083	#line 88 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	103	1083	#line 103 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	147	1083	#line 147 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	147	1083	#line 147 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	148	1083		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	147	1086	#line 147 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	7921	1086	#line 7921 "NXCDefs.h"
+0	7922	1086		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1089	#line 7921 "NXCDefs.h"
+0	148	1089	#line 148 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+0	149	1089		exit -1, -1
 1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
 1	4477	3		set ____RotateMotor0_sign_tmp, 0
 1	4477	6		brtst EQ, __sign_0, __rotate_angle0
@@ -1592,101 +862,59 @@ Clump	Line	PC	Source
 2	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
 2	4576	162		setout __rotate_ports1, 0, __constVal32
 2	4578	167		subret ____RotateMotor1_return
-3	4688	0		brtst 4, __rotate_Done4, __rotate_angle4
-3	4689	3		set ____RotateMotor4_sign_tmp, 0
-3	4689	6		brtst EQ, __sign_4, __rotate_angle4
-3	4689	9		set ____RotateMotor4_sign_tmp, -1
-3	4689	12		brtst LT, __sign_4, __rotate_angle4
-3	4689	15		set ____RotateMotor4_sign_tmp, 1
-3	4689	18	__sign_4:	mov __rotate_thePower4, ____RotateMotor4_sign_tmp
-3	4690	20		abs __rotate_theAngle4, __rotate_angle4
-3	4691	23		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
-3	4693	27		set __rotate_theUF4, 23
-3	4694	30		brtst 4, __rotate_NoSync4, __rotate_sync4
-3	4695	33		set __rotate_theOM4, 7
-3	4696	36		set __rotate_theRM4, 2
-3	4697	39		mov __rotate_theTurnPct4, __rotate_turnpct4
-3	4698	41		brtst 4, __rotate_Start4, __rotate_theTurnPct4
-3	4699	44		add __rotate_theUF4, __rotate_theUF4, __constVal32
-3	4700	48		jmp __rotate_Start4
-3	4702	50		set __rotate_theOM4, 3
-3	4703	53		set __rotate_theRM4, 0
-3	4704	56		set __rotate_theTurnPct4, 0
-3	4706	59		set __rotate_theRS4, 32
-3	4707	62		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
-3	4710	85		index __rotate_firstPort4, __rotate_ports4, 65535
-3	4712	89		getout __rotate_power4, __rotate_firstPort4, 2
-3	4713	93		brtst 4, __rotate_doneRunning4, __rotate_power4
-3	4714	96		getout __rotate_rs4, __rotate_firstPort4, 6
-3	4715	100		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
-3	4717	104		brtst 4, __rotate_Reset4, __rotate_stop4
-3	4719	107		set __rotate_theOM4, 7
-3	4720	110		set __rotate_theUF4, 7
-3	4721	113		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
-3	4723	128		getout __rotate_RotCount4, __rotate_firstPort4, 14
-3	4725	132		mov __rotate_OldRotCount4, __rotate_RotCount4
-3	4726	134		wait2 NA, __constVal50
-3	4728	137		getout __rotate_RotCount4, __rotate_firstPort4, 14
-3	4729	141		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
-3	4730	145		set __rotate_theOM4, 4
-3	4731	148		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
-3	4734	159		brtst 4, __rotate_Done4, __rotate_theTurnPct4
-3	4735	162		setout __rotate_ports4, 0, __constVal32
-3	4737	167		subret ____RotateMotor4_return
-4	4885	0		setin __constVal1, __ResetSensorPort, 5
-4	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-4	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-4	4889	11		subret ____ResetSensorSubroutine_return
-5	5784	0	#pragma macro 25
-5	5784	0		acquire __CLSWMutex3
-5	5784	1		set __CLSWArgs3.Port, 3
-5	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
-5	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
-5	5784	8		syscall 21, __CLSWArgs3
-5	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
-5	5784	13		release __CLSWMutex3
-5	5784	14	#line 5784 "NXTDefs.h"
-5	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
-5	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
-5	5787	21		brtst 5, __RLSBError3, __RLSBResult3
-5	5788	24		set __RLSBIterations3, 4
-5	5790	27	#pragma macro 23
-5	5790	27		acquire __CLSCSMutex3
-5	5790	28		set __CLSCSArgs3.Port, 3
-5	5790	31		syscall 23, __CLSCSArgs3
-5	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
-5	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
-5	5790	38		release __CLSCSMutex3
-5	5790	39	#line 5790 "NXTDefs.h"
-5	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
-5	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
-5	5793	46		brtst 0, __RLSBError3, __RLSBResult3
-5	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
-5	5796	52		wait2 NA, __constVal15
-5	5797	55		jmp __RLSBDoCheckStatus3
-5	5800	57	#pragma macro 25
-5	5800	57		acquire __CLSRMutex3
-5	5800	58		set __CLSRArgs3.Port, 3
-5	5800	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
-5	5800	63		syscall 22, __CLSRArgs3
-5	5800	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
-5	5800	68		mov __RLSBResult3, __CLSRArgs3.Result
-5	5800	70		release __CLSRMutex3
-5	5800	71	#line 5800 "NXTDefs.h"
-5	5801	71		brtst 5, __RLSBError3, __RLSBResult3
-5	5802	74		mov __RLSLastGoodRead3, __RLSReadBuf3
-5	5803	76		jmp __RLSBDone3
-5	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
-5	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
-5	5809	83		subret ____ReadLSBytes3_return
-6	196	0	#line 196 "C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc"
-6	197	0		subret ____initialize_global_data_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	5784	0	#pragma macro 25
+4	5784	0		acquire __CLSWMutex3
+4	5784	1		set __CLSWArgs3.Port, 3
+4	5784	4		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+4	5784	6		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+4	5784	8		syscall 21, __CLSWArgs3
+4	5784	11		mov __RLSBResult3, __CLSWArgs3.Result
+4	5784	13		release __CLSWMutex3
+4	5784	14	#line 5784 "NXTDefs.h"
+4	5785	14		brtst 4, __RLSBReturn3, __RLSBytesCount3
+4	5786	17		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+4	5787	21		brtst 5, __RLSBError3, __RLSBResult3
+4	5788	24		set __RLSBIterations3, 4
+4	5790	27	#pragma macro 23
+4	5790	27		acquire __CLSCSMutex3
+4	5790	28		set __CLSCSArgs3.Port, 3
+4	5790	31		syscall 23, __CLSCSArgs3
+4	5790	34		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+4	5790	36		mov __RLSBResult3, __CLSCSArgs3.Result
+4	5790	38		release __CLSCSMutex3
+4	5790	39	#line 5790 "NXTDefs.h"
+4	5791	39		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+4	5792	43		brtst 2, __RLSBError3, __RLSBIterations3
+4	5793	46		brtst 0, __RLSBError3, __RLSBResult3
+4	5794	49		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+4	5796	52		wait2 NA, __constVal15
+4	5797	55		jmp __RLSBDoCheckStatus3
+4	5800	57	#pragma macro 25
+4	5800	57		acquire __CLSRMutex3
+4	5800	58		set __CLSRArgs3.Port, 3
+4	5800	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+4	5800	63		syscall 22, __CLSRArgs3
+4	5800	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+4	5800	68		mov __RLSBResult3, __CLSRArgs3.Result
+4	5800	70		release __CLSRMutex3
+4	5800	71	#line 5800 "NXTDefs.h"
+4	5801	71		brtst 5, __RLSBError3, __RLSBResult3
+4	5802	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+4	5803	76		jmp __RLSBDone3
+4	5805	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+4	5807	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+4	5809	83		subret ____ReadLSBytes3_return
+5	151	0	#line 151 "C:\Users\Gustav\AppData\Local\Temp\temp.nxc"
+5	152	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc
-1	__RotateMotor0	1665	NXTDefs.h
-2	__RotateMotor1	1834	NXTDefs.h
-3	__RotateMotor4	2003	NXTDefs.h
-4	__ResetSensorSubroutine	2172	NXTDefs.h
-5	__ReadLSBytes3	2185	NXTDefs.h
-6	__initialize_global_data	2270	C:\Users\Gustav\Documents\GitHub\Ben10\BETADeliverer.nxc
+0	main	0	C:\Users\Gustav\AppData\Local\Temp\temp.nxc
+1	__RotateMotor0	1092	NXTDefs.h
+2	__RotateMotor1	1261	NXTDefs.h
+3	__ResetSensorSubroutine	1430	NXTDefs.h
+4	__ReadLSBytes3	1443	NXTDefs.h
+5	__initialize_global_data	1528	C:\Users\Gustav\AppData\Local\Temp\temp.nxc

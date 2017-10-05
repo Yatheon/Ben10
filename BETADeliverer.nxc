@@ -24,12 +24,12 @@ mutex moveMutex;
 
 
 
-inline int move_fwd()
+inline void move_fwd(int a)
 {
 int i;
  OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);
  i = SensorUS(IN_4);
- while(i>40)
+ while(i>a)
  {
  i = SensorUS(IN_4);
 
@@ -37,64 +37,44 @@ int i;
  Off(OUT_AC);
 }
 
-inline int hitta()
+inline void hitta()
 {
 
     int s=SensorUS(IN_4);
-    OnFwd(OUT_A, 50);
-    OnRev(OUT_C, 50);
-    while(s>60)
+    OnFwd(OUT_A, 40);
+    OnRev(OUT_C, 40);
+    while(s>70)
     {
     s=SensorUS(IN_4);
     NumOut(4, LCD_LINE1, SensorUS(IN_4));
     }
-
-Off(OUT_AC);
-
-PlayTone(349,4*__NOTETIME);
-Wait(4*__WAITTIME);
-PlayTone(349,4*__NOTETIME);
-Wait(4*__WAITTIME);
-PlayTone(349,4*__NOTETIME);
-Wait(4*__WAITTIME);
-PlayTone(349,4*__NOTETIME);
-Wait(4*__WAITTIME);
-PlayTone(349,4*__NOTETIME);
-Wait(4*__WAITTIME);
-
+    Off(OUT_AC);
  int v=SensorUS(IN_4);
 
  OnFwd(OUT_A, 50);
  OnRev(OUT_C, 50);
- Wait(200);
+ Wait(300);
  Off(OUT_AC);
  int h=SensorUS(IN_4);
 
      while(v>h&&v!=h)     //&&v!=h
      {
-     PlayTone(523,400);
-  Wait(10);
-  PlayTone(349,400);
-  Wait(10);
-  PlayTone(294,400);
-  Wait(10);
-
      OnFwd(OUT_A, 50);
      OnRev(OUT_C, 50);
-     Wait(100);
+     Wait(200);
      Off(OUT_AC);
      v = h;
      h = SensorUS(IN_4);
      NumOut(10, LCD_LINE2, v);
      NumOut(10, LCD_LINE3, h);
      }
-  
-
-  Off(OUT_AC);
-  
-  NumOut(10, LCD_LINE2, v);
-  NumOut(10, LCD_LINE3, h);
-  Wait(2000);
+OnRev(OUT_A, 50);
+OnFwd(OUT_C, 50);
+Wait(500);
+Off(OUT_AC);
+NumOut(10, LCD_LINE2, v);
+NumOut(10, LCD_LINE3, h);
+Wait(2000);
 
 }
 
@@ -110,40 +90,14 @@ inline void avl()//Avlämning av bok
 
 inline void paket1()   // Höger 2.5m
 {
-PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(294,400);
-  Wait(40);
-  PlayTone(220,400);
-  Wait(40);
 
-     RotateMotor(OUT_A, 75, 420);
+
+     RotateMotor(OUT_A, 75, 360);
      Wait(1000);
-PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(392,400);
-  Wait(40);
-  PlayTone(294,400);
-  Wait(40);
-  PlayTone(220,400);
-  Wait(40);
-          Off(OUT_A);
-     OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
-     Wait(1000);
+     Off(OUT_A);
+     OnFwdReg(OUT_AC, 100, OUT_REGMODE_SPEED);
+     Wait(8000);
+      move_fwd(20);
      Off(OUT_AC);
      avl();
     //klar
@@ -155,6 +109,7 @@ inline int paket2()   // Vänster 2.5m
       OnFwdReg(OUT_AC, 50, OUT_REGMODE_SYNC);
       Wait(4000);
       Off(OUT_AC);
+      hitta();
       avl();
       //klar
 }
@@ -188,7 +143,7 @@ task main()
 {
      SetSensorLowspeed(IN_4);
      hitta();
-     move_fwd();
+     move_fwd(40);
      paket1();
      Wait(2000);
 }
