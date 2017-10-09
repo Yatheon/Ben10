@@ -1,105 +1,105 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_003move_fwd_inline_main	6	1	0	4	10
-1	__signed_stack_001move_fwd_inline_Packet_1	6	1	4	4	18
-2	__signed_stack_002move_fwd_inline_Packet_1	6	1	8	4	14
-3	__signed_stack_002move_fwd_inline_main	6	1	12	4	14
-4	__D0Find_inline_Packet_1	6	1	16	4	21
-5	__D0Packet_1_inline_main	6	1	20	4	4
-6	__signed_stack_001move_fwd_inline_main	6	1	24	4	18
-7	__signed_stack_003move_fwd_inline_Packet_1	6	1	28	4	10
-8	__signed_stack_001Find_inline_Packet_1	6	1	32	4	6
-9	__signed_stack_002Find_inline_Packet_1	6	1	36	4	2
-10	__signed_stack_001Packet_1_inline_main	6	1	40	4	4
-11	__signed_stack_002Find_inline_main	6	1	44	4	2
-12	__rotate_theAngle1	5	1	48	4	2
-13	__signed_stack_001drop_inline_Packet_1	6	1	52	4	6
-14	__signed_stack_001Find_inline_main	6	1	56	4	6
-15	__DU0SetSensorLowspeed_inline_main	5	1	60	4	2
-16	__D0turnR_inline_Find	6	1	64	4	12
-17	__Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main	5	1	68	4	4
-18	__RLSBmutex3	9	0	72	4	28
+0	__signed_stack_001move_fwd_inline_Packet_1	6	1	0	4	18
+1	__signed_stack_002move_fwd_inline_Packet_1	6	1	4	4	14
+2	__signed_stack_003move_fwd_inline_Packet_1	6	1	8	4	10
+3	__signed_stack_003move_fwd_inline_main	6	1	12	4	10
+4	__D0Packet_1_inline_main	6	1	16	4	4
+5	__signed_stack_001move_fwd_inline_main	6	1	20	4	18
+6	__signed_stack_002move_fwd_inline_main	6	1	24	4	14
+7	__signed_stack_001Find_inline_Packet_1	6	1	28	4	6
+8	__signed_stack_002Find_inline_Packet_1	6	1	32	4	2
+9	__signed_stack_001Packet_1_inline_main	6	1	36	4	4
+10	__signed_stack_002Find_inline_main	6	1	40	4	2
+11	__rotate_theAngle1	5	1	44	4	2
+12	__signed_stack_001drop_inline_Packet_1	6	1	48	4	6
+13	__signed_stack_001Find_inline_main	6	1	52	4	6
+14	__D0Find_inline_Packet_1	6	1	56	4	21
+15	__D0turnR_inline_Find	6	1	60	4	12
+16	__Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main	5	1	64	4	12
+17	__D0turnL_inline_Find	6	1	68	4	4
+18	__DU0SetSensorLowspeed_inline_main	5	1	72	4	2
 19	__SPTArgsMutex	9	0	76	4	20
 20	__D0SetSensorLowspeed_inline_main	6	1	80	4	3
-21	__Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main	5	1	84	4	12
-22	__D0turnL_inline_Find	6	1	88	4	4
-23	__D0move_fwd_inline_Packet_1	6	1	92	4	30
-24	__D0drop_inline_Packet_1	6	1	96	4	6
-25	__D0Find_inline_main	6	1	100	4	21
-26	__CLSCSMutex3	9	0	104	4	2
-27	__CLSRMutex3	9	0	108	4	2
-28	__D0move_fwd_inline_main	6	1	112	4	30
-29	__CLSWMutex3	9	0	116	4	2
-30	__rotate_theAngle0	5	1	120	4	2
-31	__rotate_angle1	6	1	124	4	6
-32	__Wait_7qG2_ms_7qG2_000_inline_Find_inline_main	5	1	128	4	6
-33	__Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main	5	1	132	4	12
-34	__Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main	5	1	136	4	4
-35	__rotate_angle0	6	1	140	4	5
-36	__Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main	5	1	144	4	6
-37	__Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main	4	1	148	2	4
+21	__RLSBmutex3	9	0	84	4	28
+22	__D0move_fwd_inline_Packet_1	6	1	88	4	30
+23	__D0drop_inline_Packet_1	6	1	92	4	6
+24	__D0Find_inline_main	6	1	96	4	21
+25	__CLSCSMutex3	9	0	100	4	2
+26	__CLSRMutex3	9	0	104	4	2
+27	__D0move_fwd_inline_main	6	1	108	4	30
+28	__CLSWMutex3	9	0	112	4	2
+29	__Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main	5	1	116	4	4
+30	__Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main	5	1	120	4	12
+31	__rotate_theAngle0	5	1	124	4	2
+32	__rotate_angle1	6	1	128	4	6
+33	__Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main	5	1	132	4	4
+34	__rotate_angle0	6	1	136	4	5
+35	__Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main	5	1	140	4	6
+36	__Wait_7qG2_ms_7qG2_000_inline_Find_inline_main	5	1	144	4	6
+37	__move_fwd_7qG2_i_7qG2_000_inline_main	4	1	148	2	5
 38	__turnL_7qG2_speed_7qG2_000_inline_Find_inline_main	4	1	150	2	3
-39	__turnR_7qG2_speed_7qG2_000_inline_Find_inline_main	4	1	152	2	9
-40	__move_fwd_7qG2_distance_7qG2_000_inline_Packet_1_inline_main	4	1	154	2	2
-41	__Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main	4	1	156	2	5
-42	__move_fwd_7qG2_distance_7qG2_000_inline_main	4	1	158	2	2
-43	__move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main	4	1	160	2	5
-44	__move_fwd_7qG2_i_7qG2_000_inline_main	4	1	162	2	5
-45	__Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main	4	1	164	2	3
-46	__rotate_OldRotCount0	4	1	166	2	2
+39	__move_fwd_7qG2_distance_7qG2_000_inline_main	4	1	152	2	2
+40	__Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main	4	1	154	2	3
+41	__move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main	4	1	156	2	5
+42	__turnL_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main	4	1	158	2	3
+43	__move_fwd_7qG2_distance_7qG2_000_inline_Packet_1_inline_main	4	1	160	2	2
+44	__turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main	4	1	162	2	9
+45	__Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main	4	1	164	2	5
+46	__Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main	4	1	166	2	4
 47	__constValNeg150	4	0	168	2	1
-48	__Find_7qG2_range_7qG2_000_inline_main	4	1	170	2	3
-49	__rotate_RotCount1	4	1	172	2	4
-50	__turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main	4	1	174	2	9
+48	__Find_7qG2_right_7qG2_000_inline_main	4	1	170	2	5
+49	__Find_7qG2_left_7qG2_000_inline_main	4	1	172	2	4
+50	__rotate_RotCount0	4	1	174	2	4
 51	__rotate_OldRotCount1	4	1	176	2	2
-52	__rotate_RotCount0	4	1	178	2	4
-53	__Find_7qG2_left_7qG2_000_inline_main	4	1	180	2	4
-54	__Find_7qG2_right_7qG2_000_inline_main	4	1	182	2	5
-55	__turnL_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main	4	1	184	2	3
-56	__zfSetSensorLowspeed_inline_main	1	1	186	1	2
-57	__constVal7	2	0	187	1	4
-58	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	188	1	2
-59	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	189	1	2
-60	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	190	1	2
-61	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	191	1	4
-62	____initialize_global_data_return	1	1	192	1	3
-63	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	193	1	2
-64	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	194	1	2
-65	__zfmove_fwd_inline_Packet_1	1	1	195	1	3
-66	__constVal63	2	0	196	1	33
-67	__zfmove_fwd_inline_main	1	1	197	1	3
-68	__zfFind_inline_Packet_1	1	1	198	1	10
-69	__zfFind_inline_main	1	1	199	1	10
-70	__constVal96	2	0	200	1	36
+52	__rotate_RotCount1	4	1	178	2	4
+53	__Find_7qG2_range_7qG2_000_inline_main	4	1	180	2	3
+54	__rotate_OldRotCount0	4	1	182	2	2
+55	__turnR_7qG2_speed_7qG2_000_inline_Find_inline_main	4	1	184	2	9
+56	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	186	1	2
+57	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	187	1	2
+58	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	188	1	2
+59	__constVal7	2	0	189	1	4
+60	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	190	1	2
+61	____initialize_global_data_return	1	1	191	1	3
+62	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	192	1	4
+63	__zfSetSensorLowspeed_inline_main	1	1	193	1	2
+64	__constVal63	2	0	194	1	33
+65	__zfmove_fwd_inline_main	1	1	195	1	3
+66	__zfmove_fwd_inline_Packet_1	1	1	196	1	3
+67	__constVal96	2	0	197	1	36
+68	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	198	1	2
+69	__zfFind_inline_Packet_1	1	1	199	1	10
+70	__zfFind_inline_main	1	1	200	1	10
 71	__PFTmp	1	1	201	1	1
 72	__rotate_power1	1	1	202	1	5
 73	__rotate_firstPort1	1	1	203	1	5
 74	__rotate_sync1	1	1	204	1	3
-75	__rotate_theTurnPct0	2	1	205	1	4
-76	__rotate_theRVD0	1	1	206	1	2
-77	__rotate_rs0	1	1	207	1	2
-78	__rotate_thePower0	2	1	208	1	4
+75	__rotate_rs0	1	1	205	1	2
+76	__rotate_thePower0	2	1	206	1	4
+77	__rotate_theTurnPct0	2	1	207	1	4
+78	__rotate_stop1	1	1	208	1	3
 79	__rotate_theRM1	1	1	209	1	4
 80	__rotate_theRS1	1	1	210	1	3
 81	__rotate_theRVP1	1	1	211	1	3
-82	__rotate_theOM1	1	1	212	1	7
-83	__rotate_stop1	1	1	213	1	3
-84	__rotate_turnpct1	2	1	214	1	4
-85	__rotate_theUF1	1	1	215	1	6
+82	__rotate_turnpct1	2	1	212	1	4
+83	__rotate_theUF1	1	1	213	1	6
+84	__rotate_theOM1	1	1	214	1	7
+85	__rotate_theRVD0	1	1	215	1	2
 86	__rotate_firstPort0	1	1	216	1	5
 87	__rotate_sync0	1	1	217	1	2
 88	__rotate_stop0	1	1	218	1	2
-89	__constVal30	2	0	219	1	4
-90	__constVal40	2	0	220	1	4
-91	__OnRev_Tmp	2	1	221	1	18
-92	__rotate_power0	1	1	222	1	4
+89	__constVal40	2	0	219	1	2
+90	__OnRev_Tmp	2	1	220	1	18
+91	__rotate_power0	1	1	221	1	4
+92	__rotate_turnpct0	2	1	222	1	3
 93	__rotate_theRS0	1	1	223	1	3
 94	__rotate_theRVP0	1	1	224	1	2
 95	__rotate_theRVI0	1	1	225	1	2
-96	__rotate_theRM0	1	1	226	1	4
-97	__rotate_turnpct0	2	1	227	1	3
-98	__rotate_theUF0	1	1	228	1	6
-99	__rotate_theOM0	1	1	229	1	7
+96	__rotate_theUF0	1	1	226	1	6
+97	__rotate_theOM0	1	1	227	1	7
+98	__rotate_theRM0	1	1	228	1	4
+99	__rotate_theRVI1	1	1	229	1	3
 100	__ResetSensorTmp	1	1	230	1	2
 101	____ResetSensorSubroutine_return	1	1	231	1	3
 102	__ResetSensorPort	1	1	232	1	3
@@ -111,60 +111,59 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 108	__RLSBResult3	2	1	238	1	7
 109	__constVal2	2	0	239	1	8
 110	____ReadLSBytes3_return	1	1	240	1	16
-111	____RotateMotor1_return	1	1	241	1	4
+111	__rotate_thePower1	2	1	241	1	4
 112	__rotate_rs1	1	1	242	1	2
-113	__rotate_theRVD1	1	1	243	1	3
-114	____RotateMotor0_return	1	1	244	1	3
-115	__rotate_thePower1	2	1	245	1	4
-116	__rotate_theTurnPct1	2	1	246	1	4
-117	__rotate_theRVI1	1	1	247	1	3
-118	__constVal1	2	0	248	1	12
-119	__constVal0	2	1	249	1	134
-120	__constVal50	2	0	250	1	2
-121	____RotateMotor0_sign_tmp	2	1	251	1	4
-122	__constVal32	2	0	252	1	108
-123	__SPTArgs	8	0	5	8	60
-124	__SPTArgs.Result	2	1	256	1	60
-125	__SPTArgs.Frequency	3	1	258	2	60
-126	__SPTArgs.Duration	3	1	260	2	60
-127	__SPTArgs.Loop	1	1	262	1	60
-128	__SPTArgs.Volume	1	1	263	1	60
-129	__CLSWArgs3	8	0	4	12	5
-130	__CLSWArgs3.Result	2	1	264	1	5
-131	__CLSWArgs3.Port	1	1	265	1	5
-132	__CLSWArgs3.Buffer	7	0	266	4	5
-133	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
-134	__CLSWArgs3.ReturnLen	1	1	268	1	5
-135	__CLSCSArgs3	8	0	3	4	4
-136	__CLSCSArgs3.Result	2	1	272	1	4
-137	__CLSCSArgs3.Port	1	1	273	1	4
-138	__CLSCSArgs3.BytesReady	1	1	274	1	4
-139	__TextOutArgs	8	0	4	16	24
-140	__TextOutArgs.Result	2	1	276	1	24
-141	__TextOutArgs.Location	8	0	2	4	24
-142	__TextOutArgs.Location.X	4	1	280	2	24
-143	__TextOutArgs.Location.Y	4	1	282	2	24
-144	__TextOutArgs.Text	7	0	284	4	24
-145	__TextOutArgs.Text.Text_type	1	0	0	1	0
-146	__TextOutArgs.Options	5	1	288	4	24
-147	__CLSRArgs3	8	0	4	12	5
-148	__CLSRArgs3.Result	2	1	292	1	5
-149	__CLSRArgs3.Port	1	1	293	1	5
-150	__CLSRArgs3.Buffer	7	0	294	4	5
-151	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-152	__CLSRArgs3.BufferLen	1	1	296	1	5
-153	__rotate_ports1	7	0	298	4	7
-154	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
-155	__rotate_ports0	7	0	300	4	6
-156	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
-157	__OUT_AC	7	0	302	4	16
-158	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-159	__RLSReadBuf3	7	0	304	4	34
-160	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
-161	__RLSLastGoodRead3	7	0	306	4	2
-162	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
-163	__RLSBbufLSWrite1	7	0	308	4	14
-164	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+113	____RotateMotor0_sign_tmp	2	1	243	1	4
+114	__rotate_theTurnPct1	2	1	244	1	4
+115	____RotateMotor0_return	1	1	245	1	3
+116	__rotate_theRVD1	1	1	246	1	3
+117	__constVal0	2	1	247	1	134
+118	__constVal50	2	0	248	1	8
+119	____RotateMotor1_return	1	1	249	1	4
+120	__constVal32	2	0	250	1	108
+121	__constVal1	2	0	251	1	12
+122	__SPTArgs	8	0	5	8	60
+123	__SPTArgs.Result	2	1	252	1	60
+124	__SPTArgs.Frequency	3	1	254	2	60
+125	__SPTArgs.Duration	3	1	256	2	60
+126	__SPTArgs.Loop	1	1	258	1	60
+127	__SPTArgs.Volume	1	1	259	1	60
+128	__CLSWArgs3	8	0	4	12	5
+129	__CLSWArgs3.Result	2	1	260	1	5
+130	__CLSWArgs3.Port	1	1	261	1	5
+131	__CLSWArgs3.Buffer	7	0	262	4	5
+132	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+133	__CLSWArgs3.ReturnLen	1	1	264	1	5
+134	__CLSCSArgs3	8	0	3	4	4
+135	__CLSCSArgs3.Result	2	1	268	1	4
+136	__CLSCSArgs3.Port	1	1	269	1	4
+137	__CLSCSArgs3.BytesReady	1	1	270	1	4
+138	__TextOutArgs	8	0	4	16	24
+139	__TextOutArgs.Result	2	1	272	1	24
+140	__TextOutArgs.Location	8	0	2	4	24
+141	__TextOutArgs.Location.X	4	1	276	2	24
+142	__TextOutArgs.Location.Y	4	1	278	2	24
+143	__TextOutArgs.Text	7	0	280	4	24
+144	__TextOutArgs.Text.Text_type	1	0	0	1	0
+145	__TextOutArgs.Options	5	1	284	4	24
+146	__CLSRArgs3	8	0	4	12	5
+147	__CLSRArgs3.Result	2	1	288	1	5
+148	__CLSRArgs3.Port	1	1	289	1	5
+149	__CLSRArgs3.Buffer	7	0	290	4	5
+150	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+151	__CLSRArgs3.BufferLen	1	1	292	1	5
+152	__rotate_ports1	7	0	294	4	7
+153	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+154	__rotate_ports0	7	0	296	4	6
+155	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+156	__OUT_AC	7	0	298	4	16
+157	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+158	__RLSReadBuf3	7	0	300	4	34
+159	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+160	__RLSLastGoodRead3	7	0	302	4	2
+161	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+162	__RLSBbufLSWrite1	7	0	304	4	14
+163	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	123	0	#line 123 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
@@ -231,10 +230,10 @@ Clump	Line	PC	Source
 0	69	62	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	69	62	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	70	62	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	71	62		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_main, 30
+0	71	62		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_main, 40
 0	70	65	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	14	65	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	65		mov __D0turnR_inline_Find, __constVal30
+0	15	65		mov __D0turnR_inline_Find, __constVal40
 0	15	67	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	16	67	#pragma macro 7
 0	16	67		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
@@ -296,10 +295,10 @@ Clump	Line	PC	Source
 0	78	191	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	78	191	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	80	191	#line 80 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	81	191		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_main, 40
+0	81	191		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_main, 50
 0	80	194	#line 80 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	14	194	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	194		mov __D0turnR_inline_Find, __constVal40
+0	15	194		mov __D0turnR_inline_Find, __constVal50
 0	15	196	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	16	196	#pragma macro 7
 0	16	196		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
@@ -314,7 +313,7 @@ Clump	Line	PC	Source
 0	16	245	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	81	245	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	81	245	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	82	245		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_main, 300
+0	82	245		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_main, 200
 0	81	248	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	7921	248	#line 7921 "NXCDefs.h"
 0	7922	248		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_main
@@ -367,10 +366,10 @@ Clump	Line	PC	Source
 0	88	322	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	89	322		brtst 4, __002__NXC_Label_608, __zfFind_inline_main
 0	88	325	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	89	325		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_main, 30
+0	89	325		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_main, 50
 0	88	328	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	14	328	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	328		mov __D0turnR_inline_Find, __constVal30
+0	15	328		mov __D0turnR_inline_Find, __constVal50
 0	15	330	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	16	330	#pragma macro 7
 0	16	330		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
@@ -418,10 +417,10 @@ Clump	Line	PC	Source
 0	97	428		jmp __002__NXC_Label_607
 0	96	430	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	96	430	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	97	430		set __turnL_7qG2_speed_7qG2_000_inline_Find_inline_main, 40
+0	97	430		set __turnL_7qG2_speed_7qG2_000_inline_Find_inline_main, 50
 0	96	433	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	20	433	#line 20 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	21	433		mov __D0turnL_inline_Find, __constVal40
+0	21	433		mov __D0turnL_inline_Find, __constVal50
 0	21	435	#line 21 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	22	435	#pragma macro 7
 0	22	435		setout __constVal0, 2, __D0turnL_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
@@ -436,7 +435,7 @@ Clump	Line	PC	Source
 0	22	484	#line 22 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	97	484	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	97	484	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	98	484		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_main, 500
+0	98	484		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_main, 400
 0	97	487	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	7921	487	#line 7921 "NXCDefs.h"
 0	7922	487		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_main
@@ -494,894 +493,894 @@ Clump	Line	PC	Source
 0	34	578		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
 0	33	580	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	34	580		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
-0	33	583	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	583		mov __SPTArgs.Loop, __D0move_fwd_inline_main
-0	33	585	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	585		syscall 10, __SPTArgs
-0	33	588	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	588		mov __D0move_fwd_inline_main, __SPTArgs.Result
+0	33	582	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	582		mov __SPTArgs.Loop, __D0move_fwd_inline_main
+0	33	584	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	584		syscall 10, __SPTArgs
+0	33	587	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	587		mov __D0move_fwd_inline_main, __SPTArgs.Result
+0	33	589	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	589		release __SPTArgsMutex
 0	33	590	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	590		release __SPTArgsMutex
-0	33	591	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	33	591	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	591		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
-0	33	594	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	594	#line 7921 "NXCDefs.h"
-0	7922	594		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
-0	7921	597	#line 7921 "NXCDefs.h"
-0	34	597	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	597	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	597		set __signed_stack_001move_fwd_inline_main, 294
-0	34	600	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	600	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	600		set __signed_stack_002move_fwd_inline_main, 40
-0	34	603	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	603	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	603		set __signed_stack_003move_fwd_inline_main, 4
-0	34	606	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	606	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	606		set __D0move_fwd_inline_main, 0
+0	33	590	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	590		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
+0	33	593	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	593	#line 7921 "NXCDefs.h"
+0	7922	593		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
+0	7921	596	#line 7921 "NXCDefs.h"
+0	34	596	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	596	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	596		set __signed_stack_001move_fwd_inline_main, 294
+0	34	599	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	599	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	599		set __signed_stack_002move_fwd_inline_main, 40
+0	34	602	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	602	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	602		set __signed_stack_003move_fwd_inline_main, 4
+0	34	605	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	605	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	605		set __D0move_fwd_inline_main, 0
+0	35	608	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	608		acquire __SPTArgsMutex
 0	35	609	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	609		acquire __SPTArgsMutex
-0	35	610	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	610		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
-0	35	612	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	612		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
-0	35	614	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	614		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
+0	36	609		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
+0	35	611	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	611		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
+0	35	613	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	613		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
+0	35	615	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	615		mov __SPTArgs.Loop, __D0move_fwd_inline_main
 0	35	617	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	617		mov __SPTArgs.Loop, __D0move_fwd_inline_main
-0	35	619	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	619		syscall 10, __SPTArgs
+0	36	617		syscall 10, __SPTArgs
+0	35	620	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	620		mov __D0move_fwd_inline_main, __SPTArgs.Result
 0	35	622	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	622		mov __D0move_fwd_inline_main, __SPTArgs.Result
-0	35	624	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	624		release __SPTArgsMutex
-0	35	625	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	625	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	625		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
-0	35	628	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	628	#line 7921 "NXCDefs.h"
-0	7922	628		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
-0	7921	631	#line 7921 "NXCDefs.h"
-0	36	631	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	631	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	631		set __signed_stack_001move_fwd_inline_main, 440
-0	36	634	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	634	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	634		set __signed_stack_002move_fwd_inline_main, 40
-0	36	637	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	637	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	637		set __signed_stack_003move_fwd_inline_main, 4
-0	36	640	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	640	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	640		set __D0move_fwd_inline_main, 0
-0	37	643	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	643		acquire __SPTArgsMutex
+0	36	622		release __SPTArgsMutex
+0	35	623	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	623	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	623		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
+0	35	626	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	626	#line 7921 "NXCDefs.h"
+0	7922	626		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
+0	7921	629	#line 7921 "NXCDefs.h"
+0	36	629	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	629	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	629		set __signed_stack_001move_fwd_inline_main, 440
+0	36	632	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	632	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	632		set __signed_stack_002move_fwd_inline_main, 40
+0	36	635	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	635	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	635		set __signed_stack_003move_fwd_inline_main, 4
+0	36	638	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	638	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	638		set __D0move_fwd_inline_main, 0
+0	37	641	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	641		acquire __SPTArgsMutex
+0	37	642	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	642		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
 0	37	644	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	644		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
+0	38	644		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
 0	37	646	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	646		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
+0	38	646		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
 0	37	648	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	648		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
-0	37	651	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	651		mov __SPTArgs.Loop, __D0move_fwd_inline_main
+0	38	648		mov __SPTArgs.Loop, __D0move_fwd_inline_main
+0	37	650	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	650		syscall 10, __SPTArgs
 0	37	653	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	653		syscall 10, __SPTArgs
+0	38	653		mov __D0move_fwd_inline_main, __SPTArgs.Result
+0	37	655	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	655		release __SPTArgsMutex
 0	37	656	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	656		mov __D0move_fwd_inline_main, __SPTArgs.Result
-0	37	658	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	658		release __SPTArgsMutex
+0	37	656	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	656		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
 0	37	659	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	659	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	659		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
-0	37	662	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	659	#line 7921 "NXCDefs.h"
+0	7922	659		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
 0	7921	662	#line 7921 "NXCDefs.h"
-0	7922	662		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
-0	7921	665	#line 7921 "NXCDefs.h"
+0	38	662	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	662	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	39	662		set __signed_stack_001move_fwd_inline_main, 440
 0	38	665	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	38	665	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	665		set __signed_stack_001move_fwd_inline_main, 440
+0	39	665		set __signed_stack_002move_fwd_inline_main, 40
 0	38	668	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	38	668	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	668		set __signed_stack_002move_fwd_inline_main, 40
+0	39	668		set __signed_stack_003move_fwd_inline_main, 4
 0	38	671	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
 0	38	671	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	671		set __signed_stack_003move_fwd_inline_main, 4
-0	38	674	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	674	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	674		set __D0move_fwd_inline_main, 0
+0	39	671		set __D0move_fwd_inline_main, 0
+0	39	674	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	674		acquire __SPTArgsMutex
+0	39	675	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	675		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
 0	39	677	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	677		acquire __SPTArgsMutex
-0	39	678	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	678		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
-0	39	680	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	680		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
-0	39	682	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	682		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
-0	39	685	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	685		mov __SPTArgs.Loop, __D0move_fwd_inline_main
-0	39	687	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	687		syscall 10, __SPTArgs
-0	39	690	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	690		mov __D0move_fwd_inline_main, __SPTArgs.Result
+0	40	677		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
+0	39	679	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	679		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
+0	39	681	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	681		mov __SPTArgs.Loop, __D0move_fwd_inline_main
+0	39	683	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	683		syscall 10, __SPTArgs
+0	39	686	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	686		mov __D0move_fwd_inline_main, __SPTArgs.Result
+0	39	688	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	688		release __SPTArgsMutex
+0	39	689	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	39	689	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	689		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
 0	39	692	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	692		release __SPTArgsMutex
-0	39	693	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	693	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	693		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
-0	39	696	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	696	#line 7921 "NXCDefs.h"
-0	7922	696		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
-0	7921	699	#line 7921 "NXCDefs.h"
-0	40	699	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	699	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	699		set __signed_stack_001move_fwd_inline_main, 247
-0	40	702	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	702	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	702		set __signed_stack_002move_fwd_inline_main, 40
-0	40	705	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	705	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	705		set __signed_stack_003move_fwd_inline_main, 4
-0	40	708	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	708	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	708		set __D0move_fwd_inline_main, 0
-0	41	711	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	711		acquire __SPTArgsMutex
+0	7921	692	#line 7921 "NXCDefs.h"
+0	7922	692		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
+0	7921	695	#line 7921 "NXCDefs.h"
+0	40	695	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	695	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	695		set __signed_stack_001move_fwd_inline_main, 247
+0	40	698	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	698	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	698		set __signed_stack_002move_fwd_inline_main, 40
+0	40	701	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	701	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	701		set __signed_stack_003move_fwd_inline_main, 4
+0	40	704	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	704	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	704		set __D0move_fwd_inline_main, 0
+0	41	707	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	707		acquire __SPTArgsMutex
+0	41	708	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	708		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
+0	41	710	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	710		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
 0	41	712	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	712		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_main
+0	42	712		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
 0	41	714	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	714		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_main
+0	42	714		mov __SPTArgs.Loop, __D0move_fwd_inline_main
 0	41	716	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	716		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_main
+0	42	716		syscall 10, __SPTArgs
 0	41	719	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	719		mov __SPTArgs.Loop, __D0move_fwd_inline_main
+0	42	719		mov __D0move_fwd_inline_main, __SPTArgs.Result
 0	41	721	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	721		syscall 10, __SPTArgs
-0	41	724	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	724		mov __D0move_fwd_inline_main, __SPTArgs.Result
-0	41	726	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	726		release __SPTArgsMutex
-0	41	727	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	727	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	727		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
-0	41	730	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	730	#line 7921 "NXCDefs.h"
-0	7922	730		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
-0	7921	733	#line 7921 "NXCDefs.h"
-0	42	733	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	733	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	733		set __signed_stack_001move_fwd_inline_main, 10
-0	42	736	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	736	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	736		set __signed_stack_002move_fwd_inline_main, 56
-0	42	739	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	739	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	739		mov __D0move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
-0	43	741	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	741	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	741		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_main
-0	43	744	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	744		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_main
-0	43	747	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	747		set __TextOutArgs.Options, 0
-0	43	750	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	750		numtostr __TextOutArgs.Text, __D0move_fwd_inline_main
+0	42	721		release __SPTArgsMutex
+0	41	722	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	722	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	722		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 48
+0	41	725	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	725	#line 7921 "NXCDefs.h"
+0	7922	725		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
+0	7921	728	#line 7921 "NXCDefs.h"
+0	42	728	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	728	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	728		set __signed_stack_001move_fwd_inline_main, 10
+0	42	731	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	731	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	731		set __signed_stack_002move_fwd_inline_main, 56
+0	42	734	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	734	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	734		mov __D0move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
+0	43	736	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	736	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	736		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_main
+0	43	739	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	739		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_main
+0	43	742	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	742		set __TextOutArgs.Options, 0
+0	43	745	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	745		numtostr __TextOutArgs.Text, __D0move_fwd_inline_main
+0	43	748	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	748		syscall 13, __TextOutArgs
+0	43	751	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	751		mov __D0move_fwd_inline_main, __TextOutArgs.Result
 0	43	753	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	753		syscall 13, __TextOutArgs
-0	43	756	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	756		mov __D0move_fwd_inline_main, __TextOutArgs.Result
-0	43	758	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	758	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	758	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	758		mov __signed_stack_001move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
-0	43	760	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	760	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	45	760		mov __D0move_fwd_inline_main, __move_fwd_7qG2_distance_7qG2_000_inline_main
-0	44	762	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	45	762		cmp 1, __zfmove_fwd_inline_main, __signed_stack_001move_fwd_inline_main, __D0move_fwd_inline_main
-0	44	766	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	45	766		mov __D0move_fwd_inline_main, __zfmove_fwd_inline_main
-0	46	768	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	47	768		brtst 4, __002__NXC_Label_560, __zfmove_fwd_inline_main
-0	46	771	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	47	771	#pragma macro 26
-0	47	771		acquire __RLSBmutex3
-0	47	772		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	47	774		set __RLSBytesCount3, 1
-0	47	777		wait2 NA, __constVal15
-0	47	780		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	47	782		index __D0move_fwd_inline_main, __RLSReadBuf3, 65535
-0	47	786		release __RLSBmutex3
-0	4714	787	#line 4714 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	46	787	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	47	787		mov __move_fwd_7qG2_i_7qG2_000_inline_main, __D0move_fwd_inline_main
-0	46	789	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	46	789	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	48	789	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	789		jmp __002__NXC_Label_559
-0	48	791	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	791	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	791	#pragma macro 7
-0	50	791		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4726	814	#line 4726 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	814	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	814	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	814		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 1000
-0	49	817	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	817	#line 7921 "NXCDefs.h"
-0	7922	817		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
-0	7921	820	#line 7921 "NXCDefs.h"
-0	50	820	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	820	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	51	820		set __signed_stack_001move_fwd_inline_main, 10
-0	50	823	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	823	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	51	823		set __signed_stack_002move_fwd_inline_main, 48
-0	50	826	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	826	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	51	826		mov __D0move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
-0	52	828	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	52	828	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	828		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_main
-0	52	831	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	831		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_main
-0	52	834	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	834		set __TextOutArgs.Options, 0
-0	52	837	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	837		numtostr __TextOutArgs.Text, __D0move_fwd_inline_main
+0	43	753	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	753	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	753		mov __signed_stack_001move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
+0	43	755	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	755	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	45	755		mov __D0move_fwd_inline_main, __move_fwd_7qG2_distance_7qG2_000_inline_main
+0	44	757	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	45	757		cmp 1, __zfmove_fwd_inline_main, __signed_stack_001move_fwd_inline_main, __D0move_fwd_inline_main
+0	44	761	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	45	761		mov __D0move_fwd_inline_main, __zfmove_fwd_inline_main
+0	46	763	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	47	763		brtst 4, __002__NXC_Label_560, __zfmove_fwd_inline_main
+0	46	766	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	47	766	#pragma macro 26
+0	47	766		acquire __RLSBmutex3
+0	47	767		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	47	769		set __RLSBytesCount3, 1
+0	47	772		wait2 NA, __constVal15
+0	47	775		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	47	777		index __D0move_fwd_inline_main, __RLSReadBuf3, 65535
+0	47	781		release __RLSBmutex3
+0	4714	782	#line 4714 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	46	782	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	47	782		mov __move_fwd_7qG2_i_7qG2_000_inline_main, __D0move_fwd_inline_main
+0	46	784	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	46	784	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	48	784	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	784		jmp __002__NXC_Label_559
+0	48	786	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	786	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	786	#pragma macro 7
+0	50	786		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4726	809	#line 4726 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	809	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	809	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	809		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main, 1000
+0	49	812	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	812	#line 7921 "NXCDefs.h"
+0	7922	812		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_main
+0	7921	815	#line 7921 "NXCDefs.h"
+0	50	815	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	815	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	51	815		set __signed_stack_001move_fwd_inline_main, 10
+0	50	818	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	818	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	51	818		set __signed_stack_002move_fwd_inline_main, 48
+0	50	821	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	821	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	51	821		mov __D0move_fwd_inline_main, __move_fwd_7qG2_i_7qG2_000_inline_main
+0	52	823	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	52	823	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	823		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_main
+0	52	826	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	826		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_main
+0	52	829	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	829		set __TextOutArgs.Options, 0
+0	52	832	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	832		numtostr __TextOutArgs.Text, __D0move_fwd_inline_main
+0	52	835	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	835		syscall 13, __TextOutArgs
+0	52	838	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	838		mov __D0move_fwd_inline_main, __TextOutArgs.Result
 0	52	840	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	840		syscall 13, __TextOutArgs
-0	52	843	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	843		mov __D0move_fwd_inline_main, __TextOutArgs.Result
-0	52	845	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	52	845	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	129	845	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	104	845	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	105	845		set __signed_stack_001Packet_1_inline_main, 75
-0	104	848	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	104	848	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	105	848		set __D0Packet_1_inline_main, 360
-0	105	851	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	106	851	#pragma macro 33
-0	106	851		arrbuild __rotate_ports0, __constVal0
-0	106	855		mov __rotate_power0, __signed_stack_001Packet_1_inline_main
-0	106	857		mov __rotate_angle0, __D0Packet_1_inline_main
-0	106	859		mov __rotate_turnpct0, __constVal0
-0	106	861		mov __rotate_sync0, __constVal0
-0	106	863		mov __rotate_stop0, __constVal1
-0	106	865		mov __rotate_theRVP0, __constVal32
-0	106	867		mov __rotate_theRVI0, __constVal0
-0	106	869		mov __rotate_theRVD0, __constVal96
-0	106	871		subcall __RotateMotor0, ____RotateMotor0_return
-0	4827	873	#line 4827 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	105	873	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	106	873	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	107	873	#pragma macro 7
-0	107	873		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4830	896	#line 4830 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	106	896	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	106	896	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	107	896		set __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main, 1000
-0	106	899	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	899	#line 7921 "NXCDefs.h"
-0	7922	899		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main
-0	7921	902	#line 7921 "NXCDefs.h"
-0	109	902	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	109	902	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	110	902		set __signed_stack_001Packet_1_inline_main, 75
-0	109	905	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	109	905	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	110	905		set __D0Packet_1_inline_main, 2
-0	110	908	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	111	908	#pragma macro 7
-0	111	908		setout __OUT_AC, 2, __signed_stack_001Packet_1_inline_main, 1, __constVal7, 8, __D0Packet_1_inline_main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4853	931	#line 4853 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	110	931	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	110	931	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	111	931		set __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main, 6000
-0	110	934	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	934	#line 7921 "NXCDefs.h"
-0	7922	934		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main
-0	7921	937	#line 7921 "NXCDefs.h"
-0	111	937	#line 111 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	113	937	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	114	937	#pragma macro 7
-0	114	937		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4866	960	#line 4866 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	113	960	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	69	960	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	70	960	#pragma macro 26
-0	70	960		acquire __RLSBmutex3
-0	70	961		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	70	963		set __RLSBytesCount3, 1
-0	70	966		wait2 NA, __constVal15
-0	70	969		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	70	971		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
-0	70	975		release __RLSBmutex3
-0	4869	976	#line 4869 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	69	976	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	70	976		mov __Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
-0	69	978	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	69	978	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	70	978	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	71	978		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 30
-0	70	981	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	14	981	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	981		mov __D0turnR_inline_Find, __constVal30
-0	15	983	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	983	#pragma macro 7
-0	16	983		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4887	1006	#line 4887 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1006	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1006	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1006	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	17	1006	#pragma macro 10
-0	17	1006		neg __OnRev_Tmp, __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
-0	17	1009		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4894	1032	#line 4894 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1032	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	72	1032	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	72	1032	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	73	1032		mov __signed_stack_001Find_inline_Packet_1, __Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main
-0	72	1034	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	73	1034	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	74	1034		set __D0Find_inline_Packet_1, 70
-0	73	1037	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	74	1037		cmp 1, __zfFind_inline_Packet_1, __signed_stack_001Find_inline_Packet_1, __D0Find_inline_Packet_1
-0	73	1041	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	74	1041		mov __D0Find_inline_Packet_1, __zfFind_inline_Packet_1
-0	74	1043	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	75	1043		brtst 4, __001__001__NXC_Label_594, __zfFind_inline_Packet_1
-0	74	1046	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	75	1046	#pragma macro 26
-0	75	1046		acquire __RLSBmutex3
-0	75	1047		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	75	1049		set __RLSBytesCount3, 1
-0	75	1052		wait2 NA, __constVal15
-0	75	1055		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	75	1057		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
-0	75	1061		release __RLSBmutex3
-0	4913	1062	#line 4913 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	74	1062	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	75	1062		mov __Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
-0	74	1064	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	74	1064	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	76	1064	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	77	1064		jmp __001__001__NXC_Label_593
-0	76	1066	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	78	1066	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	79	1066	#pragma macro 7
-0	79	1066		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4925	1089	#line 4925 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	78	1089	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	78	1089	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	79	1089	#pragma macro 26
-0	79	1089		acquire __RLSBmutex3
-0	79	1090		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	79	1092		set __RLSBytesCount3, 1
-0	79	1095		wait2 NA, __constVal15
-0	79	1098		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	79	1100		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
-0	79	1104		release __RLSBmutex3
-0	4928	1105	#line 4928 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	78	1105	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	79	1105		mov __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
-0	78	1107	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	78	1107	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	80	1107	#line 80 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	81	1107		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 40
-0	80	1110	#line 80 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	14	1110	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1110		mov __D0turnR_inline_Find, __constVal40
-0	15	1112	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1112	#pragma macro 7
-0	16	1112		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4946	1135	#line 4946 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1135	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1135	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1135	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	17	1135	#pragma macro 10
-0	17	1135		neg __OnRev_Tmp, __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
-0	17	1138		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4953	1161	#line 4953 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1161	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	81	1161	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	81	1161	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	82	1161		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main, 300
-0	81	1164	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1164	#line 7921 "NXCDefs.h"
-0	7922	1164		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main
-0	7921	1167	#line 7921 "NXCDefs.h"
-0	82	1167	#line 82 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	84	1167	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	85	1167	#pragma macro 7
-0	85	1167		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4967	1190	#line 4967 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	84	1190	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	84	1190	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	85	1190	#pragma macro 26
-0	85	1190		acquire __RLSBmutex3
-0	85	1191		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	85	1193		set __RLSBytesCount3, 1
-0	85	1196		wait2 NA, __constVal15
-0	85	1199		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	85	1201		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
-0	85	1205		release __RLSBmutex3
-0	4970	1206	#line 4970 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	84	1206	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	85	1206		mov __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
-0	84	1208	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	84	1208	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	86	1208	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1208		mov __signed_stack_001Find_inline_Packet_1, __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main
-0	86	1210	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	86	1210	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1210		mov __D0Find_inline_Packet_1, __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main
-0	86	1212	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1212		cmp 1, __zfFind_inline_Packet_1, __signed_stack_001Find_inline_Packet_1, __D0Find_inline_Packet_1
+0	52	840	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	129	840	#line 129 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	104	840	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	105	840		set __signed_stack_001Packet_1_inline_main, 75
+0	104	843	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	104	843	#line 104 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	105	843		set __D0Packet_1_inline_main, 360
+0	105	846	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	106	846	#pragma macro 33
+0	106	846		arrbuild __rotate_ports0, __constVal0
+0	106	850		mov __rotate_power0, __signed_stack_001Packet_1_inline_main
+0	106	852		mov __rotate_angle0, __D0Packet_1_inline_main
+0	106	854		mov __rotate_turnpct0, __constVal0
+0	106	856		mov __rotate_sync0, __constVal0
+0	106	858		mov __rotate_stop0, __constVal1
+0	106	860		mov __rotate_theRVP0, __constVal32
+0	106	862		mov __rotate_theRVI0, __constVal0
+0	106	864		mov __rotate_theRVD0, __constVal96
+0	106	866		subcall __RotateMotor0, ____RotateMotor0_return
+0	4827	868	#line 4827 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	105	868	#line 105 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	106	868	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	107	868	#pragma macro 7
+0	107	868		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4830	891	#line 4830 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	106	891	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	106	891	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	107	891		set __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main, 1000
+0	106	894	#line 106 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	894	#line 7921 "NXCDefs.h"
+0	7922	894		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main
+0	7921	897	#line 7921 "NXCDefs.h"
+0	109	897	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	109	897	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	110	897		set __signed_stack_001Packet_1_inline_main, 75
+0	109	900	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	109	900	#line 109 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	110	900		set __D0Packet_1_inline_main, 2
+0	110	903	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	111	903	#pragma macro 7
+0	111	903		setout __OUT_AC, 2, __signed_stack_001Packet_1_inline_main, 1, __constVal7, 8, __D0Packet_1_inline_main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4853	926	#line 4853 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	110	926	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	110	926	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	111	926		set __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main, 6000
+0	110	929	#line 110 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	929	#line 7921 "NXCDefs.h"
+0	7922	929		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Packet_1_inline_main
+0	7921	932	#line 7921 "NXCDefs.h"
+0	111	932	#line 111 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	113	932	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	114	932	#pragma macro 7
+0	114	932		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4866	955	#line 4866 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	113	955	#line 113 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	69	955	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	70	955	#pragma macro 26
+0	70	955		acquire __RLSBmutex3
+0	70	956		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	70	958		set __RLSBytesCount3, 1
+0	70	961		wait2 NA, __constVal15
+0	70	964		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	70	966		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
+0	70	970		release __RLSBmutex3
+0	4869	971	#line 4869 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	69	971	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	70	971		mov __Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
+0	69	973	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	69	973	#line 69 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	70	973	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	71	973		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 40
+0	70	976	#line 70 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	14	976	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	976		mov __D0turnR_inline_Find, __constVal40
+0	15	978	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	978	#pragma macro 7
+0	16	978		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4887	1001	#line 4887 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1001	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1001	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1001	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	17	1001	#pragma macro 10
+0	17	1001		neg __OnRev_Tmp, __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
+0	17	1004		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4894	1027	#line 4894 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1027	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	72	1027	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	72	1027	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	73	1027		mov __signed_stack_001Find_inline_Packet_1, __Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main
+0	72	1029	#line 72 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	73	1029	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	74	1029		set __D0Find_inline_Packet_1, 70
+0	73	1032	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	74	1032		cmp 1, __zfFind_inline_Packet_1, __signed_stack_001Find_inline_Packet_1, __D0Find_inline_Packet_1
+0	73	1036	#line 73 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	74	1036		mov __D0Find_inline_Packet_1, __zfFind_inline_Packet_1
+0	74	1038	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	75	1038		brtst 4, __001__001__NXC_Label_594, __zfFind_inline_Packet_1
+0	74	1041	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	75	1041	#pragma macro 26
+0	75	1041		acquire __RLSBmutex3
+0	75	1042		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	75	1044		set __RLSBytesCount3, 1
+0	75	1047		wait2 NA, __constVal15
+0	75	1050		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	75	1052		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
+0	75	1056		release __RLSBmutex3
+0	4913	1057	#line 4913 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	74	1057	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	75	1057		mov __Find_7qG2_range_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
+0	74	1059	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	74	1059	#line 74 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	76	1059	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	77	1059		jmp __001__001__NXC_Label_593
+0	76	1061	#line 76 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	78	1061	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	79	1061	#pragma macro 7
+0	79	1061		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4925	1084	#line 4925 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	78	1084	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	78	1084	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	79	1084	#pragma macro 26
+0	79	1084		acquire __RLSBmutex3
+0	79	1085		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	79	1087		set __RLSBytesCount3, 1
+0	79	1090		wait2 NA, __constVal15
+0	79	1093		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	79	1095		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
+0	79	1099		release __RLSBmutex3
+0	4928	1100	#line 4928 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	78	1100	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	79	1100		mov __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
+0	78	1102	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	78	1102	#line 78 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	80	1102	#line 80 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	81	1102		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 50
+0	80	1105	#line 80 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	14	1105	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1105		mov __D0turnR_inline_Find, __constVal50
+0	15	1107	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1107	#pragma macro 7
+0	16	1107		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4946	1130	#line 4946 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1130	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1130	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1130	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	17	1130	#pragma macro 10
+0	17	1130		neg __OnRev_Tmp, __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
+0	17	1133		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4953	1156	#line 4953 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1156	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	81	1156	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	81	1156	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	82	1156		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main, 200
+0	81	1159	#line 81 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1159	#line 7921 "NXCDefs.h"
+0	7922	1159		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main
+0	7921	1162	#line 7921 "NXCDefs.h"
+0	82	1162	#line 82 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	84	1162	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	85	1162	#pragma macro 7
+0	85	1162		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4967	1185	#line 4967 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	84	1185	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	84	1185	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	85	1185	#pragma macro 26
+0	85	1185		acquire __RLSBmutex3
+0	85	1186		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	85	1188		set __RLSBytesCount3, 1
+0	85	1191		wait2 NA, __constVal15
+0	85	1194		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	85	1196		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
+0	85	1200		release __RLSBmutex3
+0	4970	1201	#line 4970 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	84	1201	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	85	1201		mov __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
+0	84	1203	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	84	1203	#line 84 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	86	1203	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1203		mov __signed_stack_001Find_inline_Packet_1, __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main
+0	86	1205	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	86	1205	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1205		mov __D0Find_inline_Packet_1, __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main
+0	86	1207	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1207		cmp 1, __zfFind_inline_Packet_1, __signed_stack_001Find_inline_Packet_1, __D0Find_inline_Packet_1
+0	86	1211	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1211		mov __D0Find_inline_Packet_1, __zfFind_inline_Packet_1
+0	86	1213	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1213		brtst 4, __001__001__NXC_Label_610, __zfFind_inline_Packet_1
 0	86	1216	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1216		mov __D0Find_inline_Packet_1, __zfFind_inline_Packet_1
+0	87	1216		mov __signed_stack_001Find_inline_Packet_1, __D0Find_inline_Packet_1
 0	86	1218	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1218		brtst 4, __001__001__NXC_Label_610, __zfFind_inline_Packet_1
-0	86	1221	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1221		mov __signed_stack_001Find_inline_Packet_1, __D0Find_inline_Packet_1
-0	86	1223	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1223		mov __signed_stack_002Find_inline_Packet_1, __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main
-0	86	1225	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1225	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	88	1225		mov __D0Find_inline_Packet_1, __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main
-0	87	1227	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	88	1227		cmp 5, __zfFind_inline_Packet_1, __signed_stack_002Find_inline_Packet_1, __D0Find_inline_Packet_1
-0	87	1231	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	87	1231	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	88	1231		and __D0Find_inline_Packet_1, __signed_stack_001Find_inline_Packet_1, __zfFind_inline_Packet_1
-0	88	1235	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	89	1235		tst 5, __zfFind_inline_Packet_1, __D0Find_inline_Packet_1
-0	88	1238	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	89	1238		brtst 4, __001__001__NXC_Label_608, __zfFind_inline_Packet_1
-0	88	1241	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	89	1241		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 30
-0	88	1244	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	14	1244	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1244		mov __D0turnR_inline_Find, __constVal30
-0	15	1246	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1246	#pragma macro 7
-0	16	1246		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5021	1269	#line 5021 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1269	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	15	1269	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1269	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	17	1269	#pragma macro 10
-0	17	1269		neg __OnRev_Tmp, __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
-0	17	1272		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5028	1295	#line 5028 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	16	1295	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	89	1295	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	89	1295	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	90	1295		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main, 200
-0	89	1298	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1298	#line 7921 "NXCDefs.h"
-0	7922	1298		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main
-0	7921	1301	#line 7921 "NXCDefs.h"
-0	90	1301	#line 90 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	91	1301	#line 91 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	92	1301	#pragma macro 7
-0	92	1301		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5042	1324	#line 5042 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	91	1324	#line 91 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	92	1324	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	93	1324		mov __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main, __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main
-0	92	1326	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	92	1326	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	92	1326	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	93	1326	#pragma macro 26
-0	93	1326		acquire __RLSBmutex3
-0	93	1327		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	93	1329		set __RLSBytesCount3, 1
-0	93	1332		wait2 NA, __constVal15
-0	93	1335		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	93	1337		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
-0	93	1341		release __RLSBmutex3
-0	5052	1342	#line 5052 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	92	1342	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	93	1342		mov __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
-0	92	1344	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	92	1344	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1218		mov __signed_stack_002Find_inline_Packet_1, __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main
+0	86	1220	#line 86 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1220	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	88	1220		mov __D0Find_inline_Packet_1, __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main
+0	87	1222	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	88	1222		cmp 5, __zfFind_inline_Packet_1, __signed_stack_002Find_inline_Packet_1, __D0Find_inline_Packet_1
+0	87	1226	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	87	1226	#line 87 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	88	1226		and __D0Find_inline_Packet_1, __signed_stack_001Find_inline_Packet_1, __zfFind_inline_Packet_1
+0	88	1230	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	89	1230		tst 5, __zfFind_inline_Packet_1, __D0Find_inline_Packet_1
+0	88	1233	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	89	1233		brtst 4, __001__001__NXC_Label_608, __zfFind_inline_Packet_1
+0	88	1236	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	89	1236		set __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 50
+0	88	1239	#line 88 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	14	1239	#line 14 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1239		mov __D0turnR_inline_Find, __constVal50
+0	15	1241	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1241	#pragma macro 7
+0	16	1241		setout __constVal0, 2, __D0turnR_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5021	1264	#line 5021 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1264	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	15	1264	#line 15 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1264	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	17	1264	#pragma macro 10
+0	17	1264		neg __OnRev_Tmp, __turnR_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
+0	17	1267		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5028	1290	#line 5028 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	16	1290	#line 16 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	89	1290	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	89	1290	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	90	1290		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main, 200
+0	89	1293	#line 89 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1293	#line 7921 "NXCDefs.h"
+0	7922	1293		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main
+0	7921	1296	#line 7921 "NXCDefs.h"
+0	90	1296	#line 90 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	91	1296	#line 91 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	92	1296	#pragma macro 7
+0	92	1296		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5042	1319	#line 5042 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	91	1319	#line 91 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	92	1319	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	93	1319		mov __Find_7qG2_left_7qG2_000_inline_Packet_1_inline_main, __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main
+0	92	1321	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	92	1321	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	92	1321	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	93	1321	#pragma macro 26
+0	93	1321		acquire __RLSBmutex3
+0	93	1322		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	93	1324		set __RLSBytesCount3, 1
+0	93	1327		wait2 NA, __constVal15
+0	93	1330		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	93	1332		index __D0Find_inline_Packet_1, __RLSReadBuf3, 65535
+0	93	1336		release __RLSBmutex3
+0	5052	1337	#line 5052 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	92	1337	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	93	1337		mov __Find_7qG2_right_7qG2_000_inline_Packet_1_inline_main, __D0Find_inline_Packet_1
+0	92	1339	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	92	1339	#line 92 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	96	1339	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	97	1339		jmp __001__001__NXC_Label_607
+0	96	1341	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	96	1341	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	97	1341		set __turnL_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 50
 0	96	1344	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	97	1344		jmp __001__001__NXC_Label_607
-0	96	1346	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	96	1346	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	97	1346		set __turnL_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main, 40
-0	96	1349	#line 96 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	20	1349	#line 20 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	21	1349		mov __D0turnL_inline_Find, __constVal40
-0	21	1351	#line 21 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	22	1351	#pragma macro 7
-0	22	1351		setout __constVal0, 2, __D0turnL_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5074	1374	#line 5074 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	21	1374	#line 21 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	21	1374	#line 21 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	22	1374	#line 22 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	23	1374	#pragma macro 10
-0	23	1374		neg __OnRev_Tmp, __turnL_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
-0	23	1377		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5081	1400	#line 5081 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	22	1400	#line 22 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	97	1400	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	97	1400	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	98	1400		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main, 500
-0	97	1403	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1403	#line 7921 "NXCDefs.h"
-0	7922	1403		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main
-0	7921	1406	#line 7921 "NXCDefs.h"
-0	98	1406	#line 98 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	100	1406	#line 100 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	101	1406	#pragma macro 7
-0	101	1406		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5095	1429	#line 5095 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	100	1429	#line 100 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	115	1429	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	115	1429	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	116	1429		set __move_fwd_7qG2_distance_7qG2_000_inline_Packet_1_inline_main, 20
-0	115	1432	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	27	1432	#line 27 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	28	1432		set __signed_stack_001move_fwd_inline_Packet_1, 30
-0	27	1435	#line 27 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	27	1435	#line 27 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	28	1435		set __D0move_fwd_inline_Packet_1, 2
-0	28	1438	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	29	1438	#pragma macro 7
-0	29	1438		setout __OUT_AC, 2, __signed_stack_001move_fwd_inline_Packet_1, 1, __constVal7, 8, __D0move_fwd_inline_Packet_1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5115	1461	#line 5115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	28	1461	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	28	1461	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	29	1461	#pragma macro 26
-0	29	1461		acquire __RLSBmutex3
-0	29	1462		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	29	1464		set __RLSBytesCount3, 1
-0	29	1467		wait2 NA, __constVal15
-0	29	1470		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	29	1472		index __D0move_fwd_inline_Packet_1, __RLSReadBuf3, 65535
-0	29	1476		release __RLSBmutex3
-0	5118	1477	#line 5118 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	28	1477	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	29	1477		mov __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main, __D0move_fwd_inline_Packet_1
-0	28	1479	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	28	1479	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	32	1479	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	33	1479		set __signed_stack_001move_fwd_inline_Packet_1, 294
-0	32	1482	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	32	1482	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	33	1482		set __signed_stack_002move_fwd_inline_Packet_1, 40
-0	32	1485	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	32	1485	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	33	1485		set __signed_stack_003move_fwd_inline_Packet_1, 4
-0	32	1488	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	32	1488	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	33	1488		set __D0move_fwd_inline_Packet_1, 0
+0	20	1344	#line 20 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	21	1344		mov __D0turnL_inline_Find, __constVal50
+0	21	1346	#line 21 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	22	1346	#pragma macro 7
+0	22	1346		setout __constVal0, 2, __D0turnL_inline_Find, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5074	1369	#line 5074 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	21	1369	#line 21 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	21	1369	#line 21 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	22	1369	#line 22 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	23	1369	#pragma macro 10
+0	23	1369		neg __OnRev_Tmp, __turnL_7qG2_speed_7qG2_000_inline_Find_inline_Packet_1_inline_main
+0	23	1372		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5081	1395	#line 5081 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	22	1395	#line 22 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	97	1395	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	97	1395	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	98	1395		set __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main, 400
+0	97	1398	#line 97 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1398	#line 7921 "NXCDefs.h"
+0	7922	1398		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_Find_inline_Packet_1_inline_main
+0	7921	1401	#line 7921 "NXCDefs.h"
+0	98	1401	#line 98 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	100	1401	#line 100 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	101	1401	#pragma macro 7
+0	101	1401		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5095	1424	#line 5095 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	100	1424	#line 100 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	115	1424	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	115	1424	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	116	1424		set __move_fwd_7qG2_distance_7qG2_000_inline_Packet_1_inline_main, 20
+0	115	1427	#line 115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	27	1427	#line 27 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	28	1427		set __signed_stack_001move_fwd_inline_Packet_1, 30
+0	27	1430	#line 27 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	27	1430	#line 27 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	28	1430		set __D0move_fwd_inline_Packet_1, 2
+0	28	1433	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	29	1433	#pragma macro 7
+0	29	1433		setout __OUT_AC, 2, __signed_stack_001move_fwd_inline_Packet_1, 1, __constVal7, 8, __D0move_fwd_inline_Packet_1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5115	1456	#line 5115 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	28	1456	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	28	1456	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	29	1456	#pragma macro 26
+0	29	1456		acquire __RLSBmutex3
+0	29	1457		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	29	1459		set __RLSBytesCount3, 1
+0	29	1462		wait2 NA, __constVal15
+0	29	1465		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	29	1467		index __D0move_fwd_inline_Packet_1, __RLSReadBuf3, 65535
+0	29	1471		release __RLSBmutex3
+0	5118	1472	#line 5118 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	28	1472	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	29	1472		mov __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main, __D0move_fwd_inline_Packet_1
+0	28	1474	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	28	1474	#line 28 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	32	1474	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	33	1474		set __signed_stack_001move_fwd_inline_Packet_1, 294
+0	32	1477	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	32	1477	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	33	1477		set __signed_stack_002move_fwd_inline_Packet_1, 40
+0	32	1480	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	32	1480	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	33	1480		set __signed_stack_003move_fwd_inline_Packet_1, 4
+0	32	1483	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	32	1483	#line 32 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	33	1483		set __D0move_fwd_inline_Packet_1, 0
+0	33	1486	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1486		acquire __SPTArgsMutex
+0	33	1487	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1487		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
+0	33	1489	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1489		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
 0	33	1491	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1491		acquire __SPTArgsMutex
-0	33	1492	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1492		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
-0	33	1494	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1494		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
-0	33	1496	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1496		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	34	1491		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	33	1493	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1493		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	33	1495	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1495		syscall 10, __SPTArgs
 0	33	1498	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1498		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	34	1498		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
 0	33	1500	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1500		syscall 10, __SPTArgs
-0	33	1503	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1503		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
-0	33	1505	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1505		release __SPTArgsMutex
-0	33	1506	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	33	1506	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1506		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
-0	33	1509	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1509	#line 7921 "NXCDefs.h"
-0	7922	1509		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
-0	7921	1512	#line 7921 "NXCDefs.h"
-0	34	1512	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1512	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	1512		set __signed_stack_001move_fwd_inline_Packet_1, 294
-0	34	1515	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1515	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	1515		set __signed_stack_002move_fwd_inline_Packet_1, 40
-0	34	1518	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1518	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	1518		set __signed_stack_003move_fwd_inline_Packet_1, 4
-0	34	1521	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	34	1521	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	1521		set __D0move_fwd_inline_Packet_1, 0
+0	34	1500		release __SPTArgsMutex
+0	33	1501	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	33	1501	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1501		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
+0	33	1504	#line 33 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1504	#line 7921 "NXCDefs.h"
+0	7922	1504		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
+0	7921	1507	#line 7921 "NXCDefs.h"
+0	34	1507	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1507	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	1507		set __signed_stack_001move_fwd_inline_Packet_1, 294
+0	34	1510	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1510	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	1510		set __signed_stack_002move_fwd_inline_Packet_1, 40
+0	34	1513	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1513	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	1513		set __signed_stack_003move_fwd_inline_Packet_1, 4
+0	34	1516	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	34	1516	#line 34 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	1516		set __D0move_fwd_inline_Packet_1, 0
+0	35	1519	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1519		acquire __SPTArgsMutex
+0	35	1520	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1520		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
+0	35	1522	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1522		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
 0	35	1524	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1524		acquire __SPTArgsMutex
-0	35	1525	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1525		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
-0	35	1527	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1527		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
-0	35	1529	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1529		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	36	1524		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	35	1526	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1526		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	35	1528	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1528		syscall 10, __SPTArgs
 0	35	1531	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1531		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	36	1531		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
 0	35	1533	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1533		syscall 10, __SPTArgs
-0	35	1536	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1536		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
-0	35	1538	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1538		release __SPTArgsMutex
-0	35	1539	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	35	1539	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1539		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
-0	35	1542	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1542	#line 7921 "NXCDefs.h"
-0	7922	1542		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
-0	7921	1545	#line 7921 "NXCDefs.h"
-0	36	1545	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1545	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	1545		set __signed_stack_001move_fwd_inline_Packet_1, 440
-0	36	1548	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1548	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	1548		set __signed_stack_002move_fwd_inline_Packet_1, 40
-0	36	1551	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1551	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	1551		set __signed_stack_003move_fwd_inline_Packet_1, 4
-0	36	1554	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	36	1554	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	1554		set __D0move_fwd_inline_Packet_1, 0
+0	36	1533		release __SPTArgsMutex
+0	35	1534	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	35	1534	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1534		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
+0	35	1537	#line 35 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1537	#line 7921 "NXCDefs.h"
+0	7922	1537		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
+0	7921	1540	#line 7921 "NXCDefs.h"
+0	36	1540	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1540	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	1540		set __signed_stack_001move_fwd_inline_Packet_1, 440
+0	36	1543	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1543	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	1543		set __signed_stack_002move_fwd_inline_Packet_1, 40
+0	36	1546	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1546	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	1546		set __signed_stack_003move_fwd_inline_Packet_1, 4
+0	36	1549	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	36	1549	#line 36 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	1549		set __D0move_fwd_inline_Packet_1, 0
+0	37	1552	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1552		acquire __SPTArgsMutex
+0	37	1553	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1553		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
+0	37	1555	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1555		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
 0	37	1557	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1557		acquire __SPTArgsMutex
-0	37	1558	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1558		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
-0	37	1560	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1560		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
-0	37	1562	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1562		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	38	1557		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	37	1559	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1559		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	37	1561	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1561		syscall 10, __SPTArgs
 0	37	1564	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1564		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	38	1564		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
 0	37	1566	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1566		syscall 10, __SPTArgs
-0	37	1569	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1569		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
-0	37	1571	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1571		release __SPTArgsMutex
-0	37	1572	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	37	1572	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1572		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
-0	37	1575	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1575	#line 7921 "NXCDefs.h"
-0	7922	1575		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
-0	7921	1578	#line 7921 "NXCDefs.h"
-0	38	1578	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1578	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	1578		set __signed_stack_001move_fwd_inline_Packet_1, 440
-0	38	1581	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1581	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	1581		set __signed_stack_002move_fwd_inline_Packet_1, 40
-0	38	1584	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1584	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	1584		set __signed_stack_003move_fwd_inline_Packet_1, 4
-0	38	1587	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	38	1587	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	1587		set __D0move_fwd_inline_Packet_1, 0
+0	38	1566		release __SPTArgsMutex
+0	37	1567	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	37	1567	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1567		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
+0	37	1570	#line 37 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1570	#line 7921 "NXCDefs.h"
+0	7922	1570		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
+0	7921	1573	#line 7921 "NXCDefs.h"
+0	38	1573	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1573	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	39	1573		set __signed_stack_001move_fwd_inline_Packet_1, 440
+0	38	1576	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1576	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	39	1576		set __signed_stack_002move_fwd_inline_Packet_1, 40
+0	38	1579	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1579	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	39	1579		set __signed_stack_003move_fwd_inline_Packet_1, 4
+0	38	1582	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	38	1582	#line 38 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	39	1582		set __D0move_fwd_inline_Packet_1, 0
+0	39	1585	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1585		acquire __SPTArgsMutex
+0	39	1586	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1586		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
+0	39	1588	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1588		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
 0	39	1590	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1590		acquire __SPTArgsMutex
-0	39	1591	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1591		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
-0	39	1593	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1593		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
-0	39	1595	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1595		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	40	1590		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	39	1592	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1592		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	39	1594	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1594		syscall 10, __SPTArgs
 0	39	1597	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1597		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	40	1597		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
 0	39	1599	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1599		syscall 10, __SPTArgs
-0	39	1602	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1602		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
-0	39	1604	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1604		release __SPTArgsMutex
-0	39	1605	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	39	1605	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1605		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
-0	39	1608	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1608	#line 7921 "NXCDefs.h"
-0	7922	1608		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
-0	7921	1611	#line 7921 "NXCDefs.h"
-0	40	1611	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1611	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	1611		set __signed_stack_001move_fwd_inline_Packet_1, 247
-0	40	1614	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1614	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	1614		set __signed_stack_002move_fwd_inline_Packet_1, 40
-0	40	1617	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1617	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	1617		set __signed_stack_003move_fwd_inline_Packet_1, 4
-0	40	1620	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	40	1620	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	1620		set __D0move_fwd_inline_Packet_1, 0
+0	40	1599		release __SPTArgsMutex
+0	39	1600	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	39	1600	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1600		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
+0	39	1603	#line 39 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1603	#line 7921 "NXCDefs.h"
+0	7922	1603		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
+0	7921	1606	#line 7921 "NXCDefs.h"
+0	40	1606	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1606	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	1606		set __signed_stack_001move_fwd_inline_Packet_1, 247
+0	40	1609	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1609	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	1609		set __signed_stack_002move_fwd_inline_Packet_1, 40
+0	40	1612	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1612	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	1612		set __signed_stack_003move_fwd_inline_Packet_1, 4
+0	40	1615	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	40	1615	#line 40 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	1615		set __D0move_fwd_inline_Packet_1, 0
+0	41	1618	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1618		acquire __SPTArgsMutex
+0	41	1619	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1619		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
+0	41	1621	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1621		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
 0	41	1623	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1623		acquire __SPTArgsMutex
-0	41	1624	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1624		mov __SPTArgs.Frequency, __signed_stack_001move_fwd_inline_Packet_1
-0	41	1626	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1626		mov __SPTArgs.Duration, __signed_stack_002move_fwd_inline_Packet_1
-0	41	1628	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1628		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	42	1623		mov __SPTArgs.Volume, __signed_stack_003move_fwd_inline_Packet_1
+0	41	1625	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1625		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	41	1627	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1627		syscall 10, __SPTArgs
 0	41	1630	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1630		mov __SPTArgs.Loop, __D0move_fwd_inline_Packet_1
+0	42	1630		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
 0	41	1632	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1632		syscall 10, __SPTArgs
-0	41	1635	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1635		mov __D0move_fwd_inline_Packet_1, __SPTArgs.Result
-0	41	1637	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1637		release __SPTArgsMutex
-0	41	1638	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	41	1638	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1638		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
-0	41	1641	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1641	#line 7921 "NXCDefs.h"
-0	7922	1641		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
-0	7921	1644	#line 7921 "NXCDefs.h"
-0	42	1644	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1644	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	1644		set __signed_stack_001move_fwd_inline_Packet_1, 10
-0	42	1647	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1647	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	1647		set __signed_stack_002move_fwd_inline_Packet_1, 56
-0	42	1650	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	42	1650	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	1650		mov __D0move_fwd_inline_Packet_1, __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main
-0	43	1652	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	1652	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1652		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_Packet_1
-0	43	1655	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1655		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_Packet_1
-0	43	1658	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1658		set __TextOutArgs.Options, 0
-0	43	1661	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1661		numtostr __TextOutArgs.Text, __D0move_fwd_inline_Packet_1
+0	42	1632		release __SPTArgsMutex
+0	41	1633	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	41	1633	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1633		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 48
+0	41	1636	#line 41 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1636	#line 7921 "NXCDefs.h"
+0	7922	1636		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
+0	7921	1639	#line 7921 "NXCDefs.h"
+0	42	1639	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1639	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	1639		set __signed_stack_001move_fwd_inline_Packet_1, 10
+0	42	1642	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1642	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	1642		set __signed_stack_002move_fwd_inline_Packet_1, 56
+0	42	1645	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	42	1645	#line 42 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	1645		mov __D0move_fwd_inline_Packet_1, __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main
+0	43	1647	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	1647	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1647		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_Packet_1
+0	43	1650	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1650		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_Packet_1
+0	43	1653	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1653		set __TextOutArgs.Options, 0
+0	43	1656	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1656		numtostr __TextOutArgs.Text, __D0move_fwd_inline_Packet_1
+0	43	1659	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1659		syscall 13, __TextOutArgs
+0	43	1662	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1662		mov __D0move_fwd_inline_Packet_1, __TextOutArgs.Result
 0	43	1664	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1664		syscall 13, __TextOutArgs
-0	43	1667	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1667		mov __D0move_fwd_inline_Packet_1, __TextOutArgs.Result
-0	43	1669	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	1669	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	43	1669	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1669		mov __signed_stack_001move_fwd_inline_Packet_1, __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main
-0	43	1671	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	44	1671	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	45	1671		mov __D0move_fwd_inline_Packet_1, __move_fwd_7qG2_distance_7qG2_000_inline_Packet_1_inline_main
-0	44	1673	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	45	1673		cmp 1, __zfmove_fwd_inline_Packet_1, __signed_stack_001move_fwd_inline_Packet_1, __D0move_fwd_inline_Packet_1
-0	44	1677	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	45	1677		mov __D0move_fwd_inline_Packet_1, __zfmove_fwd_inline_Packet_1
-0	46	1679	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	47	1679		brtst 4, __001__001__NXC_Label_560, __zfmove_fwd_inline_Packet_1
-0	46	1682	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	47	1682	#pragma macro 26
-0	47	1682		acquire __RLSBmutex3
-0	47	1683		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	47	1685		set __RLSBytesCount3, 1
-0	47	1688		wait2 NA, __constVal15
-0	47	1691		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	47	1693		index __D0move_fwd_inline_Packet_1, __RLSReadBuf3, 65535
-0	47	1697		release __RLSBmutex3
-0	5419	1698	#line 5419 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	46	1698	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	47	1698		mov __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main, __D0move_fwd_inline_Packet_1
-0	46	1700	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	46	1700	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	48	1700	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	1700		jmp __001__001__NXC_Label_559
-0	48	1702	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	1702	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	1702	#pragma macro 7
-0	50	1702		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5431	1725	#line 5431 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	1725	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	49	1725	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	1725		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 1000
-0	49	1728	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1728	#line 7921 "NXCDefs.h"
-0	7922	1728		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
-0	7921	1731	#line 7921 "NXCDefs.h"
-0	50	1731	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	1731	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	51	1731		set __signed_stack_001move_fwd_inline_Packet_1, 10
-0	50	1734	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	1734	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	51	1734		set __signed_stack_002move_fwd_inline_Packet_1, 48
-0	50	1737	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	50	1737	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	51	1737		mov __D0move_fwd_inline_Packet_1, __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main
-0	52	1739	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	52	1739	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	1739		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_Packet_1
-0	52	1742	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	1742		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_Packet_1
-0	52	1745	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	1745		set __TextOutArgs.Options, 0
-0	52	1748	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	1748		numtostr __TextOutArgs.Text, __D0move_fwd_inline_Packet_1
+0	43	1664	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	43	1664	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1664		mov __signed_stack_001move_fwd_inline_Packet_1, __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main
+0	43	1666	#line 43 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	44	1666	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	45	1666		mov __D0move_fwd_inline_Packet_1, __move_fwd_7qG2_distance_7qG2_000_inline_Packet_1_inline_main
+0	44	1668	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	45	1668		cmp 1, __zfmove_fwd_inline_Packet_1, __signed_stack_001move_fwd_inline_Packet_1, __D0move_fwd_inline_Packet_1
+0	44	1672	#line 44 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	45	1672		mov __D0move_fwd_inline_Packet_1, __zfmove_fwd_inline_Packet_1
+0	46	1674	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	47	1674		brtst 4, __001__001__NXC_Label_560, __zfmove_fwd_inline_Packet_1
+0	46	1677	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	47	1677	#pragma macro 26
+0	47	1677		acquire __RLSBmutex3
+0	47	1678		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	47	1680		set __RLSBytesCount3, 1
+0	47	1683		wait2 NA, __constVal15
+0	47	1686		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	47	1688		index __D0move_fwd_inline_Packet_1, __RLSReadBuf3, 65535
+0	47	1692		release __RLSBmutex3
+0	5419	1693	#line 5419 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	46	1693	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	47	1693		mov __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main, __D0move_fwd_inline_Packet_1
+0	46	1695	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	46	1695	#line 46 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	48	1695	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	1695		jmp __001__001__NXC_Label_559
+0	48	1697	#line 48 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	1697	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	1697	#pragma macro 7
+0	50	1697		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5431	1720	#line 5431 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	1720	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	49	1720	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	1720		set __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main, 1000
+0	49	1723	#line 49 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1723	#line 7921 "NXCDefs.h"
+0	7922	1723		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_move_fwd_inline_Packet_1_inline_main
+0	7921	1726	#line 7921 "NXCDefs.h"
+0	50	1726	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	1726	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	51	1726		set __signed_stack_001move_fwd_inline_Packet_1, 10
+0	50	1729	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	1729	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	51	1729		set __signed_stack_002move_fwd_inline_Packet_1, 48
+0	50	1732	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	50	1732	#line 50 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	51	1732		mov __D0move_fwd_inline_Packet_1, __move_fwd_7qG2_i_7qG2_000_inline_Packet_1_inline_main
+0	52	1734	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	52	1734	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	1734		mov __TextOutArgs.Location.X, __signed_stack_001move_fwd_inline_Packet_1
+0	52	1737	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	1737		mov __TextOutArgs.Location.Y, __signed_stack_002move_fwd_inline_Packet_1
+0	52	1740	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	1740		set __TextOutArgs.Options, 0
+0	52	1743	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	1743		numtostr __TextOutArgs.Text, __D0move_fwd_inline_Packet_1
+0	52	1746	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	1746		syscall 13, __TextOutArgs
+0	52	1749	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	53	1749		mov __D0move_fwd_inline_Packet_1, __TextOutArgs.Result
 0	52	1751	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	1751		syscall 13, __TextOutArgs
-0	52	1754	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	53	1754		mov __D0move_fwd_inline_Packet_1, __TextOutArgs.Result
-0	52	1756	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	52	1756	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	117	1756	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	56	1756	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	57	1756		set __signed_stack_001drop_inline_Packet_1, 20
-0	56	1759	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	56	1759	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	57	1759		mov __D0drop_inline_Packet_1, __constValNeg150
-0	57	1761	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	58	1761	#pragma macro 33
-0	58	1761		arrbuild __rotate_ports1, __constVal1
-0	58	1765		mov __rotate_power1, __signed_stack_001drop_inline_Packet_1
-0	58	1767		mov __rotate_angle1, __D0drop_inline_Packet_1
-0	58	1769		mov __rotate_turnpct1, __constVal0
-0	58	1771		mov __rotate_sync1, __constVal0
-0	58	1773		mov __rotate_stop1, __constVal1
-0	58	1775		mov __rotate_theRVP1, __constVal32
-0	58	1777		mov __rotate_theRVI1, __constVal0
-0	58	1779		mov __rotate_theRVD1, __constVal96
-0	58	1781		subcall __RotateMotor1, ____RotateMotor1_return
-0	5488	1783	#line 5488 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	57	1783	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	57	1783	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	58	1783		set __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main, 1000
-0	57	1786	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1786	#line 7921 "NXCDefs.h"
-0	7922	1786		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main
-0	7921	1789	#line 7921 "NXCDefs.h"
-0	59	1789	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	59	1789	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	60	1789		set __signed_stack_001drop_inline_Packet_1, 50
-0	59	1792	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	59	1792	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	60	1792		set __D0drop_inline_Packet_1, 2
-0	60	1795	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	61	1795	#pragma macro 10
-0	61	1795		neg __OnRev_Tmp, __signed_stack_001drop_inline_Packet_1
-0	61	1798		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0drop_inline_Packet_1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5511	1821	#line 5511 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	60	1821	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	60	1821	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	61	1821		set __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main, 500
-0	60	1824	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	7921	1824	#line 7921 "NXCDefs.h"
-0	7922	1824		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main
-0	7921	1827	#line 7921 "NXCDefs.h"
-0	61	1827	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	63	1827	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	64	1827	#pragma macro 7
-0	64	1827		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5524	1850	#line 5524 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	63	1850	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	63	1850	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	64	1850		set __signed_stack_001drop_inline_Packet_1, 20
-0	63	1853	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	63	1853	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	64	1853		set __D0drop_inline_Packet_1, 150
-0	64	1856	#line 64 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	65	1856	#pragma macro 33
-0	65	1856		arrbuild __rotate_ports1, __constVal1
-0	65	1860		mov __rotate_power1, __signed_stack_001drop_inline_Packet_1
-0	65	1862		mov __rotate_angle1, __D0drop_inline_Packet_1
-0	65	1864		mov __rotate_turnpct1, __constVal0
-0	65	1866		mov __rotate_sync1, __constVal0
-0	65	1868		mov __rotate_stop1, __constVal1
-0	65	1870		mov __rotate_theRVP1, __constVal32
-0	65	1872		mov __rotate_theRVI1, __constVal0
-0	65	1874		mov __rotate_theRVD1, __constVal96
-0	65	1876		subcall __RotateMotor1, ____RotateMotor1_return
-0	5537	1878	#line 5537 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	64	1878	#line 64 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	118	1878	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	152	1878	#line 152 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
-0	153	1878		exit -1, -1
+0	52	1751	#line 52 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	117	1751	#line 117 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	56	1751	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	57	1751		set __signed_stack_001drop_inline_Packet_1, 20
+0	56	1754	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	56	1754	#line 56 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	57	1754		mov __D0drop_inline_Packet_1, __constValNeg150
+0	57	1756	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	58	1756	#pragma macro 33
+0	58	1756		arrbuild __rotate_ports1, __constVal1
+0	58	1760		mov __rotate_power1, __signed_stack_001drop_inline_Packet_1
+0	58	1762		mov __rotate_angle1, __D0drop_inline_Packet_1
+0	58	1764		mov __rotate_turnpct1, __constVal0
+0	58	1766		mov __rotate_sync1, __constVal0
+0	58	1768		mov __rotate_stop1, __constVal1
+0	58	1770		mov __rotate_theRVP1, __constVal32
+0	58	1772		mov __rotate_theRVI1, __constVal0
+0	58	1774		mov __rotate_theRVD1, __constVal96
+0	58	1776		subcall __RotateMotor1, ____RotateMotor1_return
+0	5488	1778	#line 5488 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	57	1778	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	57	1778	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	58	1778		set __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main, 1000
+0	57	1781	#line 57 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1781	#line 7921 "NXCDefs.h"
+0	7922	1781		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main
+0	7921	1784	#line 7921 "NXCDefs.h"
+0	59	1784	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	59	1784	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	60	1784		set __signed_stack_001drop_inline_Packet_1, 50
+0	59	1787	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	59	1787	#line 59 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	60	1787		set __D0drop_inline_Packet_1, 2
+0	60	1790	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	61	1790	#pragma macro 10
+0	61	1790		neg __OnRev_Tmp, __signed_stack_001drop_inline_Packet_1
+0	61	1793		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0drop_inline_Packet_1, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5511	1816	#line 5511 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	60	1816	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	60	1816	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	61	1816		set __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main, 500
+0	60	1819	#line 60 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	7921	1819	#line 7921 "NXCDefs.h"
+0	7922	1819		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_drop_inline_Packet_1_inline_main
+0	7921	1822	#line 7921 "NXCDefs.h"
+0	61	1822	#line 61 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	63	1822	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	64	1822	#pragma macro 7
+0	64	1822		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5524	1845	#line 5524 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	63	1845	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	63	1845	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	64	1845		set __signed_stack_001drop_inline_Packet_1, 20
+0	63	1848	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	63	1848	#line 63 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	64	1848		set __D0drop_inline_Packet_1, 150
+0	64	1851	#line 64 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	65	1851	#pragma macro 33
+0	65	1851		arrbuild __rotate_ports1, __constVal1
+0	65	1855		mov __rotate_power1, __signed_stack_001drop_inline_Packet_1
+0	65	1857		mov __rotate_angle1, __D0drop_inline_Packet_1
+0	65	1859		mov __rotate_turnpct1, __constVal0
+0	65	1861		mov __rotate_sync1, __constVal0
+0	65	1863		mov __rotate_stop1, __constVal1
+0	65	1865		mov __rotate_theRVP1, __constVal32
+0	65	1867		mov __rotate_theRVI1, __constVal0
+0	65	1869		mov __rotate_theRVD1, __constVal96
+0	65	1871		subcall __RotateMotor1, ____RotateMotor1_return
+0	5537	1873	#line 5537 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	64	1873	#line 64 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	118	1873	#line 118 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	152	1873	#line 152 "C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc"
+0	153	1873		exit -1, -1
 1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
 1	4477	3		set ____RotateMotor0_sign_tmp, 0
 1	4477	6		brtst EQ, __sign_0, __rotate_angle0
@@ -1515,8 +1514,8 @@ Clump	Line	PC	Source
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc
-1	__RotateMotor0	1881	NXTDefs.h
-2	__RotateMotor1	2050	NXTDefs.h
-3	__ResetSensorSubroutine	2219	NXTDefs.h
-4	__ReadLSBytes3	2232	NXTDefs.h
-5	__initialize_global_data	2317	C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc
+1	__RotateMotor0	1876	NXTDefs.h
+2	__RotateMotor1	2045	NXTDefs.h
+3	__ResetSensorSubroutine	2214	NXTDefs.h
+4	__ReadLSBytes3	2227	NXTDefs.h
+5	__initialize_global_data	2312	C:\Users\Gustav\Documents\GitHub\Ben10\Superfish.nxc

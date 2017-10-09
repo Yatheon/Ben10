@@ -77,16 +77,16 @@ inline void Find() //Finds the wall and lines up the robot
 
 	left=SensorUS(IN_4); // Sets first point to compare
 
-	turnR(30);
-	Wait(300);
+	turnR(50);
+	Wait(200);
 	Off(OUT_AC);
 
 	right=SensorUS(IN_4); // Sets second point to compare
 
 	while(left>right&&left!=right)// Runs untill right compare point is bigger than left
 	{
-		turnR(30);
-		Wait(300);
+		turnR(50);
+		Wait(200);
 		Off(OUT_AC);
 		left = right;
 		right = SensorUS(IN_4);
@@ -94,7 +94,7 @@ inline void Find() //Finds the wall and lines up the robot
 
 // Turns one step back so it is lined up with wall
 turnL(50);
-Wait(500);
+Wait(400);
 Off(OUT_AC);
 
 }
