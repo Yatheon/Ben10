@@ -67,10 +67,13 @@ inline void Find() //Finds the wall and lines up the robot
 {
  	int range,right,left;
 	range=SensorUS(IN_4);
-	turnR(40);
+
 
 	while(range>70)//Until wall is found
 	{
+    turnR(40);
+    Wait(100);
+	  Off(OUT_AC);
 		range=SensorUS(IN_4);
 	}
 	Off(OUT_AC);
