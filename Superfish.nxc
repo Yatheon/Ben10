@@ -1,10 +1,19 @@
 #include "NXCDefs.h"
 
+inline int Choice()
+{
+int p_choice;
+
+
+
+return p_choice;
+}
 inline void turnR(int speed)//Turns right
 {
   	OnFwd(OUT_A, speed);
 		OnRev(OUT_C, speed);
 }
+
 inline void turnL(int speed)//Turns left
 {
   	OnFwd(OUT_A, speed);
@@ -70,7 +79,8 @@ Wait(500);
 Off(OUT_AC);
 
 }
-inline void paket1()   // Right 2.5m
+
+inline void Packet_1()   // Right 2.5m
 {
 	RotateMotor(OUT_A, 75, 360); //Turns the robot right 90Degrees
 	Off(OUT_A);
@@ -88,10 +98,32 @@ inline void paket1()   // Right 2.5m
 	drop();
 }
 
+
 task main()
 {
 	SetSensorLowspeed(IN_4);
+  int p_choice = Choice();
+
  	Find();  // Finds the wall
  	move_fwd(40);
- 	paket1();
+     switch(Choice)
+    {
+        case 1 :
+        Packet_1();
+        Break;
+
+        case 2 :
+        Packet_2();
+        Break;
+
+        case 3 :
+        Packet_3();
+        Break;
+
+        case 4 :
+        Packet_4();
+        Break;
+      }
+
+
 }
