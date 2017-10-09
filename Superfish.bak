@@ -1,4 +1,13 @@
 #include "NXCDefs.h"
+ /*
+inline int Choice()
+{
+int p_choice;
+
+
+
+return p_choice;
+} */
 
 
 inline void turnR(int speed)//Turns right
@@ -16,13 +25,30 @@ inline void turnL(int speed)//Turns left
 inline void move_fwd(int distance)
 {
  int i;
- OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);
- i = SensorUS(IN_4);
+ OnFwdReg(OUT_AC, 30, OUT_REGMODE_SYNC);
+ i = SensorUS(IN_4);  #define __NOTETIME   10
+#define __WAITTIME   12
+
+  PlayTone(294,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(294,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(440,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(440,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(247,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+              NumOut(10, LCD_LINE1, i);
  	while(i>distance) //Runs untill robot is within distance
  	{
+
  		i = SensorUS(IN_4);
  	}
  Off(OUT_AC);
+Wait(1000);
+  NumOut(10, LCD_LINE2, i);
+
 }
 
 inline void drop()//Book dropoff
@@ -43,7 +69,7 @@ inline void Find() //Finds the wall and lines up the robot
 	range=SensorUS(IN_4);
 	turnR(40);
 
-	while(range>70)//Untill wall is found
+	while(range>70)//Until wall is found
 	{
 		range=SensorUS(IN_4);
 	}
@@ -51,7 +77,7 @@ inline void Find() //Finds the wall and lines up the robot
 
 	left=SensorUS(IN_4); // Sets first point to compare
 
-	turnR(50);
+	turnR(30);
 	Wait(300);
 	Off(OUT_AC);
 
@@ -59,8 +85,8 @@ inline void Find() //Finds the wall and lines up the robot
 
 	while(left>right&&left!=right)// Runs untill right compare point is bigger than left
 	{
-		turnR(50);
-		Wait(200);
+		turnR(30);
+		Wait(300);
 		Off(OUT_AC);
 		left = right;
 		right = SensorUS(IN_4);
@@ -80,11 +106,11 @@ inline void Packet_1()   // Right 2.5m
 	Wait(1000);// To ensure the robot is not interrupted by next task
 
 
-	OnFwdReg(OUT_AC, 100, OUT_REGMODE_SPEED);//Runs the robot 2.5m in a line
-	Wait(8000);
+	OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);//Runs the robot 2.5m in a line
+	Wait(6000);
   Off(OUT_AC);
 
-	Find();
+  Find();
 
 	move_fwd(20);
 
@@ -95,25 +121,32 @@ inline void Packet_1()   // Right 2.5m
 task main()
 {
 	SetSensorLowspeed(IN_4);
-  int p_choice = Choice();
+
+  //int p_choice = Choice();
 
  	Find();  // Finds the wall
- 	move_fwd(40);
-     switch(Choice){
+ 	move_fwd(30);
+  Packet_1();
+
+ /*
+ switch(Choice)
+    {
         case 1 :
         Packet_1();
         Break;
 
         case 2 :
-        Packet_1();
+        Packet_2();
         Break;
-        case 3 :
-        Packet_1();
-        Break;
-        case 4 :
-        Packet_1();
-        Break;
-}
 
+        case 3 :
+        Packet_3();
+        Break;
+
+        case 4 :
+        Packet_4();
+        Break;
+      }
+     */
 
 }
