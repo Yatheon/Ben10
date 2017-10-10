@@ -149,11 +149,69 @@ inline void Packet_1()   // Right 2.5m
 
   Find();
 
-	move_fwd(20);
+	move_fwd(30);
+
+	drop();
+}
+inline void Packet_2()   // Left 2.5m
+{
+	RotateMotor(OUT_C, 75, 360); //Turns the robot right 90Degrees
+	Off(OUT_C);
+	Wait(1000);// To ensure the robot is not interrupted by next task
+
+
+	OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);//Runs the robot 2.5m in a line
+	Wait(6000);
+  Off(OUT_AC);
+
+  Find();
+
+	move_fwd(30);
 
 	drop();
 }
 
+inline void Packet_3()   // RightAcross 2.5m
+{
+	RotateMotor(OUT_A, 75, 360); //Turns the robot right 90Degrees
+	Off(OUT_A);
+	Wait(1000);// To ensure the robot is not interrupted by next task
+
+
+	OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);//Runs the robot 2.5m in a line
+	Wait(6000);
+  Off(OUT_AC);
+
+  Find();
+  RotateMotor(OUT_A, 75, 720); //Turns the robot right 90Degrees
+	Off(OUT_A);
+	Wait(1000);// To ensure the robot is not interrupted by next task
+	move_fwd(30);
+
+	drop();
+}
+
+inline void Packet_4()   // LeftAcross 2.5m
+{
+	RotateMotor(OUT_C, 75, 360); //Turns the robot right 90Degrees
+	Off(OUT_C);
+	Wait(1000);// To ensure the robot is not interrupted by next task
+
+
+	OnFwdReg(OUT_AC, 75, OUT_REGMODE_SYNC);//Runs the robot 2.5m in a line
+	Wait(6000);
+  Off(OUT_AC);
+
+  Find();
+
+  RotateMotor(OUT_A, 75, 720); //Turns the robot right 90Degrees
+	Off(OUT_A);
+	Wait(1000);// To ensure the robot is not interrupted by next task
+
+	move_fwd(30);
+
+	drop();
+}
 
 task main()
 {
@@ -171,7 +229,7 @@ task main()
   Wait(4*__WAITTIME);
   PlayTone(247,4*__NOTETIME);
   Wait(4*__WAITTIME);
- 	move_fwd(30);
+ 	move_fwd(40);
 
 
  switch(btn)
@@ -181,15 +239,15 @@ task main()
         break;
 
         case 2:
-        //Packet_2();
+        Packet_2();
         break;
 
         case 3:
-        //Packet_3();
+        Packet_3();
         break;
 
         case 4:
-        //Packet_4();
+        Packet_4();
         break;
       }
       
