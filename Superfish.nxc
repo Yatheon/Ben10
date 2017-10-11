@@ -21,8 +21,8 @@ SetSensor(IN_1,SENSOR_TOUCH);
    sens1=SENSOR_1;
    if(sens1==1)
    {
-   btn++;
-   NumOut(10, LCD_LINE1, btn);
+    btn++;
+    NumOut(10, LCD_LINE1, btn);
    }
  }
  return btn;
@@ -42,10 +42,10 @@ inline void turnL(int speed)//Turns left
 
 inline void move_fwd(int distance)
 {
- int i;
- OnFwdReg(OUT_AC, 30, OUT_REGMODE_SYNC);
- i = SensorUS(IN_4);
-
+  int i;
+  OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+  i = SensorUS(IN_4);
+  
   PlayTone(294,4*__NOTETIME);
   Wait(4*__WAITTIME);
   PlayTone(294,4*__NOTETIME);
@@ -56,11 +56,11 @@ inline void move_fwd(int distance)
   Wait(4*__WAITTIME);
   PlayTone(247,4*__NOTETIME);
   Wait(4*__WAITTIME);
+  
   NumOut(10, LCD_LINE1, i);
   
- 	while(i>distance) //Runs untill robot is within distance
+ 	while(i>distance) //Runs until robot is within distance
  	{
-
  		i = SensorUS(IN_4);
  	}
  Off(OUT_AC);
@@ -83,6 +83,7 @@ inline void drop()//Book dropoff
   OnFwd(OUT_B, 30);
   Wait(1000);
   Off(OUT_B);
+  
 
 }
 
@@ -95,10 +96,10 @@ inline void Find() //Finds the wall and lines up the robot
 
 	while(range>80)//Until wall is found
 	{
-    turnR(40);
+    turnR(60);
     Wait(200);
 	  Off(OUT_AC);
-   Wait(200);
+    Wait(200);
 		range=SensorUS(IN_4);
 	}
 	Off(OUT_AC);
@@ -115,29 +116,35 @@ inline void Find() //Finds the wall and lines up the robot
 
   if(right>left)
   {
-  while(right>left&&right!=left)
+   while(right>left&&right!=left)
    {
-   turnL(40);
-   Wait(200);
+   turnL(60);
+   Wait(150);
    Off(OUT_AC);
    Wait(500);
    right = left;
    left = SensorUS(IN_4);
    }
-
   }
-  
-else{
-	while(left>right&&left!=right)// Runs untill right compare point is bigger than left
+
+  else
   {
-		turnR(40);
-		Wait(200);
+    while(left>right&&left!=right)// Runs until right compare point is bigger than left
+    {
+		turnR(60);
+		Wait(150);
 		Off(OUT_AC);
 		Wait(500);
 		left = right;
 		right = SensorUS(IN_4);
+    }
   }
-}
+
+ 	Wait(1000);
+  PlayTone(440,4*__NOTETIME);
+  Wait(4*__WAITTIME);
+  PlayTone(247,4*__NOTETIME);
+  Wait(4*__WAITTIME);
 
 }
 
@@ -147,9 +154,16 @@ inline void Packet_1()   // Right 2.5m
 	Off(OUT_A);
 	Wait(1000);// To ensure the robot is not interrupted by next task
 
-
-  OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
-  Wait(7500);//Runs the robot 2.5m in a line
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);//Runs the robot 2.5/2m in a line
+   Off(OUT_AC);
+   Wait(500);
+   Find();
+ 	 RotateMotor(OUT_A, 75, 340); //Turns the robot right 90Degrees
+	 Off(OUT_A);
+	 Wait(1000);// To ensure the robot is not interrupted by next task
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);
 
   Off(OUT_AC);
 
@@ -159,15 +173,23 @@ inline void Packet_1()   // Right 2.5m
 
 	drop();
 }
+
 inline void Packet_2()   // Left 2.5m
 {
-	RotateMotor(OUT_C, 75, 340); //Turns the robot right 90Degrees
+	RotateMotor(OUT_C, 75, 340); //Turns the robot left 90Degrees
 	Off(OUT_C);
 	Wait(1000);// To ensure the robot is not interrupted by next task
 
-
-  OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
-  Wait(7500);//Runs the robot 2.5m in a line
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);//Runs the robot 2.5/2m in a line
+   Off(OUT_AC);
+   Wait(500);
+   Find();
+ 	 RotateMotor(OUT_C, 75, 340); //Turns the robot left 90Degrees
+	 Off(OUT_C);
+	 Wait(1000);// To ensure the robot is not interrupted by next task
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);
 
   Off(OUT_AC);
 
@@ -184,16 +206,23 @@ inline void Packet_3()   // RightAcross 2.5m
 	Off(OUT_A);
 	Wait(1000);// To ensure the robot is not interrupted by next task
 
-
-  OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
-  Wait(7500);//Runs the robot 2.5m in a line
-
-  Off(OUT_AC);
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);//Runs the robot 2.5/2m in a line
+   Off(OUT_AC);
+   Wait(500);
+   Find();
+ 	 RotateMotor(OUT_A, 75, 340); //Turns the robot right 90Degrees
+	 Off(OUT_A);
+	 Wait(1000);// To ensure the robot is not interrupted by next task
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);
+   Off(OUT_AC);
 
   Find();
-  RotateMotor(OUT_A, 75, 680); //Turns the robot right 90Degrees
+  RotateMotor(OUT_A, 75, 680); //Turns the robot right 180Degrees
 	Off(OUT_A);
 	Wait(1000);// To ensure the robot is not interrupted by next task
+	
 	move_fwd(20);
 
 	drop();
@@ -201,18 +230,25 @@ inline void Packet_3()   // RightAcross 2.5m
 
 inline void Packet_4()   // LeftAcross 2.5m
 {
-	RotateMotor(OUT_C, 75, 340); //Turns the robot right 90Degrees
+	RotateMotor(OUT_C, 75, 340); //Turns the robot left 90Degrees
 	Off(OUT_C);
 	Wait(1000);// To ensure the robot is not interrupted by next task
 
-
-  OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
-  Wait(7500);//Runs the robot 2.5m in a line
-  Off(OUT_AC);
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);//Runs the robot 2.5/2m in a line
+   Off(OUT_AC);
+   Wait(500);
+   Find();
+ 	 RotateMotor(OUT_C, 75, 340); //Turns the robot left 90Degrees
+	 Off(OUT_C);
+	 Wait(1000);// To ensure the robot is not interrupted by next task
+   OnFwdSyncEx(OUT_AC, 75, 0, RESET_NONE);
+   Wait(4000);
+   Off(OUT_AC);
 
   Find();
 
-  RotateMotor(OUT_A, 75, 680); //Turns the robot right 90Degrees
+  RotateMotor(OUT_A, 75, 680); //Turns the robot right 180Degrees
 	Off(OUT_A);
 	Wait(1000);// To ensure the robot is not interrupted by next task
 
@@ -230,18 +266,14 @@ task main()
   
   Stop(btn == 0);
   
+  if(btn==3)
+  Wait(1000);
+  
   if(btn==4)
   Wait(2000);
   
  	Find();  // Finds the wall
  	
- 	Wait(1000);
-  PlayTone(440,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-  PlayTone(247,4*__NOTETIME);
-  Wait(4*__WAITTIME);
-//	move_fwd(50);
-
 
  switch(btn)
     {
@@ -261,7 +293,7 @@ task main()
         Packet_4();
         break;
       }
-      
 
-
+   
+   
 }
