@@ -72,7 +72,7 @@ inline void move_fwd(int distance)
 inline void drop()//Book dropoff
 {
 
-  OnRev(OUT_B, 30);
+  OnRev(OUT_B, -30);
   Wait(1500);
   Off(OUT_B);
 
@@ -294,6 +294,5 @@ task main()
         break;
       }
 
-   
    
 }
