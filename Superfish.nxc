@@ -96,7 +96,7 @@ inline void Find() //Finds the wall and lines up the robot
 
 	while(range>80)//Until wall is found
 	{
-    turnR(60);
+    OnFwdSyncEx(OUT_AC, 75, -100, RESET_NONE);
     Wait(200);
 	  Off(OUT_AC);
     Wait(200);
